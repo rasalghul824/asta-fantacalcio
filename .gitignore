@@ -1,0 +1,17 @@
+# Dati live dell'asta -- personali/di sessione, non vanno versionati.
+# Vengono ricreati in automatico al primo avvio (vedi bootstrap in app.py).
+asta.db
+asta.db.upload_tmp
+backups/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Ambiente virtuale
+venv/
+.venv/
+env/
+
+# Editor/OS
+.DS_Store

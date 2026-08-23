@@ -1,0 +1,656 @@
+nome,squadra,ruolo,eta,presenze,minuti,gol,assist,xG,xA,gialli,rossi,quotazione_ufficiale,correttivo_statistico,valore_finale,analizzato,note_match
+Lautaro Martínez,Inter,A,27,30,2159,17,6,17.14,6.29,4,0,88,1.261,111,True,"match su cognome+squadra, spareggiato su non-portiere"
+Donyell Malen,Roma,A,26,18,1467,14,2,15.2,1.55,1,0,84,1.164,98,True,match su cognome+squadra
+Rasmus Højlund,Napoli,A,22,33,2750,12,5,13.31,3.27,1,0,78,1.165,91,True,match su cognome+squadra
+Marcus Thuram,Inter,A,27,29,1900,13,6,11.9,4.47,2,0,74,1.171,87,True,match su cognome+squadra
+Kenan Yıldız,Juventus,A,20,36,2825,10,6,8.63,10.82,2,0,70,1.141,80,True,match su cognome+squadra
+Ramos,Milan,A,,,,,,,,,,78,1.0,78,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Anastasios Douvikas,Como,A,25,38,2273,14,1,15.17,2.24,0,0,65,1.167,76,True,match su cognome+squadra
+Kolo Muani,Juventus,A,,,,,,,,,,76,1.0,76,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Rafael Leão,Milan,A,26,29,1851,9,3,9.6,4.98,5,0,65,1.086,71,True,match su cognome+squadra
+Moise Kean,Fiorentina,A,25,26,2036,8,1,15.38,0.06,4,0,64,1.08,69,True,match su cognome+squadra
+Keinan Davis,Udinese,A,27,30,2065,10,4,9.89,4.33,5,0,61,1.108,68,True,match su cognome+squadra
+Nikola Krstović,Atalanta,A,25,33,1791,10,5,15.67,3.23,4,0,56,1.14,64,True,match su cognome+squadra
+Gianluca Scamacca,Atalanta,A,26,24,1315,10,1,8.87,1.36,2,0,60,1.066,64,True,match su cognome+squadra
+Giovanni Simeone,Torino,A,30,32,2230,11,0,11.18,1.86,1,0,57,1.097,63,True,match su cognome+squadra
+Santiago Castro,Roma,A,20,35,2359,7,2,8.3,2.73,3,0,57,1.044,60,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Andrea Pinamonti,Sassuolo,A,26,36,2552,9,3,11.53,1.78,2,1,54,1.091,59,True,match su cognome+squadra
+Matías Soulé,Roma,A,22,33,2139,6,5,4.68,4.46,1,0,56,1.035,58,True,match su cognome+squadra
+Jonathan David,Juventus,A,25,35,1781,6,4,11.46,4.23,0,0,50,1.061,53,True,match su cognome+squadra
+Mateo Pellegrino,Fiorentina,A,24,37,2984,9,1,9.91,2.14,5,0,48,1.078,52,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Domenico Berardi,Sassuolo,A,30,26,1958,8,4,6.78,5.06,2,1,48,1.061,51,True,match su cognome+squadra
+Christopher Nkunku,Milan,A,27,32,1356,7,3,9.94,1.61,0,0,49,1.047,51,True,match su cognome+squadra
+Ché Adams,Torino,A,29,33,1893,6,2,6.61,3.21,0,0,50,1.018,51,True,match su cognome+squadra
+Armand Laurienté,Sassuolo,A,26,38,2592,7,9,4.39,8.51,4,0,46,1.088,50,True,match su cognome+squadra
+Paulo Dybala,Roma,A,31,22,1354,2,6,6.29,6.36,0,0,50,0.994,50,True,match su cognome+squadra
+Sebastiano Esposito,Cagliari,A,23,36,2675,7,5,5.74,5.58,6,0,40,1.061,42,True,match su cognome+squadra
+Francesco Esposito,Inter,A,20,35,1571,7,3,9.86,2.06,1,0,40,1.05,42,True,match su cognome+squadra
+Duván Zapata,Torino,A,34,28,1103,3,1,4.4,2.68,0,0,43,0.95,41,True,match su cognome+squadra
+David Neres,Napoli,A,28,16,922,3,3,1.48,3.79,3,0,42,0.947,40,True,match su cognome+squadra
+Jesus Rodríguez,Como,A,19,31,1731,2,9,3.92,6.97,3,1,40,1.0,40,True,match su cognome+squadra
+Charles De Ketelaere,Atalanta,A,24,31,2177,3,5,4.55,10.65,4,0,40,1.011,40,True,match su cognome+squadra
+Jonathan Rowe,Bologna,A,22,28,1605,3,2,4.98,2.7,2,0,40,0.965,39,True,match su cognome+squadra
+Giacomo Raspadori,Atalanta,A,25,13,796,3,1,3.49,1.2,0,0,42,0.937,39,True,match su cognome+squadra
+Colombo,Genoa,A,,,,,,,,,,36,1.0,36,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Jeremie Boga,Juventus,A,28,15,679,4,0,4.13,1.67,1,0,36,0.947,34,True,match su cognome+squadra
+Alajbegovic,Juventus,A,,,,,,,,,,33,1.0,33,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ange-Yoan Bonny,Inter,A,21,33,1142,5,4,4.58,2.67,1,0,32,0.997,32,True,match su cognome+squadra
+Noa Lang,Napoli,A,26,18,666,1,2,1.37,1.97,2,0,35,0.906,32,True,match su cognome+squadra
+Banda,Lecce,A,,,,,,,,,,32,1.0,32,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Romelu Lukaku,Napoli,A,32,5,44,1,0,0.59,0.21,1,0,35,0.877,31,True,match su cognome+squadra
+Vítinha,Genoa,A,,,,,,,,,,31,1.0,31,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Chivu,Inter,A,,,,,,,,,,30,1.0,30,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Stulic,Lecce,A,,,,,,,,,,29,1.0,29,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Assane Diao,Como,A,19,17,1075,2,1,3.18,1.68,2,0,30,0.927,28,True,match su cognome+squadra
+Nicolò Cambiaghi,Bologna,A,24,28,1518,3,4,2.92,3.03,3,1,28,0.962,27,True,match su cognome+squadra
+Gustav Isaksen,Lazio,A,24,30,1593,5,1,5.41,0.88,0,0,26,0.983,26,True,match su cognome+squadra
+Allegri,Napoli,A,,,,,,,,,,26,1.0,26,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gasperini,Roma,A,,,,,,,,,,26,1.0,26,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Roberto Piccoli,Bologna,A,24,32,1672,4,1,6.83,1.59,1,0,26,0.979,25,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Lorenzo Lucca,Napoli,A,24,16,408,1,0,1.91,0.66,1,0,28,0.89,25,True,match su cognome+squadra
+Bowie,Sassuolo,A,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ghedjemis,Frosinone,A,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Fabregas,Como,A,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Adorante,Venezia,A,,,,,,,,,,24,1.0,24,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Yeboah,Venezia,A,,,,,,,,,,24,1.0,24,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Spalletti,Juventus,A,,,,,,,,,,24,1.0,24,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gennaro Borrelli,Cagliari,A,25,27,1275,5,1,4.58,0.87,4,0,24,0.973,23,True,match su cognome+squadra
+Raimondo,Frosinone,A,,,,,,,,,,23,1.0,23,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sulemana,Atalanta,A,,,,,,,,,,23,1.0,23,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Amorim,Milan,A,,,,,,,,,,23,1.0,23,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Tijjani Noslin,Lazio,A,26,29,1148,4,2,4.32,2.39,6,1,23,0.962,22,True,match su cognome+squadra
+Thijs Dallinga,Bologna,A,24,23,811,2,2,3.89,0.72,2,0,24,0.932,22,True,match su cognome+squadra
+Patrick Cutrone,Monza,A,27,15,888,1,0,3.27,0.66,0,0,24,0.903,22,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Giovane,Napoli,A,21,12,338,0,1,0.56,0.2,0,0,25,0.873,22,True,match su cognome+squadra
+Loïs Openda,Juventus,A,25,24,666,1,0,3.65,0.6,0,0,23,0.902,21,True,match su cognome+squadra
+Andrea Belotti,Cagliari,A,31,8,221,2,0,2.31,0.04,0,0,23,0.902,21,True,match su cognome+squadra
+Havel,Genoa,A,,,,,,,,,,21,1.0,21,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sarri,Atalanta,A,,,,,,,,,,21,1.0,21,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Santiago Giménez,Milan,A,24,16,892,0,1,3.79,0.55,2,0,22,0.899,20,True,match su cognome+squadra
+Nesta Elphege,Parma,A,24,9,309,2,1,2.35,0.36,0,0,22,0.91,20,True,match su cognome+squadra
+Ekhator,Juventus,A,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Petagna,Monza,A,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Matteo Cancellieri,Lazio,A,23,30,1725,4,2,5.22,1.92,6,0,19,0.978,19,True,match su cognome+squadra
+Adam Buksa,Udinese,A,29,25,922,3,0,2.78,1,3,0,20,0.926,19,True,match su cognome+squadra
+Boulaye Dia,Lazio,A,28,27,1253,1,2,2.7,1.71,1,0,21,0.919,19,True,match su cognome+squadra
+Artem Dovbyk,Bologna,A,28,14,393,3,1,3.1,1.29,0,0,20,0.931,19,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Mota,Monza,A,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gattuso,Lazio,A,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Grosso,Fiorentina,A,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+M'Bala Nzola,Fiorentina,A,28,14,473,1,1,1.85,0.41,1,0,20,0.896,18,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Robinio Vaz,Roma,A,18,12,216,1,0,0.66,0,0,0,20,0.879,18,True,match su cognome+squadra
+Jayden Addai,Como,A,19,12,686,3,0,1.51,1.02,4,0,20,0.917,18,True,match su cognome+squadra
+Nicolas-Gerrit Kühn,Como,A,25,23,665,1,1,0.9,1.44,0,0,20,0.896,18,True,match su cognome+squadra
+Alieu Njie,Torino,A,20,15,299,1,1,1.21,0.16,2,0,20,0.889,18,True,match su cognome+squadra
+Adams,Venezia,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kvernadze,Frosinone,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Romero,Parma,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Abate,Torino,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Aquilani,Sassuolo,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Tedesco,Bologna,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Petar Ratkov,Lazio,A,21,8,233,0,0,0.53,0.02,0,0,20,0.865,17,True,match su cognome+squadra
+Walid Cheddira,Napoli,A,27,16,221,1,0,0.78,0.09,1,0,19,0.88,17,True,"match su cognome (squadra diversa, trasferimento presunto)"
+N’dri,Lecce,A,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+De Rossi,Genoa,A,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Runjaic,Udinese,A,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Cyril Ngonge,Napoli,A,25,20,994,1,1,2.76,0.56,2,0,18,0.907,16,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Álvaro Morata,Como,A,32,26,930,0,1,4.91,0.78,4,1,18,0.9,16,True,match su cognome+squadra
+Jacob Ondrejka,Parma,A,22,16,773,0,0,1.42,0.43,2,0,18,0.877,16,True,match su cognome+squadra
+Benjamín Domínguez,Sassuolo,A,21,15,547,0,3,0.65,0.26,1,0,18,0.89,16,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Zakaria Aboukhlal,Torino,A,25,15,511,0,0,0.41,0.6,4,0,18,0.869,16,True,match su cognome+squadra
+Geubbels,Lecce,A,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Nicolás González,Juventus,A,27,2,19,0,0,0.08,0.04,0,0,18,0.861,15,True,match su cognome+squadra
+Sandro Kulenović,Torino,A,25,13,300,0,1,0.85,0.34,2,0,17,0.875,15,True,match su cognome+squadra
+Cuesta,Parma,A,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Varela,Monza,A,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pisacane,Cagliari,A,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Vakoun Bayo,Udinese,A,28,15,453,0,2,1.33,0.73,0,0,15,0.887,13,True,match su cognome+squadra
+Iker Bravo,Udinese,A,20,8,206,1,0,0.46,0.22,1,0,15,0.879,13,True,match su cognome+squadra
+Idrissa Guèye,Udinese,A,18,19,421,1,0,2.26,0.16,2,0,15,0.89,13,True,match su cognome+squadra
+Pontus Almqvist,Parma,A,26,13,457,0,1,0.34,1.82,0,0,15,0.878,13,True,match su cognome+squadra
+Álvarez,Sassuolo,A,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Touré,Parma,A,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Juric,Monza,A,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Baldé,Monza,A,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Casas,Venezia,A,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Stroppa,Venezia,A,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Diego Carlos,Cagliari,A,32,27,1949,1,0,1.67,0.05,8,0,12,0.901,11,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Camarda,Milan,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Fini,Frosinone,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Frigan,Parma,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lisman,Venezia,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Rrahmani,Venezia,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Alvini,Frosinone,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Di Francesco,Lecce,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Arkadiusz Milik,Juventus,A,31,2,36,0,0,0.26,0,0,0,10,0.862,9,True,match su cognome+squadra
+Luca Moro,Sassuolo,A,24,14,211,0,0,0.83,0.26,1,0,10,0.867,9,True,match su cognome+squadra
+Fila,Venezia,A,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Karlsson,Bologna,A,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Robinson,Monza,A,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mattia Felici,Cagliari,A,24,12,412,2,1,1.34,0.76,3,0,9,0.906,8,True,match su cognome+squadra
+Okoro,Venezia,A,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lauberbach,Venezia,A,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Paul Mendy,Cagliari,A,18,9,335,2,0,2.39,0.26,1,0,5,0.904,5,True,match su cognome+squadra
+Yael Trepy,Cagliari,A,,8,91,1,0,0.6,0.15,0,0,4,0.878,4,True,match su cognome+squadra
+Agustín Albarracín,Cagliari,A,19,2,33,0,0,0,0,0,0,5,0.86,4,True,match su cognome+squadra
+Rui Modesto,Udinese,A,25,3,119,0,1,0.01,0.44,0,0,5,0.869,4,True,match su cognome+squadra
+Antonio Arena,Roma,A,16,2,23,0,0,0.18,0,0,0,3,0.861,3,True,match su cognome+squadra
+Diallo,Parma,A,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Forson,Monza,A,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Loubao,Monza,A,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Martins,Monza,A,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Barcella,Frosinone,A,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Burnete,Lecce,A,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Cichero,Frosinone,A,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mattia Mosconi,Inter,A,18,2,27,0,0,0.17,0,0,0,1,0.861,1,True,match su cognome+squadra
+Matteo Lavelli,Inter,A,18,1,8,0,0,0,0,0,0,1,0.86,1,True,match su cognome+squadra
+Giuseppe Ambrosino,Napoli,A,21,3,38,0,0,0,0,0,0,1,0.86,1,True,match su cognome+squadra
+Riccardo Braschi,Fiorentina,A,18,2,105,0,0,0.15,0,0,0,1,0.862,1,True,match su cognome+squadra
+Balentien,Milan,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Colley,Frosinone,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gori,Frosinone,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Jovic,Lecce,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+LAERKE,Lecce,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+LONTANI,Parma,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Rao,Napoli,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Spinaccè,Inter,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Vigliotti,Napoli,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Vinciati,Udinese,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Nicolás Paz,Como,C,20,35,2878,12,6,8.9,7.03,5,0,59,1.339,79,True,match su cognome+squadra
+Scott McTominay,Napoli,C,28,33,2791,10,3,12.43,2.01,1,0,60,1.232,74,True,match su cognome+squadra
+Hakan Çalhanoğlu,Inter,C,31,22,1639,9,4,5.15,3.48,7,0,60,1.165,70,True,match su cognome+squadra
+Christian Pulisic,Milan,C,26,30,1609,8,4,9.54,5.04,0,0,57,1.192,68,True,match su cognome+squadra
+Nikola Vlašić,Torino,C,27,37,3043,8,3,7.41,4.68,7,0,52,1.195,62,True,match su cognome+squadra
+Riccardo Orsolini,Bologna,C,28,35,2111,10,1,10.89,1.71,2,0,53,1.164,62,True,match su cognome+squadra
+Nicolò Zaniolo,Udinese,C,26,32,2257,5,6,6.14,5.69,8,0,48,1.182,57,True,match su cognome+squadra
+Lucas Da Cunha,Como,C,24,36,2739,6,4,6.93,6.02,4,0,45,1.182,53,True,match su cognome+squadra
+Adrien Rabiot,Milan,C,30,29,2550,6,4,4.36,3.94,6,1,46,1.132,52,True,match su cognome+squadra
+Weston McKennie,Juventus,C,26,36,2835,5,5,8.64,5.39,5,0,42,1.193,50,True,match su cognome+squadra
+Nicolò Barella,Inter,C,28,34,2517,3,8,3.82,7.97,7,0,40,1.199,48,True,match su cognome+squadra
+Martin Baturina,Como,C,22,29,1569,6,3,1.9,6.7,0,0,44,1.102,48,True,match su cognome+squadra
+Lorenzo Pellegrini,Roma,C,29,24,1463,4,2,4.78,3,2,0,46,1.04,48,True,match su cognome+squadra
+Francisco Conceição,Juventus,C,22,31,2078,3,5,8.49,4.16,3,0,41,1.133,46,True,match su cognome+squadra
+Kevin De Bruyne,Napoli,C,34,18,1165,5,2,3.52,4.02,1,0,44,1.045,46,True,match su cognome+squadra
+Albert Guðmundsson,Fiorentina,C,28,33,2250,5,4,5.8,3.78,4,1,40,1.118,45,True,match su cognome+squadra
+Luka Modrić,Milan,C,39,34,2811,2,3,1.25,4.03,4,0,43,1.047,45,True,match su cognome+squadra
+Alisson Santos,Napoli,C,22,14,834,4,0,1.51,1.61,1,0,46,0.949,44,True,match su cognome+squadra
+Arthur Atta,Fiorentina,C,22,32,2557,5,3,4.23,3.25,3,0,39,1.101,43,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Piotr Zieliński,Inter,C,31,34,2045,6,3,2.1,4.24,3,0,39,1.096,43,True,match su cognome+squadra
+Kristian Thorstvedt,Sassuolo,C,26,32,2460,4,4,6.64,2.63,9,0,38,1.11,42,True,match su cognome+squadra
+Matteo Politano,Napoli,C,31,34,2200,2,5,3.13,5.6,4,0,38,1.094,42,True,match su cognome+squadra
+Manu Koné,Roma,C,24,29,2456,2,3,1.94,3.5,2,0,40,1.038,42,True,match su cognome+squadra
+Mattia Zaccagni,Lazio,C,30,26,2104,3,0,6.38,2.79,6,1,41,1.003,41,True,match su cognome+squadra
+Alexis Saelemaekers,Milan,C,26,35,2788,3,3,3.6,4.79,5,0,38,1.085,41,True,match su cognome+squadra
+Federico Bernardeschi,Bologna,C,31,29,1217,4,2,3.18,3.57,3,0,40,1.023,41,True,match su cognome+squadra
+Máximo Perrone,Como,C,22,36,2742,3,4,2.49,2.54,8,0,35,1.076,38,True,match su cognome+squadra
+Ederson,Atalanta,C,,,,,,,,,,38,1.0,38,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Maxence Caqueret,Como,C,25,30,1485,2,6,1.74,2.78,3,0,35,1.06,37,True,match su cognome+squadra
+Khéphren Thuram,Juventus,C,24,35,2442,3,3,4.06,2.65,2,0,35,1.063,37,True,match su cognome+squadra
+Nicolò Fagioli,Fiorentina,C,24,33,2554,2,3,1.9,5.22,5,0,33,1.054,35,True,match su cognome+squadra
+Rolando Mandragora,Fiorentina,C,28,34,2421,7,3,4.7,2.88,7,0,30,1.13,34,True,match su cognome+squadra
+Ismaël Koné,Sassuolo,C,23,35,2737,6,0,5.08,1.76,5,1,32,1.051,34,True,match su cognome+squadra
+Henrikh Mkhitaryan,Inter,C,36,30,1560,4,1,6.04,3.31,5,0,33,1.031,34,True,match su cognome+squadra
+Manuel Locatelli,Juventus,C,27,36,2994,1,2,2.42,3.83,9,0,33,1.024,34,True,match su cognome+squadra
+Kenneth Taylor,Lazio,C,23,17,1394,3,2,2.09,1.08,5,0,34,0.986,34,True,match su cognome+squadra
+Mastantuono,Fiorentina,C,,,,,,,,,,34,1.0,34,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Frank Anguissa,Napoli,C,29,18,1258,4,1,2.55,1.55,1,0,33,0.987,33,True,match su cognome+squadra
+Mario Pašalić,Atalanta,C,30,33,1936,3,4,3.45,6.25,3,0,29,1.09,32,True,match su cognome+squadra
+Bryan Cristante,Roma,C,30,37,3094,2,1,2.35,2.28,6,0,32,1.01,32,True,match su cognome+squadra
+Jurgen Ekkelenkamp,Udinese,C,25,31,2186,5,3,4.73,2.56,1,0,28,1.091,31,True,match su cognome+squadra
+Ruben Loftus-Cheek,Milan,C,29,28,1133,3,1,4.14,1.04,2,0,32,0.973,31,True,match su cognome+squadra
+Youssouf Fofana,Milan,C,26,33,2203,2,3,4.59,3.64,4,0,29,1.052,30,True,match su cognome+squadra
+Adrian Bernabe,Parma,C,24,32,2470,3,1,2.62,4.64,0,0,29,1.033,30,True,match su cognome+squadra
+Cesare Casadei,Torino,C,22,33,1997,6,0,4.65,1.81,5,0,28,1.032,29,True,match su cognome+squadra
+Petar Sučić,Inter,C,21,34,1765,2,2,2.18,4.04,5,0,28,1.005,28,True,match su cognome+squadra
+Niccolò Pisilli,Roma,C,20,25,1295,2,4,2.27,2.22,3,0,28,1.015,28,True,match su cognome+squadra
+Nicola Zalewski,Atalanta,C,23,33,1897,2,4,3.14,5.14,3,0,24,1.064,26,True,match su cognome+squadra
+Marten de Roon,Atalanta,C,34,34,2691,1,2,0.82,1.59,8,1,27,0.977,26,True,match su cognome+squadra
+Lazar Samardzic,Atalanta,C,23,26,1030,2,1,2.78,2.38,1,0,27,0.957,26,True,match su cognome+squadra
+Cristian Volpato,Sassuolo,C,21,24,1064,2,4,1.75,2.9,4,0,25,1.01,25,True,match su cognome+squadra
+Jens Odgaard,Bologna,C,26,26,1378,5,1,2.73,0.94,1,0,25,1.003,25,True,match su cognome+squadra
+Stanislav Lobotka,Napoli,C,30,32,2431,1,1,0.41,1.06,3,0,26,0.954,25,True,match su cognome+squadra
+Messias,Genoa,C,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pierotti,Lecce,C,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Samuel Chukwueze,Milan,C,26,1,26,0,0,0,0,0,0,28,0.841,24,True,match su cognome+squadra
+Samuele Ricci,Milan,C,23,31,1312,1,4,2.11,2.78,3,0,24,1.001,24,True,match su cognome+squadra
+Luis Henrique,Inter,C,23,30,1624,1,2,1.15,2.19,1,0,25,0.964,24,True,match su cognome+squadra
+Danilo Cataldi,Lazio,C,30,27,1985,3,3,2.71,2.05,6,0,22,1.034,23,True,match su cognome+squadra
+Neil El Aynaoui,Roma,C,24,25,999,1,2,0.96,1.77,5,0,24,0.938,23,True,match su cognome+squadra
+Nemanja Matić,Sassuolo,C,36,34,2660,1,1,0.33,0.92,7,1,24,0.948,23,True,match su cognome+squadra
+Teun Koopmeiners,Juventus,C,27,33,1827,0,0,1.79,0.73,5,0,25,0.906,23,True,match su cognome+squadra
+Jesper Karlström,Udinese,C,30,36,3146,1,0,0.94,0.9,6,0,23,0.956,22,True,match su cognome+squadra
+Gvidas Gineitis,Torino,C,21,29,1756,0,1,0.94,2.68,5,0,23,0.937,22,True,match su cognome+squadra
+Berisha,Lecce,C,,,,,,,,,,22,1.0,22,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Calò,Frosinone,C,,,,,,,,,,22,1.0,22,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Luiz,Juventus,C,,,,,,,,,,22,1.0,22,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Michael Folorunsho,Napoli,C,27,27,1999,2,0,2.95,0.94,3,0,22,0.955,21,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Evan Ferguson,Bologna,C,20,16,773,3,2,3.48,1.69,1,0,20,0.985,20,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Gianluca Gaetano,Atalanta,C,25,33,1912,2,4,2,2.21,4,0,19,1.031,20,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Antonio Vergara,Napoli,C,22,12,612,1,2,0.71,0.84,2,0,22,0.922,20,True,match su cognome+squadra
+Frendrup,Genoa,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gandelman,Lecce,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Milla,Como,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Oulai,Fiorentina,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pessina,Monza,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Alieu Fadera,Como,C,23,28,987,2,1,2.36,0.88,5,0,20,0.937,19,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Daniel Maldini,Cagliari,C,23,12,687,2,1,2.15,0.56,0,0,20,0.93,19,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Tommaso Pobega,Bologna,C,26,26,1434,3,1,1.84,0.55,2,1,20,0.954,19,True,match su cognome+squadra
+Jakub Piotrowski,Udinese,C,27,33,1696,1,1,3.21,0.78,2,0,20,0.95,19,True,match su cognome+squadra
+Mandela Keita,Parma,C,23,37,2979,1,1,0.48,0.28,1,0,20,0.965,19,True,match su cognome+squadra
+Marco Brescianini,Fiorentina,C,25,17,862,1,1,2.15,1.14,1,0,21,0.923,19,True,match su cognome+squadra
+Giovanni Fabbian,Fiorentina,C,22,14,705,2,0,1.95,0.95,0,0,21,0.912,19,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Schmid,Frosinone,C,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Tommaso Baldanzi,Genoa,C,22,10,386,1,0,1.35,0.41,2,0,20,0.877,18,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Michel Ndary Adopo,Cagliari,C,25,38,3050,1,2,2.53,2.44,4,0,18,1.014,18,True,match su cognome+squadra
+Toma Bašić,Venezia,C,28,23,1735,2,3,1.31,2.41,0,1,18,0.999,18,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Nikola Moro,Bologna,C,27,30,1799,2,0,0.93,2.05,1,0,19,0.944,18,True,match su cognome+squadra
+Fabio Miretti,Juventus,C,21,23,617,1,2,1.63,1.25,1,0,19,0.93,18,True,match su cognome+squadra
+Lewis Ferguson,Bologna,C,25,27,1601,1,0,0.65,1.57,7,1,20,0.906,18,True,match su cognome+squadra
+Davide Frattesi,Lazio,C,25,22,569,0,0,2.29,0.6,0,0,21,0.874,18,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Giovanni Fabbian,Fiorentina,C,22,15,468,0,0,0.72,0.7,2,0,21,0.862,18,True,match su cognome+squadra
+Edon Zhegrova,Juventus,C,26,19,382,0,0,0.76,1.03,1,0,21,0.861,18,True,match su cognome+squadra
+Marco Brescianini,Fiorentina,C,25,9,182,1,0,0.2,0.1,1,0,21,0.861,18,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Liberali,Como,C,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sow,Genoa,C,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Stankovic,Inter,C,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Daniel Maldini,Cagliari,C,23,9,264,0,0,0.66,0.62,1,0,20,0.857,17,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Ellertsson,Genoa,C,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gomez,Udinese,C,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Perez,Venezia,C,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sorensen,Parma,C,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Cher Ndour,Fiorentina,C,21,33,1876,3,0,2.61,0.35,2,0,17,0.959,16,True,match su cognome+squadra
+Hans Nicolussi Caviglia,Parma,C,25,15,869,0,3,0.73,0.82,0,0,17,0.933,16,True,match su cognome+squadra
+Emirhan İlkhan,Torino,C,21,19,1001,1,2,2.36,1.22,2,1,17,0.939,16,True,match su cognome+squadra
+Matteo Prati,Cagliari,C,21,20,1268,1,0,1.2,1.44,4,0,18,0.91,16,True,match su cognome+squadra
+Andy Diouf,Inter,C,22,19,493,1,0,0.94,1.75,1,0,18,0.889,16,True,match su cognome+squadra
+Matteo Prati,Cagliari,C,21,13,614,0,1,0.47,0.26,2,0,18,0.881,16,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Jacopo Fazzini,Cagliari,C,22,20,584,0,0,0.88,0.72,2,0,18,0.866,16,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Colpani,Monza,C,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Koutsoupias,Frosinone,C,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Masini,Frosinone,C,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Fisayo Dele-Bashiru,Lazio,C,24,24,1187,1,0,0.59,1.12,0,0,17,0.901,15,True,match su cognome+squadra
+Simon Sohm,Venezia,C,24,16,708,0,1,0.18,1.74,2,0,17,0.894,15,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Hans Nicolussi Caviglia,Parma,C,25,11,585,0,1,0.12,0.92,4,0,17,0.882,15,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Simon Sohm,Venezia,C,24,12,717,0,0,0.61,0.3,1,0,17,0.867,15,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Busio,Venezia,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Cichella,Frosinone,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Hainaut,Venezia,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lindstrom,Napoli,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Payero,Udinese,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Traorè,Genoa,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gaetano Oristanio,Torino,C,22,20,859,1,0,2.4,0.6,1,0,16,0.899,14,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Luca Lipani,Sassuolo,C,20,24,1034,0,1,0.92,1.11,3,0,16,0.901,14,True,match su cognome+squadra
+Lorenzo Venturino,Genoa,C,19,10,207,0,0,0.29,0.44,0,0,16,0.85,14,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Woyo Coulibaly,Lecce,C,26,20,1054,0,0,0.11,0.3,2,0,16,0.87,14,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Grillitsch,Frosinone,C,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sottil,Fiorentina,C,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Luca Mazzitelli,Como,C,29,18,767,2,2,0.71,1.07,3,0,14,0.944,13,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Lennon Miller,Udinese,C,18,24,996,0,2,0.31,1.35,4,0,14,0.916,13,True,match su cognome+squadra
+Ardon Jashari,Milan,C,23,14,701,0,1,0.24,1.13,0,0,15,0.889,13,True,match su cognome+squadra
+Reda Belahyane,Lazio,C,21,13,609,0,2,0.21,1.13,1,1,14,0.895,13,True,match su cognome+squadra
+Nicolò Rovella,Lazio,C,23,11,512,0,1,0.02,1.47,2,1,15,0.876,13,True,match su cognome+squadra
+Edoardo Iannoni,Sassuolo,C,24,15,260,1,0,0.76,0,3,0,15,0.866,13,True,match su cognome+squadra
+Chakvetadze,Udinese,C,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sulemana,Atalanta,C,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Winks,Cagliari,C,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kristjan Asllani,Inter,C,23,15,1129,0,0,1.16,1.13,3,0,13,0.888,12,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Christian Ordoñez,Parma,C,21,28,1091,1,0,0.45,0.27,5,1,14,0.881,12,True,match su cognome+squadra
+Ivan Ilić,Torino,C,24,8,416,0,0,0,0.72,2,0,14,0.857,12,True,match su cognome+squadra
+Bondo,Milan,C,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Meichtry,Genoa,C,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Alessandro Deiola,Cagliari,C,29,20,1430,0,2,2.23,0.6,3,0,12,0.938,11,True,match su cognome+squadra
+Yunus Musah,Milan,C,22,19,574,1,0,0.75,0.11,1,0,13,0.876,11,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Yunus Musah,Milan,C,22,1,90,0,0,0,0.63,0,0,13,0.848,11,True,match su cognome+squadra
+Oier Zarraga,Udinese,C,26,24,475,0,0,0.6,0.13,2,0,13,0.855,11,True,match su cognome+squadra
+Amondarain,Bologna,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Amorim,Genoa,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ciurria,Monza,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Colombo,Monza,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Fitz-Jim,Torino,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Zerbin,Frosinone,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Bennacer,Milan,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Duncan,Venezia,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gelli,Frosinone,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Helgason,Venezia,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sala,Lecce,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Vasilije Adžić,Sassuolo,C,19,10,171,1,0,0.23,0.18,0,0,10,0.863,9,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Sandi Lovrić,Udinese,C,27,6,161,0,1,0.13,1.17,1,0,10,0.873,9,True,match su cognome+squadra
+Faustino Anjorin,Torino,C,23,15,289,0,0,0.6,0.12,1,0,11,0.851,9,True,match su cognome+squadra
+Compagnon,Venezia,C,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kone,Frosinone,C,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Maleh,Lecce,C,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Billy Gilmour,Napoli,C,24,17,805,1,0,0.57,0.48,1,0,9,0.885,8,True,match su cognome+squadra
+Darryl Bakola,Sassuolo,C,17,6,128,0,1,0.13,0.47,0,0,9,0.867,8,True,match su cognome+squadra
+Ben Cremaschi,Parma,C,20,8,132,0,0,0.02,0.01,0,0,10,0.844,8,True,match su cognome+squadra
+Cajuste,Napoli,C,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+El Azzouzi,Bologna,C,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ngom,Lecce,C,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pafundi,Udinese,C,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Akinsanmiro,Monza,C,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Adrian Przyborek,Lazio,C,18,1,9,0,0,0.02,0,0,0,7,0.84,6,True,match su cognome+squadra
+Daniel Boloca,Sassuolo,C,26,2,135,0,0,0.1,0.04,0,0,7,0.845,6,True,match su cognome+squadra
+Bohinen,Venezia,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Dagasso,Venezia,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Foe-Ondoa,Monza,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Grosso,Frosinone,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kaba,Lecce,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Alessandro Romano,Cagliari,C,19,2,8,0,0,0,0,0,0,6,0.84,5,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Bjarkason,Venezia,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Carboni,Inter,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Galazzi,Monza,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Hasa,Frosinone,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lafont,Genoa,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Nuamah,Sassuolo,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Akarakiri,Cagliari,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Fofana,Lecce,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lella,Venezia,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Massolin,Inter,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Wiafe,Genoa,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Joseph Liteta,Cagliari,C,19,4,264,0,0,0,0,0,0,4,0.848,3,True,match su cognome+squadra
+Zeroli,Milan,C,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Cissè,Milan,C,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Farji,Venezia,C,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lahdo,Como,C,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Marchwinski,Lecce,C,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Luka Topalović,Inter,C,19,1,10,0,1,0,0.16,0,0,1,0.86,1,True,match su cognome+squadra
+Abdoulaye Camara,Udinese,C,16,1,12,0,0,0,0.04,0,0,1,0.841,1,True,match su cognome+squadra
+Ballabio,Monza,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Berardi,Venezia,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Berenbruch,Inter,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Cacciamani,Torino,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Carbone,Genoa,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gorter,Lecce,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kamate,Inter,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kouda,Parma,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kovac,Lecce,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Luongo,Torino,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Saco,Napoli,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Terrnava,Parma,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Toci,Frosinone,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Federico Dimarco,Inter,D,27,35,2698,7,16,7.29,15.93,3,0,43,1.35,58,True,match su cognome+squadra
+Wesley,Roma,D,21,30,2448,5,0,2.48,5.35,7,2,36,1.18,42,True,match su cognome+squadra
+Gianluca Mancini,Roma,D,29,36,3059,4,2,2.39,2.72,9,0,33,1.264,42,True,match su cognome+squadra
+Strahinja Pavlović,Milan,D,24,34,2869,5,1,3.91,0.72,4,0,33,1.27,42,True,match su cognome+squadra
+Gleison Bremer,Juventus,D,28,26,2171,4,3,2.71,0.41,5,0,34,1.175,40,True,match su cognome+squadra
+Davide Zappacosta,Atalanta,D,33,35,2569,3,3,3.23,4.51,3,0,32,1.224,39,True,match su cognome+squadra
+Pierre Kalulu,Juventus,D,25,37,3281,2,4,1.45,5.54,4,1,31,1.242,39,True,match su cognome+squadra
+Alessandro Bastoni,Inter,D,26,28,2239,1,4,1.69,3.2,6,0,35,1.108,39,True,match su cognome+squadra
+Andrea Cambiaso,Juventus,D,25,36,2769,3,4,2.9,6.85,3,1,29,1.261,37,True,match su cognome+squadra
+Oumar Solet,Udinese,D,25,35,2959,3,1,2.9,2.3,1,0,30,1.212,36,True,match su cognome+squadra
+Manuel Akanji,Inter,D,30,33,2821,2,0,2.3,0.33,4,0,32,1.118,36,True,match su cognome+squadra
+Giovanni Di Lorenzo,Napoli,D,31,26,2276,2,1,1.95,3,1,0,32,1.096,35,True,match su cognome+squadra
+Evan N'Dicka,Roma,D,25,31,2680,3,0,2.39,0.56,5,0,30,1.143,34,True,match su cognome+squadra
+Dodô,Fiorentina,D,26,36,3134,1,2,1.38,5.39,7,0,28,1.176,33,True,match su cognome+squadra
+Marc-Oliver Kempf,Como,D,30,34,2326,4,1,3.28,1.1,3,0,27,1.173,32,True,match su cognome+squadra
+Leonardo Spinazzola,Napoli,D,32,32,1901,3,3,1.21,2.61,2,0,27,1.109,30,True,match su cognome+squadra
+Jacobo Ramón,Como,D,20,32,2742,2,0,5.47,1.03,11,1,26,1.135,30,True,match su cognome+squadra
+Yann Aurel Bisseck,Inter,D,24,23,1922,3,1,2.83,0.65,2,0,28,1.084,30,True,match su cognome+squadra
+Stones,Inter,D,,,,,,,,,,30,1.0,30,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Giorgio Scalvini,Atalanta,D,21,24,1808,3,1,3.86,1.58,2,0,26,1.102,29,True,match su cognome+squadra
+Molina,Roma,D,,,,,,,,,,29,1.0,29,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mario Hermoso,Roma,D,30,27,2085,3,2,2.19,0.86,9,0,25,1.11,28,True,match su cognome+squadra
+Álex Valle,Como,D,21,28,2026,1,4,0.89,1.48,3,0,26,1.058,28,True,match su cognome+squadra
+Lloyd Kelly,Juventus,D,26,35,2996,1,1,0.97,1.06,4,0,24,1.106,27,True,match su cognome+squadra
+Robin Gosens,Fiorentina,D,31,26,1881,3,1,2.4,0.96,2,0,25,1.084,27,True,match su cognome+squadra
+Spence,Inter,D,,,,,,,,,,27,1.0,27,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Juan Miranda,Bologna,D,25,32,2573,1,3,0.52,4.5,6,0,23,1.113,26,True,match su cognome+squadra
+Amir Rrahmani,Napoli,D,31,21,1795,2,1,1.35,0.24,2,0,25,1.017,25,True,match su cognome+squadra
+Chalobah,Como,D,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Marcus Pedersen,Torino,D,25,29,2134,1,2,1.62,2.89,3,0,23,1.054,24,True,match su cognome+squadra
+Carlos Augusto,Inter,D,26,34,1763,1,1,1.96,1.14,6,0,24,0.985,24,True,match su cognome+squadra
+Isak Hien,Atalanta,D,26,28,1970,1,0,1.08,0.11,5,0,25,0.971,24,True,match su cognome+squadra
+Ostigard,Genoa,D,,,,,,,,,,23,1.0,23,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Davide Bartesaghi,Milan,D,19,31,2441,2,0,1.37,3.91,3,0,20,1.092,22,True,match su cognome+squadra
+Raoul Bellanova,Atalanta,D,25,24,1377,0,1,0.5,1.94,2,0,24,0.902,22,True,match su cognome+squadra
+Tarik Muharemovic,Sassuolo,D,22,32,2835,2,2,2.83,0.93,7,0,19,1.165,22,True,match su cognome+squadra
+Adam Marušić,Lazio,D,32,33,2778,1,2,1.74,1.54,1,1,20,1.101,22,True,match su cognome+squadra
+Alessandro Buongiorno,Napoli,D,26,33,2521,0,1,1.64,0.35,3,0,21,1.028,22,True,match su cognome+squadra
+Mario Gila,Milan,D,24,31,2472,0,0,1.63,0.72,4,1,22,0.997,22,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Zeki Çelik,Juventus,D,28,34,2723,1,2,1.77,2.41,2,1,19,1.103,21,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Emanuele Valeri,Parma,D,26,34,2643,0,2,0.67,3.78,2,0,20,1.069,21,True,match su cognome+squadra
+Thomas Kristensen,Atalanta,D,23,28,2472,3,0,1.88,0.22,4,0,19,1.11,21,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Matteo Gabbia,Milan,D,25,30,2530,0,0,1.54,0.05,4,0,21,1.008,21,True,match su cognome+squadra
+Jhon Lucumí,Bologna,D,27,29,2287,1,0,1.38,0.79,5,0,21,1.02,21,True,match su cognome+squadra
+Alessio Romagnoli,Lazio,D,30,32,2666,0,0,1.54,0.07,6,1,21,1.005,21,True,match su cognome+squadra
+Yerry Mina,Cagliari,D,30,26,2150,2,0,1.76,0.43,5,1,20,1.026,21,True,match su cognome+squadra
+Vasquez,Genoa,D,,,,,,,,,,21,1.0,21,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Fikayo Tomori,Milan,D,27,33,2554,0,2,0.59,1,8,1,20,1.021,20,True,match su cognome+squadra
+Berat Djimsiti,Atalanta,D,32,34,2525,0,0,1.69,0.33,4,0,20,1.014,20,True,match su cognome+squadra
+Luca Ranieri,Fiorentina,D,26,34,2458,1,0,2.08,1.03,8,1,19,1.031,20,True,match su cognome+squadra
+Couto,Como,D,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Dragusin,Fiorentina,D,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gallo,Lecce,D,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Fabiano Parisi,Fiorentina,D,24,23,1520,1,1,1.3,1.92,6,0,20,0.962,19,True,match su cognome+squadra
+Emil Holm,Bologna,D,25,11,655,1,4,0.85,2.05,3,1,21,0.897,19,True,match su cognome+squadra
+Del Prato,Parma,D,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Norton-Cuffy,Genoa,D,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lorenzo Bernasconi,Atalanta,D,21,23,1572,0,3,0.42,3.15,3,0,19,0.962,18,True,match su cognome+squadra
+Miguel Gutiérrez,Napoli,D,24,28,1488,1,1,0.57,1.78,0,0,19,0.946,18,True,match su cognome+squadra
+Saúl Coco,Torino,D,26,35,3088,1,1,1.16,0.76,3,0,16,1.12,18,True,match su cognome+squadra
+Marin Pongračić,Fiorentina,D,27,35,2918,0,0,0.59,0.69,12,0,17,1.035,18,True,match su cognome+squadra
+Federico Gatti,Juventus,D,27,21,1093,2,0,1.96,0.21,3,0,19,0.93,18,True,match su cognome+squadra
+Pietro Comuzzo,Torino,D,20,27,1696,1,0,0.81,0.04,2,0,19,0.942,18,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Doekhi,Lazio,D,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gabriel,Lecce,D,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Martin,Genoa,D,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Devyne Rensch,Roma,D,22,24,1184,1,4,0.57,2.72,1,0,18,0.97,17,True,match su cognome+squadra
+Mërgim Vojvoda,Udinese,D,30,30,1591,2,2,1.47,3.09,2,0,16,1.034,17,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Christian Kabasele,Udinese,D,34,30,2247,3,0,1.67,0.06,5,1,16,1.068,17,True,match su cognome+squadra
+Sam Beukema,Napoli,D,26,24,1681,2,0,1.73,0.39,2,0,17,0.99,17,True,match su cognome+squadra
+Nadir Zortea,Bologna,D,26,32,1819,0,2,0.42,2.86,2,0,18,0.962,17,True,match su cognome+squadra
+Ivan Smolčić,Como,D,24,28,1662,0,1,1.13,1.46,8,0,18,0.935,17,True,match su cognome+squadra
+Ardian Ismajli,Torino,D,28,25,1906,0,1,0.75,0.54,5,0,18,0.95,17,True,match su cognome+squadra
+Pedraza,Lazio,D,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Rafel Obrador,Sassuolo,D,21,16,1116,1,3,0.17,1.06,1,0,17,0.935,16,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Emil Holm,Bologna,D,25,7,230,0,0,0.3,0.23,0,0,21,0.75,16,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Adam Obert,Cagliari,D,22,35,2771,0,3,1.36,3.71,10,1,15,1.089,16,True,match su cognome+squadra
+Sebastian Walukiewicz,Sassuolo,D,25,34,2852,0,1,0.18,2.05,7,0,15,1.055,16,True,match su cognome+squadra
+Gabriele Zappa,Cagliari,D,25,31,1597,0,3,1.13,2.11,2,0,16,0.97,16,True,match su cognome+squadra
+Álex Jiménez,Fiorentina,D,20,1,45,0,0,0,0.14,1,0,21,0.75,16,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Valdepeñas,Fiorentina,D,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mathías Olivera,Napoli,D,27,25,1370,0,0,1.79,0.6,3,0,17,0.893,15,True,match su cognome+squadra
+Benjamin Pavard,Inter,D,29,1,90,0,0,0.05,0.03,0,0,20,0.75,15,True,match su cognome+squadra
+Aurelio,Cagliari,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Koulierakis,Roma,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Marcandalli,Genoa,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Provstgaard,Lazio,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Terzic,Frosinone,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Veiga,Lecce,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Hassane Kamara,Udinese,D,31,26,1861,0,2,0.89,2.51,5,0,14,0.981,14,True,match su cognome+squadra
+Zachary Athekame,Milan,D,20,27,833,2,2,0.38,1.56,3,0,15,0.918,14,True,match su cognome+squadra
+Alessandro Circati,Parma,D,21,31,2664,1,0,0.74,0.25,6,0,13,1.048,14,True,match su cognome+squadra
+Koni De Winter,Milan,D,23,26,1800,1,1,0.8,0.65,1,0,14,0.975,14,True,match su cognome+squadra
+Nuno Tavares,Lazio,D,25,23,1473,0,0,1.13,1.18,5,0,16,0.899,14,True,match su cognome+squadra
+Cuenca,Como,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kaiki,Como,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mario,Fiorentina,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sabelli,Genoa,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Viery,Fiorentina,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Zé Pedro,Cagliari,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Juan David Cabal,Juventus,D,24,12,296,2,0,1.08,0.64,1,0,15,0.835,13,True,match su cognome+squadra
+Odilon Kossounou,Atalanta,D,24,19,988,1,0,0.26,0.26,1,0,15,0.861,13,True,match su cognome+squadra
+Daniele Ghilardi,Roma,D,22,23,1097,0,0,0.56,0.42,1,0,16,0.839,13,True,match su cognome+squadra
+Missori,Sassuolo,D,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Jordan Zemura,Udinese,D,25,17,1127,0,1,0.33,1.27,3,0,14,0.869,12,True,match su cognome+squadra
+Mariano Troilo,Parma,D,22,21,1625,1,0,0.98,0.66,8,2,13,0.9,12,True,match su cognome+squadra
+Honest Ahanor,Atalanta,D,17,22,1377,0,0,2.38,0.12,2,1,14,0.88,12,True,match su cognome+squadra
+Ignace Van Der Brempt,Como,D,23,20,931,0,1,0.16,0.82,2,0,14,0.844,12,True,match su cognome+squadra
+Birindelli,Monza,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Calvani,Frosinone,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Correia,Venezia,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Haps,Venezia,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Marin,Napoli,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Oyono,Frosinone,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Torbjørn Heggem,Bologna,D,26,27,2113,0,0,1.02,0.05,0,1,12,0.939,11,True,match su cognome+squadra
+Nicolò Bertola,Udinese,D,22,28,1763,0,1,1,1.55,3,0,12,0.943,11,True,match su cognome+squadra
+Juan Rodríguez,Cagliari,D,20,17,1310,1,0,1.2,0,3,0,12,0.911,11,True,match su cognome+squadra
+Martin Vitík,Bologna,D,22,19,1325,0,0,0.74,0.17,3,0,13,0.869,11,True,match su cognome+squadra
+Delli Carri,Monza,D,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Halhal,Venezia,D,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mangas,Monza,D,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Monterisi,Frosinone,D,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sead Kolašinac,Atalanta,D,32,19,1212,0,0,0.12,0,3,0,12,0.852,10,True,match su cognome+squadra
+Manuel Lazzari,Lazio,D,31,23,938,0,0,0.11,0.13,2,0,12,0.817,10,True,match su cognome+squadra
+Bella-Kotchap,Venezia,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Carboni,Monza,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Corrado,Frosinone,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ravanelli,Monza,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Siebert,Lecce,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Riyad Idrissi,Cagliari,D,20,23,783,2,0,0.79,0.25,3,0,10,0.87,9,True,match su cognome+squadra
+Patric,Lazio,D,32,14,667,0,0,0.23,0.31,2,0,11,0.791,9,True,match su cognome+squadra
+Lautaro Valenti,Parma,D,26,27,2252,0,0,0.49,1.17,7,0,9,0.969,9,True,match su cognome+squadra
+Luca Pellegrini,Lazio,D,26,24,1469,1,0,0.64,0.83,8,0,10,0.92,9,True,match su cognome+squadra
+Josh Doig,Sassuolo,D,23,30,1917,0,0,0.75,1.5,5,0,10,0.943,9,True,match su cognome+squadra
+Alhassane,Bologna,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Comert,Torino,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Schingtienne,Venezia,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sverko,Venezia,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Terracciano,Milan,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Alessandro Zanoli,Udinese,D,24,19,1280,1,2,0.1,1.55,1,0,8,0.939,8,True,match su cognome+squadra
+Sascha Britschgi,Parma,D,18,29,2095,0,2,0.41,2.03,7,1,8,0.969,8,True,match su cognome+squadra
+Niccolò Fortini,Fiorentina,D,19,16,541,0,0,0.23,0.46,0,0,10,0.775,8,True,match su cognome+squadra
+Alberto Moreno,Venezia,D,33,19,1233,2,1,1.59,1.92,4,0,8,0.967,8,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Luca Marianucci,Napoli,D,21,10,575,0,0,0.02,0.67,2,0,10,0.784,8,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Luca Marianucci,Napoli,D,21,2,119,0,1,0.01,0.31,0,0,10,0.751,8,True,match su cognome+squadra
+Akpoguma,Frosinone,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Franjic,Venezia,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gaspar,Lecce,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kumbulla,Roma,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mussolini,Lazio,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Oyono,Frosinone,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Puczka,Genoa,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sagrado,Venezia,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pervis Estupiñán,Milan,D,27,19,1034,1,1,0.48,1.58,5,1,8,0.879,7,True,match su cognome+squadra
+Enzo Ebosse,Udinese,D,26,13,1115,0,1,0,0.52,3,0,8,0.858,7,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Alberto Dossena,Como,D,26,12,859,0,1,0.9,0.61,5,0,8,0.84,7,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Saba Goglichidze,Udinese,D,21,8,424,0,0,0.55,0.06,2,0,9,0.77,7,True,match su cognome+squadra
+Bracaglia,Frosinone,D,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gelli,Frosinone,D,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mitaj,Genoa,D,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Cristiano Biraghi,Torino,D,32,14,517,0,0,0.06,0.36,0,0,8,0.777,6,True,match su cognome+squadra
+Angeliño,Roma,D,28,7,416,0,0,0.23,0.28,2,0,8,0.769,6,True,match su cognome+squadra
+Jay Idzes,Sassuolo,D,25,35,3061,0,0,0.2,0.74,2,0,6,1.054,6,True,match su cognome+squadra
+Abdoulaye Ndiaye,Parma,D,23,11,780,0,0,0.36,0.02,5,1,7,0.786,6,True,match su cognome+squadra
+Jan Ziółkowski,Roma,D,20,18,517,0,0,0.14,0.04,3,0,8,0.773,6,True,match su cognome+squadra
+Fali Candé,Sassuolo,D,27,12,509,0,0,0.17,0.01,2,0,8,0.773,6,True,match su cognome+squadra
+Edoardo Goldaniga,Como,D,31,2,15,0,0,0,0,0,0,8,0.75,6,True,match su cognome+squadra
+Cittadini,Frosinone,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Jean,Lecce,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lucchesi,Monza,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Otoa,Genoa,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pieragnolo,Sassuolo,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pasquale Mazzocchi,Napoli,D,30,16,310,0,1,0.05,1.14,0,1,6,0.756,5,True,match su cognome+squadra
+Nicolò Casale,Bologna,D,27,12,678,0,0,0.75,0.2,0,0,6,0.805,5,True,match su cognome+squadra
+Eivind Helland,Bologna,D,20,6,484,0,0,0.1,0.15,2,0,7,0.774,5,True,match su cognome+squadra
+Amey,Frosinone,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Brorsson,Monza,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Diawara,Milan,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+El Azzouzi,Frosinone,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gomes,Venezia,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kouassi,Lecce,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Juan Arizala,Udinese,D,19,10,191,0,0,0.03,0.14,0,0,5,0.75,4,True,match su cognome+squadra
+Franco Carboni,Parma,D,22,7,114,0,0,0,0,0,0,6,0.75,4,True,match su cognome+squadra
+Tariq Lamptey,Fiorentina,D,24,2,25,0,0,0,0.12,0,0,5,0.75,4,True,match su cognome+squadra
+Lorenzo De Silvestri,Bologna,D,37,12,491,0,0,0,0.16,2,0,5,0.773,4,True,match su cognome+squadra
+Mitchel Bakker,Atalanta,D,25,1,9,0,0,0,0,0,0,6,0.75,4,True,match su cognome+squadra
+Eddy Kouadio,Monza,D,19,3,72,0,0,0,0.01,0,0,5,0.75,4,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Gigot,Lazio,D,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kofler,Cagliari,D,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ndaba,Lecce,D,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Daniele Rugani,Juventus,D,31,6,250,0,0,0,0,0,0,4,0.75,3,True,match su cognome+squadra
+Matteo Palma,Udinese,D,17,5,120,0,0,0,0,0,0,4,0.75,3,True,match su cognome+squadra
+Cas Odenthal,Sassuolo,D,24,1,1,0,0,0,0,0,0,4,0.75,3,True,match su cognome+squadra
+Daniele Rugani,Juventus,D,31,6,327,0,0,0.27,0,2,0,4,0.758,3,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Luís Balbo,Fiorentina,D,19,6,212,0,0,0,0.06,0,0,4,0.75,3,True,match su cognome+squadra
+Antov,Monza,D,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Branimir Mlacic,Udinese,D,18,7,166,0,0,0,0.05,2,0,3,0.75,2,True,match su cognome+squadra
+Ali Dembélé,Torino,D,21,2,21,0,0,0.05,0,0,0,3,0.75,2,True,match su cognome+squadra
+Obleac,Frosinone,D,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Matteo Cocchi,Inter,D,18,1,17,0,0,0,0,0,0,1,0.75,1,True,match su cognome+squadra
+David Odogu,Milan,D,19,2,6,0,0,0,0,0,0,1,0.75,1,True,match su cognome+squadra
+Eman Košpo,Fiorentina,D,18,0,0,0,0,,,0,0,1,0.75,1,True,match su cognome+squadra
+Abankwah,Udinese,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Bakoune,Monza,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Bovio,Inter,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Capolupo,Monza,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Comi,Atalanta,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+De Paoli,Como,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Galassi,Lazio,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Kumer Celik,Genoa,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ligue,Venezia,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mannini,Roma,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Markovic,Bologna,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Obaretin,Napoli,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Perez,Lecce,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sangaré,Roma,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sidibé,Venezia,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Venturi,Venezia,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mile Svilar,Roma,P,25,38,3420,0,0,0,0,0,0,38,1.0,38,True,match su cognome+squadra
+Mike Maignan,Milan,P,30,37,3295,0,0,0,0,4,0,34,1.0,34,True,match su cognome+squadra
+Marco Carnesecchi,Atalanta,P,25,37,3330,0,0,0,0,0,0,34,1.0,34,True,match su cognome+squadra
+Jean Butez,Como,P,30,38,3420,0,1,0,0.45,3,0,32,1.0,32,True,match su cognome+squadra
+Vanja Milinković-Savić,Napoli,P,28,27,2430,0,1,0,0.3,0,0,29,1.0,29,True,match su cognome+squadra
+Josep Martinez,Inter,P,27,5,450,0,0,0,0,0,0,29,1.0,29,True,"match su cognome+squadra, spareggiato su portiere"
+Michele Di Gregorio,Juventus,P,28,30,2655,0,0,0,0,1,0,26,1.0,26,True,match su cognome+squadra
+Łukasz Skorupski,Bologna,P,34,19,1592,0,0,0,0,1,1,25,1.0,25,True,match su cognome+squadra
+Mandas,Lazio,P,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+David de Gea,Fiorentina,P,34,37,3330,0,0,0,0.03,0,0,24,1.0,24,True,match su cognome+squadra
+Elia Caprile,Cagliari,P,23,38,3420,0,0,0,0.12,2,0,20,1.0,20,True,match su cognome+squadra
+Bijlow,Genoa,P,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Alberto Paleari,Torino,P,32,29,2610,0,0,0,0,1,0,18,1.0,18,True,match su cognome+squadra
+Maduka Okoye,Udinese,P,25,30,2616,0,0,0,0.07,1,1,17,1.0,17,True,match su cognome+squadra
+Falcone,Lecce,P,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Arijanet Muric,Sassuolo,P,26,32,2880,0,0,0,0.03,4,0,16,1.0,16,True,match su cognome+squadra
+Alex Meret,Napoli,P,28,11,979,0,1,0,0.27,1,0,15,1.0,15,True,match su cognome+squadra
+Stankovic,Venezia,P,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Zion Suzuki,Parma,P,22,20,1800,0,0,0,0.03,1,0,12,1.0,12,True,match su cognome+squadra
+Palmisani,Frosinone,P,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Thiam,Monza,P,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ivan Provedel,Inter,P,31,27,2430,0,0,0,0.23,1,0,1,1.0,1,True,"match su cognome (squadra diversa, trasferimento presunto)"
+Edoardo Corvi,Parma,P,24,17,1530,0,0,0,0,1,0,1,1.0,1,True,match su cognome+squadra
+Federico Ravaglia,Bologna,P,25,17,1470,0,0,0,0,4,0,1,1.0,1,True,match su cognome+squadra
+Mattia Perin,Juventus,P,32,9,765,0,0,0,0.08,0,0,1,1.0,1,True,match su cognome+squadra
+Edoardo Motta,Lazio,P,20,9,810,0,0,0,0.05,1,0,1,1.0,1,True,match su cognome+squadra
+Franco Israel,Torino,P,25,9,810,0,0,0,0,1,0,1,1.0,1,True,match su cognome+squadra
+Stefano Turati,Sassuolo,P,23,6,532,0,0,0,0.04,0,0,1,1.0,1,True,match su cognome+squadra
+Massimo Pessina,Bologna,P,17,4,353,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Raffaele Di Gennaro,Inter,P,31,1,10,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Nikita Contini,Napoli,P,29,1,11,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Pietro Terracciano,Milan,P,35,2,125,0,0,0,0,0,0,1,1.0,1,True,"match su cognome+squadra, spareggiato su portiere"
+Marco Sportiello,Atalanta,P,33,1,90,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Alessio Furlanetto,Lazio,P,23,2,180,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Daniele Padelli,Udinese,P,39,2,180,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Gioele Zacchi,Sassuolo,P,22,1,8,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Filippo Rinaldi,Parma,P,22,1,90,0,0,0,0,1,0,1,1.0,1,True,match su cognome+squadra
+Oliver Christensen,Fiorentina,P,26,1,86,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Luca Lezzerini,Fiorentina,P,30,1,4,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra
+Audero,Como,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ciocci,Cagliari,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Daffara,Parma,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Desplanches,Frosinone,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Ferrante,Napoli,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Fruchtl,Lecce,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Gollini,Roma,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Grandi,Venezia,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Happonen,Bologna,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lolic,Frosinone,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Lysionok,Genoa,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Mascardi,Torino,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pardel,Atalanta,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Penev,Lecce,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Piana,Udinese,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pinsoglio,Juventus,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pittarella,Milan,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pizzignacco,Monza,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Pozzi,Venezia,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Rossi,Atalanta,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Samooja,Lecce,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Satalino,Sassuolo,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sherri,Cagliari,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Siviero,Torino,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Sommariva,Genoa,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Strajnar,Monza,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Tornqvist,Como,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Torriani,Milan,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Vasquez,Roma,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)
+Zelezny,Roma,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta)

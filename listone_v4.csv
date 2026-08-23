@@ -1,0 +1,656 @@
+nome,squadra,ruolo,eta,presenze,minuti,gol,assist,xG,xA,gialli,rossi,quotazione_ufficiale,correttivo_statistico,valore_finale,analizzato,note_match,fattore_affidabilita,note_fbref,valore_v4
+Lautaro Martínez,Inter,A,27,30,2159,17,6,17.14,6.29,4,0,88,1.261,111,True,"match su cognome+squadra, spareggiato su non-portiere",1.025,"nome completo -- titolarita' 90%, minuti giocati 63% del possibile",114
+Donyell Malen,Roma,A,26,18,1467,14,2,15.2,1.55,1,0,84,1.164,98,True,match su cognome+squadra,1.014,"nome completo -- titolarita' 100%, minuti giocati 43% del possibile",99
+Rasmus Højlund,Napoli,A,22,33,2750,12,5,13.31,3.27,1,0,78,1.165,91,True,match su cognome+squadra,1.051,"nome completo -- titolarita' 97%, minuti giocati 80% del possibile",96
+Marcus Thuram,Inter,A,27,29,1900,13,6,11.9,4.47,2,0,74,1.171,87,True,match su cognome+squadra,1.009,"nome completo -- titolarita' 83%, minuti giocati 56% del possibile",88
+Kenan Yıldız,Juventus,A,20,36,2825,10,6,8.63,10.82,2,0,70,1.141,80,True,match su cognome+squadra,1.048,"nome completo -- titolarita' 92%, minuti giocati 83% del possibile",84
+Ramos,Milan,A,,,,,,,,,,78,1.0,78,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,78
+Anastasios Douvikas,Como,A,25,38,2273,14,1,15.17,2.24,0,0,65,1.167,76,True,match su cognome+squadra,1.002,"nome completo -- titolarita' 66%, minuti giocati 66% del possibile",76
+Kolo Muani,Juventus,A,,,,,,,,,,76,1.0,76,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,76
+Rafael Leão,Milan,A,26,29,1851,9,3,9.6,4.98,5,0,65,1.086,71,True,match su cognome+squadra,1.004,"nome completo -- titolarita' 79%, minuti giocati 54% del possibile",71
+Moise Kean,Fiorentina,A,25,26,2036,8,1,15.38,0.06,4,0,64,1.08,69,True,match su cognome+squadra,1.019,"nome completo -- titolarita' 88%, minuti giocati 60% del possibile",70
+Keinan Davis,Udinese,A,27,30,2065,10,4,9.89,4.33,5,0,61,1.108,68,True,match su cognome+squadra,1.022,"nome completo -- titolarita' 90%, minuti giocati 60% del possibile",69
+Nikola Krstović,Atalanta,A,25,33,1791,10,5,15.67,3.23,4,0,56,1.14,64,True,match su cognome+squadra,0.975,"nome completo -- titolarita' 55%, minuti giocati 52% del possibile",62
+Gianluca Scamacca,Atalanta,A,26,24,1315,10,1,8.87,1.36,2,0,60,1.066,64,True,match su cognome+squadra,0.973,"nome completo -- titolarita' 67%, minuti giocati 38% del possibile",62
+Giovanni Simeone,Torino,A,30,32,2230,11,0,11.18,1.86,1,0,57,1.097,63,True,match su cognome+squadra,1.021,"nome completo -- titolarita' 84%, minuti giocati 65% del possibile",64
+Santiago Castro,Roma,A,20,35,2359,7,2,8.3,2.73,3,0,57,1.044,60,True,"match su cognome (squadra diversa, trasferimento presunto)",1.014,"nome completo -- titolarita' 74%, minuti giocati 69% del possibile",61
+Andrea Pinamonti,Sassuolo,A,26,36,2552,9,3,11.53,1.78,2,1,54,1.091,59,True,match su cognome+squadra,1.036,"nome completo -- titolarita' 89%, minuti giocati 75% del possibile",61
+Matías Soulé,Roma,A,22,33,2139,6,5,4.68,4.46,1,0,56,1.035,58,True,match su cognome+squadra,1.019,"nome completo -- titolarita' 85%, minuti giocati 62% del possibile",59
+Jonathan David,Juventus,A,25,35,1781,6,4,11.46,4.23,0,0,50,1.061,53,True,match su cognome+squadra,0.978,"nome completo -- titolarita' 57%, minuti giocati 52% del possibile",52
+Mateo Pellegrino,Fiorentina,A,24,37,2984,9,1,9.91,2.14,5,0,48,1.078,52,True,"match su cognome (squadra diversa, trasferimento presunto)",1.053,"nome completo -- titolarita' 92%, minuti giocati 87% del possibile",55
+Domenico Berardi,Sassuolo,A,30,26,1958,8,4,6.78,5.06,2,1,48,1.061,51,True,match su cognome+squadra,1.021,"nome completo -- titolarita' 92%, minuti giocati 57% del possibile",52
+Christopher Nkunku,Milan,A,27,32,1356,7,3,9.94,1.61,0,0,49,1.047,51,True,match su cognome+squadra,0.953,"nome completo -- titolarita' 47%, minuti giocati 40% del possibile",49
+Ché Adams,Torino,A,29,33,1893,6,2,6.61,3.21,0,0,50,1.018,51,True,match su cognome+squadra,0.982,"nome completo -- titolarita' 58%, minuti giocati 55% del possibile",50
+Armand Laurienté,Sassuolo,A,26,38,2592,7,9,4.39,8.51,4,0,46,1.088,50,True,match su cognome+squadra,1.035,"nome completo -- titolarita' 87%, minuti giocati 76% del possibile",52
+Paulo Dybala,Roma,A,31,22,1354,2,6,6.29,6.36,0,0,50,0.994,50,True,match su cognome+squadra,0.976,"nome completo -- titolarita' 68%, minuti giocati 40% del possibile",49
+Sebastiano Esposito,Cagliari,A,23,36,2675,7,5,5.74,5.58,6,0,40,1.061,42,True,match su cognome+squadra,1.046,"nome completo -- titolarita' 94%, minuti giocati 78% del possibile",44
+Francesco Esposito,Inter,A,20,35,1571,7,3,9.86,2.06,1,0,40,1.05,42,True,match su cognome+squadra,0.956,"nome completo -- titolarita' 43%, minuti giocati 46% del possibile",40
+Duván Zapata,Torino,A,34,28,1103,3,1,4.4,2.68,0,0,43,0.95,41,True,match su cognome+squadra,0.937,"nome completo -- titolarita' 39%, minuti giocati 32% del possibile",38
+David Neres,Napoli,A,28,16,922,3,3,1.48,3.79,3,0,42,0.947,40,True,match su cognome+squadra,0.956,"nome completo -- titolarita' 62%, minuti giocati 27% del possibile",38
+Jesus Rodríguez,Como,A,19,31,1731,2,9,3.92,6.97,3,1,40,1.0,40,True,match su cognome+squadra,0.977,"nome completo -- titolarita' 58%, minuti giocati 51% del possibile",39
+Charles De Ketelaere,Atalanta,A,24,31,2177,3,5,4.55,10.65,4,0,40,1.011,40,True,match su cognome+squadra,1.019,"nome completo -- titolarita' 84%, minuti giocati 64% del possibile",41
+Jonathan Rowe,Bologna,A,22,28,1605,3,2,4.98,2.7,2,0,40,0.965,39,True,match su cognome+squadra,0.976,"nome completo -- titolarita' 61%, minuti giocati 47% del possibile",38
+Giacomo Raspadori,Atalanta,A,25,13,796,3,1,3.49,1.2,0,0,42,0.937,39,True,match su cognome+squadra,0.943,"nome completo -- titolarita' 54%, minuti giocati 23% del possibile",37
+Colombo,Genoa,A,,,,,,,,,,36,1.0,36,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,36
+Jeremie Boga,Juventus,A,28,15,679,4,0,4.13,1.67,1,0,36,0.947,34,True,match su cognome+squadra,0.925,"nome completo -- titolarita' 40%, minuti giocati 20% del possibile",31
+Alajbegovic,Juventus,A,,,,,,,,,,33,1.0,33,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,33
+Ange-Yoan Bonny,Inter,A,21,33,1142,5,4,4.58,2.67,1,0,32,0.997,32,True,match su cognome+squadra,0.929,"nome completo -- titolarita' 30%, minuti giocati 33% del possibile",30
+Noa Lang,Napoli,A,26,18,666,1,2,1.37,1.97,2,0,35,0.906,32,True,match su cognome+squadra,0.923,"nome completo -- titolarita' 39%, minuti giocati 20% del possibile",30
+Banda,Lecce,A,,,,,,,,,,32,1.0,32,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,32
+Romelu Lukaku,Napoli,A,32,5,44,1,0,0.59,0.21,1,0,35,0.877,31,True,match su cognome+squadra,0.861,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",27
+Vítinha,Genoa,A,,,,,,,,,,31,1.0,31,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nome completo,31
+Chivu,Inter,A,,,,,,,,,,30,1.0,30,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,30
+Stulic,Lecce,A,,,,,,,,,,29,1.0,29,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,29
+Assane Diao,Como,A,19,17,1075,2,1,3.18,1.68,2,0,30,0.927,28,True,match su cognome+squadra,0.976,"nome completo -- titolarita' 76%, minuti giocati 31% del possibile",27
+Nicolò Cambiaghi,Bologna,A,24,28,1518,3,4,2.92,3.03,3,1,28,0.962,27,True,match su cognome+squadra,0.973,"nome completo -- titolarita' 61%, minuti giocati 44% del possibile",26
+Gustav Isaksen,Lazio,A,24,30,1593,5,1,5.41,0.88,0,0,26,0.983,26,True,match su cognome+squadra,0.975,"nome completo -- titolarita' 60%, minuti giocati 47% del possibile",25
+Allegri,Napoli,A,,,,,,,,,,26,1.0,26,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,26
+Gasperini,Roma,A,,,,,,,,,,26,1.0,26,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,26
+Roberto Piccoli,Bologna,A,24,32,1672,4,1,6.83,1.59,1,0,26,0.979,25,True,"match su cognome (squadra diversa, trasferimento presunto)",0.967,"nome completo -- titolarita' 50%, minuti giocati 49% del possibile",24
+Lorenzo Lucca,Napoli,A,24,16,408,1,0,1.91,0.66,1,0,28,0.89,25,True,match su cognome+squadra,0.9,"nome completo -- titolarita' 25%, minuti giocati 12% del possibile",22
+Bowie,Sassuolo,A,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),25
+Ghedjemis,Frosinone,A,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,25
+Fabregas,Como,A,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,25
+Adorante,Venezia,A,,,,,,,,,,24,1.0,24,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,24
+Yeboah,Venezia,A,,,,,,,,,,24,1.0,24,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,24
+Spalletti,Juventus,A,,,,,,,,,,24,1.0,24,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,24
+Gennaro Borrelli,Cagliari,A,25,27,1275,5,1,4.58,0.87,4,0,24,0.973,23,True,match su cognome+squadra,0.952,"nome completo -- titolarita' 48%, minuti giocati 37% del possibile",22
+Raimondo,Frosinone,A,,,,,,,,,,23,1.0,23,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,23
+Sulemana,Atalanta,A,,,,,,,,,,23,1.0,23,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome ambiguo (4 candidati),23
+Amorim,Milan,A,,,,,,,,,,23,1.0,23,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nome completo,23
+Tijjani Noslin,Lazio,A,26,29,1148,4,2,4.32,2.39,6,1,23,0.962,22,True,match su cognome+squadra,0.93,"nome completo -- titolarita' 31%, minuti giocati 34% del possibile",20
+Thijs Dallinga,Bologna,A,24,23,811,2,2,3.89,0.72,2,0,24,0.932,22,True,match su cognome+squadra,0.928,"nome completo -- titolarita' 39%, minuti giocati 24% del possibile",20
+Patrick Cutrone,Monza,A,27,15,888,1,0,3.27,0.66,0,0,24,0.903,22,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome ambiguo (2 candidati),22
+Giovane,Napoli,A,21,12,338,0,1,0.56,0.2,0,0,25,0.873,22,True,match su cognome+squadra,0.889,"cognome + squadra -- titolarita' 17%, minuti giocati 10% del possibile",20
+Loïs Openda,Juventus,A,25,24,666,1,0,3.65,0.6,0,0,23,0.902,21,True,match su cognome+squadra,0.908,"nome completo -- titolarita' 25%, minuti giocati 20% del possibile",19
+Andrea Belotti,Cagliari,A,31,8,221,2,0,2.31,0.04,0,0,23,0.902,21,True,match su cognome+squadra,0.907,"nome completo -- titolarita' 38%, minuti giocati 6% del possibile",19
+Havel,Genoa,A,,,,,,,,,,21,1.0,21,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,21
+Sarri,Atalanta,A,,,,,,,,,,21,1.0,21,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,21
+Santiago Giménez,Milan,A,24,16,892,0,1,3.79,0.55,2,0,22,0.899,20,True,match su cognome+squadra,0.962,"nome completo -- titolarita' 69%, minuti giocati 26% del possibile",19
+Nesta Elphege,Parma,A,24,9,309,2,1,2.35,0.36,0,0,22,0.91,20,True,match su cognome+squadra,0.894,"nome completo -- titolarita' 22%, minuti giocati 9% del possibile",18
+Ekhator,Juventus,A,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),20
+Petagna,Monza,A,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,20
+Matteo Cancellieri,Lazio,A,23,30,1725,4,2,5.22,1.92,6,0,19,0.978,19,True,match su cognome+squadra,0.99,"nome completo -- titolarita' 70%, minuti giocati 50% del possibile",19
+Adam Buksa,Udinese,A,29,25,922,3,0,2.78,1,3,0,20,0.926,19,True,match su cognome+squadra,0.915,"nome completo -- titolarita' 24%, minuti giocati 27% del possibile",17
+Boulaye Dia,Lazio,A,28,27,1253,1,2,2.7,1.71,1,0,21,0.919,19,True,match su cognome+squadra,0.955,"nome completo -- titolarita' 52%, minuti giocati 37% del possibile",18
+Artem Dovbyk,Bologna,A,28,14,393,3,1,3.1,1.29,0,0,20,0.931,19,True,"match su cognome (squadra diversa, trasferimento presunto)",0.895,"nome completo -- titolarita' 21%, minuti giocati 12% del possibile",17
+Mota,Monza,A,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,19
+Gattuso,Lazio,A,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,19
+Grosso,Fiorentina,A,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,19
+M'Bala Nzola,Fiorentina,A,28,14,473,1,1,1.85,0.41,1,0,20,0.896,18,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome ambiguo (2 candidati),18
+Robinio Vaz,Roma,A,18,12,216,1,0,0.66,0,0,0,20,0.879,18,True,match su cognome+squadra,0.867,"nome completo -- titolarita' 0%, minuti giocati 6% del possibile",16
+Jayden Addai,Como,A,19,12,686,3,0,1.51,1.02,4,0,20,0.917,18,True,match su cognome+squadra,0.944,"nome completo -- titolarita' 58%, minuti giocati 20% del possibile",17
+Nicolas-Gerrit Kühn,Como,A,25,23,665,1,1,0.9,1.44,0,0,20,0.896,18,True,match su cognome+squadra,0.909,"nome completo -- titolarita' 26%, minuti giocati 19% del possibile",16
+Alieu Njie,Torino,A,20,15,299,1,1,1.21,0.16,2,0,20,0.889,18,True,match su cognome+squadra,0.884,"nome completo -- titolarita' 13%, minuti giocati 9% del possibile",16
+Adams,Venezia,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Kvernadze,Frosinone,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Romero,Parma,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Abate,Torino,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Aquilani,Sassuolo,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Tedesco,Bologna,A,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Petar Ratkov,Lazio,A,21,8,233,0,0,0.53,0.02,0,0,20,0.865,17,True,match su cognome+squadra,0.894,"nome completo -- titolarita' 25%, minuti giocati 7% del possibile",15
+Walid Cheddira,Napoli,A,27,16,221,1,0,0.78,0.09,1,0,19,0.88,17,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome + squadra,17
+N’dri,Lecce,A,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,17
+De Rossi,Genoa,A,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),17
+Runjaic,Udinese,A,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,17
+Cyril Ngonge,Napoli,A,25,20,994,1,1,2.76,0.56,2,0,18,0.907,16,True,"match su cognome (squadra diversa, trasferimento presunto)",0.951,"nome completo -- titolarita' 55%, minuti giocati 29% del possibile",15
+Álvaro Morata,Como,A,32,26,930,0,1,4.91,0.78,4,1,18,0.9,16,True,match su cognome+squadra,0.927,"nome completo -- titolarita' 35%, minuti giocati 27% del possibile",15
+Jacob Ondrejka,Parma,A,22,16,773,0,0,1.42,0.43,2,0,18,0.877,16,True,match su cognome+squadra,0.945,"nome completo -- titolarita' 56%, minuti giocati 23% del possibile",15
+Benjamín Domínguez,Sassuolo,A,21,15,547,0,3,0.65,0.26,1,0,18,0.89,16,True,"match su cognome (squadra diversa, trasferimento presunto)",0.92,"nome completo -- titolarita' 40%, minuti giocati 16% del possibile",15
+Zakaria Aboukhlal,Torino,A,25,15,511,0,0,0.41,0.6,4,0,18,0.869,16,True,match su cognome+squadra,0.919,"nome completo -- titolarita' 40%, minuti giocati 15% del possibile",15
+Geubbels,Lecce,A,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,16
+Nicolás González,Juventus,A,27,2,19,0,0,0.08,0.04,0,0,18,0.861,15,True,match su cognome+squadra,0.861,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",13
+Sandro Kulenović,Torino,A,25,13,300,0,1,0.85,0.34,2,0,17,0.875,15,True,match su cognome+squadra,0.894,"nome completo -- titolarita' 23%, minuti giocati 9% del possibile",13
+Cuesta,Parma,A,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Varela,Monza,A,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,14
+Pisacane,Cagliari,A,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,14
+Vakoun Bayo,Udinese,A,28,15,453,0,2,1.33,0.73,0,0,15,0.887,13,True,match su cognome+squadra,0.903,"nome completo -- titolarita' 27%, minuti giocati 13% del possibile",12
+Iker Bravo,Udinese,A,20,8,206,1,0,0.46,0.22,1,0,15,0.879,13,True,match su cognome+squadra,0.907,"nome completo -- titolarita' 38%, minuti giocati 6% del possibile",12
+Idrissa Guèye,Udinese,A,18,19,421,1,0,2.26,0.16,2,0,15,0.89,13,True,match su cognome+squadra,0.879,"nome completo -- titolarita' 5%, minuti giocati 12% del possibile",11
+Pontus Almqvist,Parma,A,26,13,457,0,1,0.34,1.82,0,0,15,0.878,13,True,match su cognome+squadra,0.908,"nome completo -- titolarita' 31%, minuti giocati 13% del possibile",12
+Álvarez,Sassuolo,A,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,13
+Touré,Parma,A,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),13
+Juric,Monza,A,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,13
+Baldé,Monza,A,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Casas,Venezia,A,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Stroppa,Venezia,A,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Diego Carlos,Cagliari,A,32,27,1949,1,0,1.67,0.05,8,0,12,0.901,11,True,"match su cognome (squadra diversa, trasferimento presunto)",1.005,"nome completo -- titolarita' 78%, minuti giocati 57% del possibile",11
+Camarda,Milan,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),10
+Fini,Frosinone,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),10
+Frigan,Parma,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Lisman,Venezia,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Rrahmani,Venezia,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Alvini,Frosinone,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Di Francesco,Lecce,A,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Arkadiusz Milik,Juventus,A,31,2,36,0,0,0.26,0,0,0,10,0.862,9,True,match su cognome+squadra,0.861,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",8
+Luca Moro,Sassuolo,A,24,14,211,0,0,0.83,0.26,1,0,10,0.867,9,True,match su cognome+squadra,0.874,"nome completo -- titolarita' 7%, minuti giocati 6% del possibile",8
+Fila,Venezia,A,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,9
+Karlsson,Bologna,A,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,9
+Robinson,Monza,A,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,9
+Mattia Felici,Cagliari,A,24,12,412,2,1,1.34,0.76,3,0,9,0.906,8,True,match su cognome+squadra,0.909,"nome completo -- titolarita' 33%, minuti giocati 12% del possibile",7
+Okoro,Venezia,A,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,7
+Lauberbach,Venezia,A,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,6
+Paul Mendy,Cagliari,A,18,9,335,2,0,2.39,0.26,1,0,5,0.904,5,True,match su cognome+squadra,0.906,"nome completo -- titolarita' 33%, minuti giocati 10% del possibile",5
+Yael Trepy,Cagliari,A,,8,91,1,0,0.6,0.15,0,0,4,0.878,4,True,match su cognome+squadra,0.863,"nome completo -- titolarita' 0%, minuti giocati 3% del possibile",3
+Agustín Albarracín,Cagliari,A,19,2,33,0,0,0,0,0,0,5,0.86,4,True,match su cognome+squadra,0.861,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",3
+Rui Modesto,Udinese,A,25,3,119,0,1,0.01,0.44,0,0,5,0.869,4,True,match su cognome+squadra,0.864,"nome completo -- titolarita' 0%, minuti giocati 4% del possibile",3
+Antonio Arena,Roma,A,16,2,23,0,0,0.18,0,0,0,3,0.861,3,True,match su cognome+squadra,0.861,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",3
+Diallo,Parma,A,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,3
+Forson,Monza,A,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,3
+Loubao,Monza,A,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,3
+Martins,Monza,A,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,3
+Barcella,Frosinone,A,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,2
+Burnete,Lecce,A,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,2
+Cichero,Frosinone,A,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,2
+Mattia Mosconi,Inter,A,18,2,27,0,0,0.17,0,0,0,1,0.861,1,True,match su cognome+squadra,0.861,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",1
+Matteo Lavelli,Inter,A,18,1,8,0,0,0,0,0,0,1,0.86,1,True,match su cognome+squadra,0.86,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+Giuseppe Ambrosino,Napoli,A,21,3,38,0,0,0,0,0,0,1,0.86,1,True,match su cognome+squadra,0.861,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",1
+Riccardo Braschi,Fiorentina,A,18,2,105,0,0,0.15,0,0,0,1,0.862,1,True,match su cognome+squadra,0.917,"nome completo -- titolarita' 50%, minuti giocati 3% del possibile",1
+Balentien,Milan,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Colley,Frosinone,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Gori,Frosinone,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Jovic,Lecce,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+LAERKE,Lecce,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+LONTANI,Parma,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Rao,Napoli,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Spinaccè,Inter,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Vigliotti,Napoli,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Vinciati,Udinese,A,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Nicolás Paz,Como,C,20,35,2878,12,6,8.9,7.03,5,0,59,1.339,79,True,match su cognome+squadra,1.07,"nome completo -- titolarita' 94%, minuti giocati 84% del possibile; 2.6 tackle+intercetti/90",84
+Scott McTominay,Napoli,C,28,33,2791,10,3,12.43,2.01,1,0,60,1.232,74,True,match su cognome+squadra,1.007,"nome completo -- titolarita' 94%, minuti giocati 82% del possibile; 1.2 tackle+intercetti/90",75
+Hakan Çalhanoğlu,Inter,C,31,22,1639,9,4,5.15,3.48,7,0,60,1.165,70,True,match su cognome+squadra,1.007,"nome completo -- titolarita' 91%, minuti giocati 48% del possibile; 2.0 tackle+intercetti/90",71
+Christian Pulisic,Milan,C,26,30,1609,8,4,9.54,5.04,0,0,57,1.192,68,True,match su cognome+squadra,0.925,"nome completo -- titolarita' 60%, minuti giocati 47% del possibile; 0.6 tackle+intercetti/90",63
+Nikola Vlašić,Torino,C,27,37,3043,8,3,7.41,4.68,7,0,52,1.195,62,True,match su cognome+squadra,1.044,"nome completo -- titolarita' 97%, minuti giocati 89% del possibile; 1.8 tackle+intercetti/90",65
+Riccardo Orsolini,Bologna,C,28,35,2111,10,1,10.89,1.71,2,0,53,1.164,62,True,match su cognome+squadra,0.963,"nome completo -- titolarita' 74%, minuti giocati 62% del possibile; 0.9 tackle+intercetti/90",60
+Nicolò Zaniolo,Udinese,C,26,32,2257,5,6,6.14,5.69,8,0,48,1.182,57,True,match su cognome+squadra,0.981,"nome completo -- titolarita' 88%, minuti giocati 66% del possibile; 1.0 tackle+intercetti/90",56
+Lucas Da Cunha,Como,C,24,36,2739,6,4,6.93,6.02,4,0,45,1.182,53,True,match su cognome+squadra,1.02,"nome completo -- titolarita' 86%, minuti giocati 80% del possibile; 1.7 tackle+intercetti/90",54
+Adrien Rabiot,Milan,C,30,29,2550,6,4,4.36,3.94,6,1,46,1.132,52,True,match su cognome+squadra,1.03,"nome completo -- titolarita' 97%, minuti giocati 75% del possibile; 1.8 tackle+intercetti/90",54
+Weston McKennie,Juventus,C,26,36,2835,5,5,8.64,5.39,5,0,42,1.193,50,True,match su cognome+squadra,1.021,"nome completo -- titolarita' 89%, minuti giocati 83% del possibile; 1.6 tackle+intercetti/90",51
+Nicolò Barella,Inter,C,28,34,2517,3,8,3.82,7.97,7,0,40,1.199,48,True,match su cognome+squadra,1.009,"nome completo -- titolarita' 91%, minuti giocati 74% del possibile; 1.4 tackle+intercetti/90",48
+Martin Baturina,Como,C,22,29,1569,6,3,1.9,6.7,0,0,44,1.102,48,True,match su cognome+squadra,0.941,"nome completo -- titolarita' 59%, minuti giocati 46% del possibile; 1.1 tackle+intercetti/90",45
+Lorenzo Pellegrini,Roma,C,29,24,1463,4,2,4.78,3,2,0,46,1.04,48,True,match su cognome+squadra,0.966,"nome completo -- titolarita' 83%, minuti giocati 43% del possibile; 1.2 tackle+intercetti/90",46
+Francisco Conceição,Juventus,C,22,31,2078,3,5,8.49,4.16,3,0,41,1.133,46,True,match su cognome+squadra,0.993,"nome completo -- titolarita' 87%, minuti giocati 61% del possibile; 1.4 tackle+intercetti/90",46
+Kevin De Bruyne,Napoli,C,34,18,1165,5,2,3.52,4.02,1,0,44,1.045,46,True,match su cognome+squadra,0.939,"nome completo -- titolarita' 72%, minuti giocati 34% del possibile; 1.0 tackle+intercetti/90",43
+Albert Guðmundsson,Fiorentina,C,28,33,2250,5,4,5.8,3.78,4,1,40,1.118,45,True,match su cognome+squadra,0.946,"nome completo -- titolarita' 82%, minuti giocati 66% del possibile; 0.3 tackle+intercetti/90",43
+Luka Modrić,Milan,C,39,34,2811,2,3,1.25,4.03,4,0,43,1.047,45,True,match su cognome+squadra,1.042,"nome completo -- titolarita' 94%, minuti giocati 82% del possibile; 2.0 tackle+intercetti/90",47
+Alisson Santos,Napoli,C,22,14,834,4,0,1.51,1.61,1,0,46,0.949,44,True,match su cognome+squadra,0.926,"nome completo -- titolarita' 64%, minuti giocati 24% del possibile; 1.1 tackle+intercetti/90",41
+Arthur Atta,Fiorentina,C,22,32,2557,5,3,4.23,3.25,3,0,39,1.101,43,True,"match su cognome (squadra diversa, trasferimento presunto)",1.008,"nome completo -- titolarita' 91%, minuti giocati 75% del possibile; 1.4 tackle+intercetti/90",43
+Piotr Zieliński,Inter,C,31,34,2045,6,3,2.1,4.24,3,0,39,1.096,43,True,match su cognome+squadra,0.961,"nome completo -- titolarita' 65%, minuti giocati 60% del possibile; 1.1 tackle+intercetti/90",41
+Kristian Thorstvedt,Sassuolo,C,26,32,2460,4,4,6.64,2.63,9,0,38,1.11,42,True,match su cognome+squadra,1.019,"nome completo -- titolarita' 84%, minuti giocati 72% del possibile; 1.9 tackle+intercetti/90",43
+Matteo Politano,Napoli,C,31,34,2200,2,5,3.13,5.6,4,0,38,1.094,42,True,match su cognome+squadra,0.954,"nome completo -- titolarita' 76%, minuti giocati 64% del possibile; 0.6 tackle+intercetti/90",40
+Manu Koné,Roma,C,24,29,2456,2,3,1.94,3.5,2,0,40,1.038,42,True,match su cognome+squadra,1.024,"nome completo -- titolarita' 97%, minuti giocati 72% del possibile; 1.7 tackle+intercetti/90",43
+Mattia Zaccagni,Lazio,C,30,26,2104,3,0,6.38,2.79,6,1,41,1.003,41,True,match su cognome+squadra,1.019,"nome completo -- titolarita' 100%, minuti giocati 62% del possibile; 1.8 tackle+intercetti/90",42
+Alexis Saelemaekers,Milan,C,26,35,2788,3,3,3.6,4.79,5,0,38,1.085,41,True,match su cognome+squadra,1.05,"nome completo -- titolarita' 94%, minuti giocati 82% del possibile; 2.2 tackle+intercetti/90",43
+Federico Bernardeschi,Bologna,C,31,29,1217,4,2,3.18,3.57,3,0,40,1.023,41,True,match su cognome+squadra,0.909,"nome completo -- titolarita' 41%, minuti giocati 36% del possibile; 0.9 tackle+intercetti/90",37
+Máximo Perrone,Como,C,22,36,2742,3,4,2.49,2.54,8,0,35,1.076,38,True,match su cognome+squadra,1.036,"nome completo -- titolarita' 92%, minuti giocati 80% del possibile; 1.9 tackle+intercetti/90",39
+Ederson,Atalanta,C,,,,,,,,,,38,1.0,38,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,38
+Maxence Caqueret,Como,C,25,30,1485,2,6,1.74,2.78,3,0,35,1.06,37,True,match su cognome+squadra,0.982,"nome completo -- titolarita' 57%, minuti giocati 43% del possibile; 2.2 tackle+intercetti/90",36
+Khéphren Thuram,Juventus,C,24,35,2442,3,3,4.06,2.65,2,0,35,1.063,37,True,match su cognome+squadra,1.01,"nome completo -- titolarita' 86%, minuti giocati 71% del possibile; 1.6 tackle+intercetti/90",37
+Nicolò Fagioli,Fiorentina,C,24,33,2554,2,3,1.9,5.22,5,0,33,1.054,35,True,match su cognome+squadra,1.022,"nome completo -- titolarita' 91%, minuti giocati 75% del possibile; 1.7 tackle+intercetti/90",36
+Rolando Mandragora,Fiorentina,C,28,34,2421,7,3,4.7,2.88,7,0,30,1.13,34,True,match su cognome+squadra,1.004,"nome completo -- titolarita' 88%, minuti giocati 71% del possibile; 1.4 tackle+intercetti/90",34
+Ismaël Koné,Sassuolo,C,23,35,2737,6,0,5.08,1.76,5,1,32,1.051,34,True,match su cognome+squadra,0.999,"nome completo -- titolarita' 94%, minuti giocati 80% del possibile; 1.0 tackle+intercetti/90",34
+Henrikh Mkhitaryan,Inter,C,36,30,1560,4,1,6.04,3.31,5,0,33,1.031,34,True,match su cognome+squadra,0.988,"nome completo -- titolarita' 53%, minuti giocati 46% del possibile; 2.4 tackle+intercetti/90",34
+Manuel Locatelli,Juventus,C,27,36,2994,1,2,2.42,3.83,9,0,33,1.024,34,True,match su cognome+squadra,1.1,"nome completo -- titolarita' 100%, minuti giocati 88% del possibile; 3.1 tackle+intercetti/90",37
+Kenneth Taylor,Lazio,C,23,17,1394,3,2,2.09,1.08,5,0,34,0.986,34,True,match su cognome+squadra,0.981,"nome completo -- titolarita' 100%, minuti giocati 41% del possibile; 1.3 tackle+intercetti/90",33
+Mastantuono,Fiorentina,C,,,,,,,,,,34,1.0,34,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,34
+Frank Anguissa,Napoli,C,29,18,1258,4,1,2.55,1.55,1,0,33,0.987,33,True,match su cognome+squadra,0.983,"nome completo -- titolarita' 78%, minuti giocati 37% del possibile; 1.9 tackle+intercetti/90",32
+Mario Pašalić,Atalanta,C,30,33,1936,3,4,3.45,6.25,3,0,29,1.09,32,True,match su cognome+squadra,0.969,"nome completo -- titolarita' 64%, minuti giocati 57% del possibile; 1.4 tackle+intercetti/90",31
+Bryan Cristante,Roma,C,30,37,3094,2,1,2.35,2.28,6,0,32,1.01,32,True,match su cognome+squadra,1.056,"nome completo -- titolarita' 97%, minuti giocati 90% del possibile; 2.1 tackle+intercetti/90",34
+Jurgen Ekkelenkamp,Udinese,C,25,31,2186,5,3,4.73,2.56,1,0,28,1.091,31,True,match su cognome+squadra,1.013,"nome completo -- titolarita' 87%, minuti giocati 64% del possibile; 1.9 tackle+intercetti/90",31
+Ruben Loftus-Cheek,Milan,C,29,28,1133,3,1,4.14,1.04,2,0,32,0.973,31,True,match su cognome+squadra,0.913,"nome completo -- titolarita' 43%, minuti giocati 33% del possibile; 1.0 tackle+intercetti/90",28
+Youssouf Fofana,Milan,C,26,33,2203,2,3,4.59,3.64,4,0,29,1.052,30,True,match su cognome+squadra,0.999,"nome completo -- titolarita' 85%, minuti giocati 64% del possibile; 1.6 tackle+intercetti/90",30
+Adrian Bernabe,Parma,C,24,32,2470,3,1,2.62,4.64,0,0,29,1.033,30,True,match su cognome+squadra,1.014,"nome completo -- titolarita' 97%, minuti giocati 72% del possibile; 1.5 tackle+intercetti/90",30
+Cesare Casadei,Torino,C,22,33,1997,6,0,4.65,1.81,5,0,28,1.032,29,True,match su cognome+squadra,0.953,"nome completo -- titolarita' 58%, minuti giocati 58% del possibile; 1.1 tackle+intercetti/90",28
+Petar Sučić,Inter,C,21,34,1765,2,2,2.18,4.04,5,0,28,1.005,28,True,match su cognome+squadra,0.974,"nome completo -- titolarita' 62%, minuti giocati 52% del possibile; 1.7 tackle+intercetti/90",27
+Niccolò Pisilli,Roma,C,20,25,1295,2,4,2.27,2.22,3,0,28,1.015,28,True,match su cognome+squadra,0.985,"nome completo -- titolarita' 52%, minuti giocati 38% del possibile; 2.6 tackle+intercetti/90",28
+Nicola Zalewski,Atalanta,C,23,33,1897,2,4,3.14,5.14,3,0,24,1.064,26,True,match su cognome+squadra,0.987,"nome completo -- titolarita' 73%, minuti giocati 56% del possibile; 1.7 tackle+intercetti/90",26
+Marten de Roon,Atalanta,C,34,34,2691,1,2,0.82,1.59,8,1,27,0.977,26,True,match su cognome+squadra,1.054,"nome completo -- titolarita' 94%, minuti giocati 79% del possibile; 2.3 tackle+intercetti/90",27
+Lazar Samardzic,Atalanta,C,23,26,1030,2,1,2.78,2.38,1,0,27,0.957,26,True,match su cognome+squadra,0.931,"nome completo -- titolarita' 42%, minuti giocati 30% del possibile; 1.6 tackle+intercetti/90",24
+Cristian Volpato,Sassuolo,C,21,24,1064,2,4,1.75,2.9,4,0,25,1.01,25,True,match su cognome+squadra,0.93,"nome completo -- titolarita' 46%, minuti giocati 31% del possibile; 1.4 tackle+intercetti/90",23
+Jens Odgaard,Bologna,C,26,26,1378,5,1,2.73,0.94,1,0,25,1.003,25,True,match su cognome+squadra,0.937,"nome completo -- titolarita' 62%, minuti giocati 40% del possibile; 1.0 tackle+intercetti/90",23
+Stanislav Lobotka,Napoli,C,30,32,2431,1,1,0.41,1.06,3,0,26,0.954,25,True,match su cognome+squadra,0.996,"nome completo -- titolarita' 91%, minuti giocati 71% del possibile; 1.2 tackle+intercetti/90",25
+Messias,Genoa,C,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,25
+Pierotti,Lecce,C,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,25
+Samuel Chukwueze,Milan,C,26,1,26,0,0,0,0,0,0,28,0.841,24,True,match su cognome+squadra,0.881,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",21
+Samuele Ricci,Milan,C,23,31,1312,1,4,2.11,2.78,3,0,24,1.001,24,True,match su cognome+squadra,0.919,"nome completo -- titolarita' 35%, minuti giocati 38% del possibile; 1.2 tackle+intercetti/90",22
+Luis Henrique,Inter,C,23,30,1624,1,2,1.15,2.19,1,0,25,0.964,24,True,match su cognome+squadra,0.951,"nome completo -- titolarita' 60%, minuti giocati 48% del possibile; 1.3 tackle+intercetti/90",23
+Danilo Cataldi,Lazio,C,30,27,1985,3,3,2.71,2.05,6,0,22,1.034,23,True,match su cognome+squadra,1.013,"nome completo -- titolarita' 89%, minuti giocati 58% del possibile; 1.9 tackle+intercetti/90",23
+Neil El Aynaoui,Roma,C,24,25,999,1,2,0.96,1.77,5,0,24,0.938,23,True,match su cognome+squadra,0.956,"nome completo -- titolarita' 32%, minuti giocati 29% del possibile; 2.5 tackle+intercetti/90",22
+Nemanja Matić,Sassuolo,C,36,34,2660,1,1,0.33,0.92,7,1,24,0.948,23,True,match su cognome+squadra,1.03,"nome completo -- titolarita' 91%, minuti giocati 78% del possibile; 1.9 tackle+intercetti/90",24
+Teun Koopmeiners,Juventus,C,27,33,1827,0,0,1.79,0.73,5,0,25,0.906,23,True,match su cognome+squadra,0.961,"nome completo -- titolarita' 55%, minuti giocati 53% del possibile; 1.5 tackle+intercetti/90",22
+Jesper Karlström,Udinese,C,30,36,3146,1,0,0.94,0.9,6,0,23,0.956,22,True,match su cognome+squadra,1.058,"nome completo -- titolarita' 100%, minuti giocati 92% del possibile; 2.0 tackle+intercetti/90",23
+Gvidas Gineitis,Torino,C,21,29,1756,0,1,0.94,2.68,5,0,23,0.937,22,True,match su cognome+squadra,1.025,"nome completo -- titolarita' 79%, minuti giocati 51% del possibile; 2.6 tackle+intercetti/90",23
+Berisha,Lecce,C,,,,,,,,,,22,1.0,22,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,22
+Calò,Frosinone,C,,,,,,,,,,22,1.0,22,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,22
+Luiz,Juventus,C,,,,,,,,,,22,1.0,22,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,22
+Michael Folorunsho,Napoli,C,27,27,1999,2,0,2.95,0.94,3,0,22,0.955,21,True,"match su cognome (squadra diversa, trasferimento presunto)",0.971,"nome completo -- titolarita' 89%, minuti giocati 58% del possibile; 0.9 tackle+intercetti/90",20
+Evan Ferguson,Bologna,C,20,16,773,3,2,3.48,1.69,1,0,20,0.985,20,True,"match su cognome (squadra diversa, trasferimento presunto)",0.904,"nome completo -- titolarita' 62%, minuti giocati 23% del possibile; 0.6 tackle+intercetti/90",18
+Gianluca Gaetano,Atalanta,C,25,33,1912,2,4,2,2.21,4,0,19,1.031,20,True,"match su cognome (squadra diversa, trasferimento presunto)",0.982,"nome completo -- titolarita' 64%, minuti giocati 56% del possibile; 1.8 tackle+intercetti/90",20
+Antonio Vergara,Napoli,C,22,12,612,1,2,0.71,0.84,2,0,22,0.922,20,True,match su cognome+squadra,0.955,"nome completo -- titolarita' 67%, minuti giocati 18% del possibile; 1.9 tackle+intercetti/90",19
+Frendrup,Genoa,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,20
+Gandelman,Lecce,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,20
+Milla,Como,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,20
+Oulai,Fiorentina,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,20
+Pessina,Monza,C,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,20
+Alieu Fadera,Como,C,23,28,987,2,1,2.36,0.88,5,0,20,0.937,19,True,"match su cognome (squadra diversa, trasferimento presunto)",0.953,"nome completo -- titolarita' 29%, minuti giocati 29% del possibile; 2.5 tackle+intercetti/90",18
+Daniel Maldini,Cagliari,C,23,12,687,2,1,2.15,0.56,0,0,20,0.93,19,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome ambiguo (2 candidati),19
+Tommaso Pobega,Bologna,C,26,26,1434,3,1,1.84,0.55,2,1,20,0.954,19,True,match su cognome+squadra,0.994,"nome completo -- titolarita' 65%, minuti giocati 42% del possibile; 2.4 tackle+intercetti/90",19
+Jakub Piotrowski,Udinese,C,27,33,1696,1,1,3.21,0.78,2,0,20,0.95,19,True,match su cognome+squadra,0.987,"nome completo -- titolarita' 61%, minuti giocati 50% del possibile; 2.1 tackle+intercetti/90",19
+Mandela Keita,Parma,C,23,37,2979,1,1,0.48,0.28,1,0,20,0.965,19,True,match su cognome+squadra,1.082,"nome completo -- titolarita' 97%, minuti giocati 87% del possibile; 2.7 tackle+intercetti/90",21
+Marco Brescianini,Fiorentina,C,25,17,862,1,1,2.15,1.14,1,0,21,0.923,19,True,match su cognome+squadra,0.893,"cognome + squadra -- titolarita' 59%, minuti giocati 25% del possibile; 0.3 tackle+intercetti/90",17
+Giovanni Fabbian,Fiorentina,C,22,14,705,2,0,1.95,0.95,0,0,21,0.912,19,True,"match su cognome (squadra diversa, trasferimento presunto)",0.865,"cognome + squadra -- titolarita' 27%, minuti giocati 14% del possibile; 0.6 tackle+intercetti/90",16
+Schmid,Frosinone,C,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,19
+Tommaso Baldanzi,Genoa,C,22,10,386,1,0,1.35,0.41,2,0,20,0.877,18,True,"match su cognome (squadra diversa, trasferimento presunto)",0.95,"cognome + squadra -- titolarita' 62%, minuti giocati 12% del possibile; 2.0 tackle+intercetti/90",17
+Michel Ndary Adopo,Cagliari,C,25,38,3050,1,2,2.53,2.44,4,0,18,1.014,18,True,match su cognome+squadra,1.037,"nome completo -- titolarita' 87%, minuti giocati 89% del possibile; 1.9 tackle+intercetti/90",19
+Toma Bašić,Venezia,C,28,23,1735,2,3,1.31,2.41,0,1,18,0.999,18,True,"match su cognome (squadra diversa, trasferimento presunto)",0.99,"nome completo -- titolarita' 100%, minuti giocati 51% del possibile; 1.3 tackle+intercetti/90",18
+Nikola Moro,Bologna,C,27,30,1799,2,0,0.93,2.05,1,0,19,0.944,18,True,match su cognome+squadra,0.961,"nome completo -- titolarita' 63%, minuti giocati 53% del possibile; 1.4 tackle+intercetti/90",17
+Fabio Miretti,Juventus,C,21,23,617,1,2,1.63,1.25,1,0,19,0.93,18,True,match su cognome+squadra,0.912,"nome completo -- titolarita' 22%, minuti giocati 18% del possibile; 1.9 tackle+intercetti/90",16
+Lewis Ferguson,Bologna,C,25,27,1601,1,0,0.65,1.57,7,1,20,0.906,18,True,match su cognome+squadra,0.965,"nome completo -- titolarita' 63%, minuti giocati 47% del possibile; 1.6 tackle+intercetti/90",17
+Davide Frattesi,Lazio,C,25,22,569,0,0,2.29,0.6,0,0,21,0.874,18,True,"match su cognome (squadra diversa, trasferimento presunto)",0.893,"nome completo -- titolarita' 14%, minuti giocati 17% del possibile; 1.6 tackle+intercetti/90",16
+Giovanni Fabbian,Fiorentina,C,22,15,468,0,0,0.72,0.7,2,0,21,0.862,18,True,match su cognome+squadra,0.92,"cognome unico (probabile trasferimento) -- titolarita' 57%, minuti giocati 21% del possibile; 1.2 tackle+intercetti/90",17
+Edon Zhegrova,Juventus,C,26,19,382,0,0,0.76,1.03,1,0,21,0.861,18,True,match su cognome+squadra,0.85,"nome completo -- titolarita' 0%, minuti giocati 11% del possibile; 0.7 tackle+intercetti/90",15
+Marco Brescianini,Fiorentina,C,25,9,182,1,0,0.2,0.1,1,0,21,0.861,18,True,"match su cognome (squadra diversa, trasferimento presunto)",0.885,"cognome unico (probabile trasferimento) -- titolarita' 0%, minuti giocati 5% del possibile",16
+Liberali,Como,C,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Sow,Genoa,C,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Stankovic,Inter,C,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Daniel Maldini,Cagliari,C,23,9,264,0,0,0.66,0.62,1,0,20,0.857,17,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome ambiguo (2 candidati),17
+Ellertsson,Genoa,C,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,17
+Gomez,Udinese,C,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,17
+Perez,Venezia,C,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),17
+Sorensen,Parma,C,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,17
+Cher Ndour,Fiorentina,C,21,33,1876,3,0,2.61,0.35,2,0,17,0.959,16,True,match su cognome+squadra,0.968,"nome completo -- titolarita' 61%, minuti giocati 55% del possibile; 1.5 tackle+intercetti/90",15
+Hans Nicolussi Caviglia,Parma,C,25,15,869,0,3,0.73,0.82,0,0,17,0.933,16,True,match su cognome+squadra,0.932,"cognome + squadra -- titolarita' 67%, minuti giocati 25% del possibile; 1.1 tackle+intercetti/90",15
+Emirhan İlkhan,Torino,C,21,19,1001,1,2,2.36,1.22,2,1,17,0.939,16,True,match su cognome+squadra,1.004,"nome completo -- titolarita' 68%, minuti giocati 29% del possibile; 2.9 tackle+intercetti/90",16
+Matteo Prati,Cagliari,C,21,20,1268,1,0,1.2,1.44,4,0,18,0.91,16,True,match su cognome+squadra,0.98,"cognome + squadra -- titolarita' 75%, minuti giocati 37% del possibile; 1.9 tackle+intercetti/90",16
+Andy Diouf,Inter,C,22,19,493,1,0,0.94,1.75,1,0,18,0.889,16,True,match su cognome+squadra,0.886,"nome completo -- titolarita' 21%, minuti giocati 14% del possibile; 1.3 tackle+intercetti/90",14
+Matteo Prati,Cagliari,C,21,13,614,0,1,0.47,0.26,2,0,18,0.881,16,True,"match su cognome (squadra diversa, trasferimento presunto)",0.915,"cognome unico (probabile trasferimento) -- titolarita' 54%, minuti giocati 18% del possibile; 1.2 tackle+intercetti/90",15
+Jacopo Fazzini,Cagliari,C,22,20,584,0,0,0.88,0.72,2,0,18,0.866,16,True,"match su cognome (squadra diversa, trasferimento presunto)",0.93,"nome completo -- titolarita' 25%, minuti giocati 17% del possibile; 2.3 tackle+intercetti/90",15
+Colpani,Monza,C,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,16
+Koutsoupias,Frosinone,C,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,16
+Masini,Frosinone,C,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),16
+Fisayo Dele-Bashiru,Lazio,C,24,24,1187,1,0,0.59,1.12,0,0,17,0.901,15,True,match su cognome+squadra,0.933,"nome completo -- titolarita' 46%, minuti giocati 35% del possibile; 1.4 tackle+intercetti/90",14
+Simon Sohm,Venezia,C,24,16,708,0,1,0.18,1.74,2,0,17,0.894,15,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome ambiguo (2 candidati),15
+Hans Nicolussi Caviglia,Parma,C,25,11,585,0,1,0.12,0.92,4,0,17,0.882,15,True,"match su cognome (squadra diversa, trasferimento presunto)",0.937,"cognome unico (probabile trasferimento) -- titolarita' 64%, minuti giocati 17% del possibile; 1.5 tackle+intercetti/90",14
+Simon Sohm,Venezia,C,24,12,717,0,0,0.61,0.3,1,0,17,0.867,15,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome ambiguo (2 candidati),15
+Busio,Venezia,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Cichella,Frosinone,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Hainaut,Venezia,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Lindstrom,Napoli,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Payero,Udinese,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),15
+Traorè,Genoa,C,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Gaetano Oristanio,Torino,C,22,20,859,1,0,2.4,0.6,1,0,16,0.899,14,True,"match su cognome (squadra diversa, trasferimento presunto)",0.897,"nome completo -- titolarita' 40%, minuti giocati 25% del possibile; 0.8 tackle+intercetti/90",13
+Luca Lipani,Sassuolo,C,20,24,1034,0,1,0.92,1.11,3,0,16,0.901,14,True,match su cognome+squadra,0.976,"nome completo -- titolarita' 42%, minuti giocati 30% del possibile; 2.8 tackle+intercetti/90",14
+Lorenzo Venturino,Genoa,C,19,10,207,0,0,0.29,0.44,0,0,16,0.85,14,True,"match su cognome (squadra diversa, trasferimento presunto)",0.881,"cognome + squadra -- titolarita' 0%, minuti giocati 1% del possibile",12
+Woyo Coulibaly,Lecce,C,26,20,1054,0,0,0.11,0.3,2,0,16,0.87,14,True,"match su cognome (squadra diversa, trasferimento presunto)",0.952,"nome completo -- titolarita' 45%, minuti giocati 31% del possibile; 2.1 tackle+intercetti/90",13
+Grillitsch,Frosinone,C,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,14
+Sottil,Fiorentina,C,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),14
+Luca Mazzitelli,Como,C,29,18,767,2,2,0.71,1.07,3,0,14,0.944,13,True,"match su cognome (squadra diversa, trasferimento presunto)",0.965,"nome completo -- titolarita' 50%, minuti giocati 22% del possibile; 2.5 tackle+intercetti/90",13
+Lennon Miller,Udinese,C,18,24,996,0,2,0.31,1.35,4,0,14,0.916,13,True,match su cognome+squadra,0.937,"nome completo -- titolarita' 38%, minuti giocati 29% del possibile; 1.9 tackle+intercetti/90",12
+Ardon Jashari,Milan,C,23,14,701,0,1,0.24,1.13,0,0,15,0.889,13,True,match su cognome+squadra,0.947,"nome completo -- titolarita' 50%, minuti giocati 20% del possibile; 2.1 tackle+intercetti/90",12
+Reda Belahyane,Lazio,C,21,13,609,0,2,0.21,1.13,1,1,14,0.895,13,True,match su cognome+squadra,0.918,"nome completo -- titolarita' 38%, minuti giocati 18% del possibile; 1.6 tackle+intercetti/90",12
+Nicolò Rovella,Lazio,C,23,11,512,0,1,0.02,1.47,2,1,15,0.876,13,True,match su cognome+squadra,0.995,"nome completo -- titolarita' 55%, minuti giocati 15% del possibile; 3.3 tackle+intercetti/90",13
+Edoardo Iannoni,Sassuolo,C,24,15,260,1,0,0.76,0,3,0,15,0.866,13,True,match su cognome+squadra,0.893,"nome completo -- titolarita' 7%, minuti giocati 8% del possibile",12
+Chakvetadze,Udinese,C,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,13
+Sulemana,Atalanta,C,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome ambiguo (4 candidati),13
+Winks,Cagliari,C,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,13
+Kristjan Asllani,Inter,C,23,15,1129,0,0,1.16,1.13,3,0,13,0.888,12,True,"match su cognome (squadra diversa, trasferimento presunto)",0.994,"nome completo -- titolarita' 87%, minuti giocati 33% del possibile; 2.1 tackle+intercetti/90",12
+Christian Ordoñez,Parma,C,21,28,1091,1,0,0.45,0.27,5,1,14,0.881,12,True,match su cognome+squadra,0.942,"nome completo -- titolarita' 43%, minuti giocati 32% del possibile; 1.8 tackle+intercetti/90",11
+Ivan Ilić,Torino,C,24,8,416,0,0,0,0.72,2,0,14,0.857,12,True,match su cognome+squadra,0.956,"nome completo -- titolarita' 62%, minuti giocati 12% del possibile; 2.2 tackle+intercetti/90",11
+Bondo,Milan,C,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),12
+Meichtry,Genoa,C,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Alessandro Deiola,Cagliari,C,29,20,1430,0,2,2.23,0.6,3,0,12,0.938,11,True,match su cognome+squadra,1.0,"nome completo -- titolarita' 85%, minuti giocati 42% del possibile; 2.1 tackle+intercetti/90",11
+Yunus Musah,Milan,C,22,19,574,1,0,0.75,0.11,1,0,13,0.876,11,True,"match su cognome (squadra diversa, trasferimento presunto)",0.975,"cognome + squadra -- titolarita' 100%, minuti giocati 3% del possibile",11
+Yunus Musah,Milan,C,22,1,90,0,0,0,0.63,0,0,13,0.848,11,True,match su cognome+squadra,0.899,"cognome unico (probabile trasferimento) -- titolarita' 21%, minuti giocati 17% del possibile; 1.6 tackle+intercetti/90",10
+Oier Zarraga,Udinese,C,26,24,475,0,0,0.6,0.13,2,0,13,0.855,11,True,match su cognome+squadra,0.917,"nome completo -- titolarita' 8%, minuti giocati 14% del possibile; 2.5 tackle+intercetti/90",10
+Amondarain,Bologna,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Amorim,Genoa,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Ciurria,Monza,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Colombo,Monza,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Fitz-Jim,Torino,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Zerbin,Frosinone,C,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),11
+Bennacer,Milan,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Duncan,Venezia,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Gelli,Frosinone,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Helgason,Venezia,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),10
+Sala,Lecce,C,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,10
+Vasilije Adžić,Sassuolo,C,19,10,171,1,0,0.23,0.18,0,0,10,0.863,9,True,"match su cognome (squadra diversa, trasferimento presunto)",0.894,"nome completo -- titolarita' 10%, minuti giocati 5% del possibile",8
+Sandi Lovrić,Udinese,C,27,6,161,0,1,0.13,1.17,1,0,10,0.873,9,True,match su cognome+squadra,0.9,"cognome + squadra -- titolarita' 17%, minuti giocati 5% del possibile",8
+Faustino Anjorin,Torino,C,23,15,289,0,0,0.6,0.12,1,0,11,0.851,9,True,match su cognome+squadra,0.957,"nome completo -- titolarita' 7%, minuti giocati 8% del possibile; 3.8 tackle+intercetti/90",9
+Compagnon,Venezia,C,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,9
+Kone,Frosinone,C,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,9
+Maleh,Lecce,C,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,9
+Billy Gilmour,Napoli,C,24,17,805,1,0,0.57,0.48,1,0,9,0.885,8,True,match su cognome+squadra,0.95,"nome completo -- titolarita' 47%, minuti giocati 24% del possibile; 2.1 tackle+intercetti/90",8
+Darryl Bakola,Sassuolo,C,17,6,128,0,1,0.13,0.47,0,0,9,0.867,8,True,match su cognome+squadra,0.899,"nome completo -- titolarita' 17%, minuti giocati 4% del possibile",7
+Ben Cremaschi,Parma,C,20,8,132,0,0,0.02,0.01,0,0,10,0.844,8,True,match su cognome+squadra,0.907,"nome completo -- titolarita' 25%, minuti giocati 4% del possibile",7
+Cajuste,Napoli,C,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+El Azzouzi,Bologna,C,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Ngom,Lecce,C,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,8
+Pafundi,Udinese,C,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Akinsanmiro,Monza,C,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),7
+Adrian Przyborek,Lazio,C,18,1,9,0,0,0.02,0,0,0,7,0.84,6,True,match su cognome+squadra,0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",5
+Daniel Boloca,Sassuolo,C,26,2,135,0,0,0.1,0.04,0,0,7,0.845,6,True,match su cognome+squadra,0.976,"nome completo -- titolarita' 100%, minuti giocati 4% del possibile",6
+Bohinen,Venezia,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,6
+Dagasso,Venezia,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,6
+Foe-Ondoa,Monza,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,6
+Grosso,Frosinone,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,6
+Kaba,Lecce,C,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,6
+Alessandro Romano,Cagliari,C,19,2,8,0,0,0,0,0,0,6,0.84,5,True,"match su cognome (squadra diversa, trasferimento presunto)",0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",4
+Bjarkason,Venezia,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,5
+Carboni,Inter,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),5
+Galazzi,Monza,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,5
+Hasa,Frosinone,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),5
+Lafont,Genoa,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,5
+Nuamah,Sassuolo,C,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,5
+Akarakiri,Cagliari,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,4
+Fofana,Lecce,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,4
+Lella,Venezia,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,4
+Massolin,Inter,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,4
+Wiafe,Genoa,C,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,4
+Joseph Liteta,Cagliari,C,19,4,264,0,0,0,0,0,0,4,0.848,3,True,match su cognome+squadra,0.979,"nome completo -- titolarita' 100%, minuti giocati 8% del possibile",3
+Zeroli,Milan,C,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,3
+Cissè,Milan,C,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,2
+Farji,Venezia,C,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,2
+Lahdo,Como,C,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,2
+Marchwinski,Lecce,C,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,2
+Luka Topalović,Inter,C,19,1,10,0,1,0,0.16,0,0,1,0.86,1,True,match su cognome+squadra,0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+Abdoulaye Camara,Udinese,C,16,1,12,0,0,0,0.04,0,0,1,0.841,1,True,match su cognome+squadra,0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+Ballabio,Monza,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Berardi,Venezia,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Berenbruch,Inter,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Cacciamani,Torino,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Carbone,Genoa,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Gorter,Lecce,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Kamate,Inter,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Kouda,Parma,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Kovac,Lecce,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Luongo,Torino,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Saco,Napoli,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Terrnava,Parma,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Toci,Frosinone,C,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Federico Dimarco,Inter,D,27,35,2698,7,16,7.29,15.93,3,0,43,1.35,58,True,match su cognome+squadra,1.034,"nome completo -- titolarita' 86%, minuti giocati 79% del possibile; 2.0 tackle+intercetti/90",60
+Wesley,Roma,D,21,30,2448,5,0,2.48,5.35,7,2,36,1.18,42,True,match su cognome+squadra,1.049,"nome completo -- titolarita' 93%, minuti giocati 72% del possibile; 2.3 tackle+intercetti/90",44
+Gianluca Mancini,Roma,D,29,36,3059,4,2,2.39,2.72,9,0,33,1.264,42,True,match su cognome+squadra,1.066,"nome completo -- titolarita' 100%, minuti giocati 89% del possibile; 2.2 tackle+intercetti/90",45
+Strahinja Pavlović,Milan,D,24,34,2869,5,1,3.91,0.72,4,0,33,1.27,42,True,match su cognome+squadra,1.018,"nome completo -- titolarita' 97%, minuti giocati 84% del possibile; 1.4 tackle+intercetti/90",43
+Gleison Bremer,Juventus,D,28,26,2171,4,3,2.71,0.41,5,0,34,1.175,40,True,match su cognome+squadra,1.018,"nome completo -- titolarita' 96%, minuti giocati 64% del possibile; 1.8 tackle+intercetti/90",41
+Davide Zappacosta,Atalanta,D,33,35,2569,3,3,3.23,4.51,3,0,32,1.224,39,True,match su cognome+squadra,0.983,"nome completo -- titolarita' 86%, minuti giocati 75% del possibile; 1.1 tackle+intercetti/90",38
+Pierre Kalulu,Juventus,D,25,37,3281,2,4,1.45,5.54,4,1,31,1.242,39,True,match su cognome+squadra,1.04,"nome completo -- titolarita' 100%, minuti giocati 96% del possibile; 1.6 tackle+intercetti/90",41
+Alessandro Bastoni,Inter,D,26,28,2239,1,4,1.69,3.2,6,0,35,1.108,39,True,match su cognome+squadra,1.054,"nome completo -- titolarita' 100%, minuti giocati 66% del possibile; 2.4 tackle+intercetti/90",41
+Andrea Cambiaso,Juventus,D,25,36,2769,3,4,2.9,6.85,3,1,29,1.261,37,True,match su cognome+squadra,1.04,"nome completo -- titolarita' 97%, minuti giocati 81% del possibile; 1.9 tackle+intercetti/90",38
+Oumar Solet,Udinese,D,25,35,2959,3,1,2.9,2.3,1,0,30,1.212,36,True,match su cognome+squadra,1.11,"nome completo -- titolarita' 97%, minuti giocati 86% del possibile; 3.2 tackle+intercetti/90",40
+Manuel Akanji,Inter,D,30,33,2821,2,0,2.3,0.33,4,0,32,1.118,36,True,match su cognome+squadra,1.04,"nome completo -- titolarita' 94%, minuti giocati 82% del possibile; 1.9 tackle+intercetti/90",37
+Giovanni Di Lorenzo,Napoli,D,31,26,2276,2,1,1.95,3,1,0,32,1.096,35,True,match su cognome+squadra,1.002,"nome completo -- titolarita' 100%, minuti giocati 66% del possibile; 1.4 tackle+intercetti/90",35
+Evan N'Dicka,Roma,D,25,31,2680,3,0,2.39,0.56,5,0,30,1.143,34,True,match su cognome+squadra,1.047,"cognome + squadra -- titolarita' 100%, minuti giocati 78% del possibile; 2.0 tackle+intercetti/90",36
+Dodô,Fiorentina,D,26,36,3134,1,2,1.38,5.39,7,0,28,1.176,33,True,match su cognome+squadra,1.026,"nome completo -- titolarita' 100%, minuti giocati 92% del possibile; 1.4 tackle+intercetti/90",34
+Marc-Oliver Kempf,Como,D,30,34,2326,4,1,3.28,1.1,3,0,27,1.173,32,True,match su cognome+squadra,0.964,"nome completo -- titolarita' 79%, minuti giocati 68% del possibile; 1.0 tackle+intercetti/90",31
+Leonardo Spinazzola,Napoli,D,32,32,1901,3,3,1.21,2.61,2,0,27,1.109,30,True,match su cognome+squadra,0.928,"nome completo -- titolarita' 69%, minuti giocati 56% del possibile; 0.7 tackle+intercetti/90",28
+Jacobo Ramón,Como,D,20,32,2742,2,0,5.47,1.03,11,1,26,1.135,30,True,match su cognome+squadra,1.056,"nome completo -- titolarita' 94%, minuti giocati 80% del possibile; 2.3 tackle+intercetti/90",32
+Yann Aurel Bisseck,Inter,D,24,23,1922,3,1,2.83,0.65,2,0,28,1.084,30,True,match su cognome+squadra,1.012,"nome completo -- titolarita' 91%, minuti giocati 56% del possibile; 1.9 tackle+intercetti/90",30
+Stones,Inter,D,,,,,,,,,,30,1.0,30,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,30
+Giorgio Scalvini,Atalanta,D,21,24,1808,3,1,3.86,1.58,2,0,26,1.102,29,True,match su cognome+squadra,1.07,"nome completo -- titolarita' 96%, minuti giocati 53% del possibile; 3.0 tackle+intercetti/90",31
+Molina,Roma,D,,,,,,,,,,29,1.0,29,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,29
+Mario Hermoso,Roma,D,30,27,2085,3,2,2.19,0.86,9,0,25,1.11,28,True,match su cognome+squadra,1.03,"nome completo -- titolarita' 93%, minuti giocati 61% del possibile; 2.2 tackle+intercetti/90",29
+Álex Valle,Como,D,21,28,2026,1,4,0.89,1.48,3,0,26,1.058,28,True,match su cognome+squadra,1.033,"nome completo -- titolarita' 82%, minuti giocati 59% del possibile; 2.4 tackle+intercetti/90",29
+Lloyd Kelly,Juventus,D,26,35,2996,1,1,0.97,1.06,4,0,24,1.106,27,True,match su cognome+squadra,1.017,"nome completo -- titolarita' 94%, minuti giocati 88% del possibile; 1.4 tackle+intercetti/90",27
+Robin Gosens,Fiorentina,D,31,26,1881,3,1,2.4,0.96,2,0,25,1.084,27,True,match su cognome+squadra,1.014,"nome completo -- titolarita' 92%, minuti giocati 55% del possibile; 2.0 tackle+intercetti/90",27
+Spence,Inter,D,,,,,,,,,,27,1.0,27,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,27
+Juan Miranda,Bologna,D,25,32,2573,1,3,0.52,4.5,6,0,23,1.113,26,True,match su cognome+squadra,1.045,"nome completo -- titolarita' 91%, minuti giocati 75% del possibile; 2.2 tackle+intercetti/90",27
+Amir Rrahmani,Napoli,D,31,21,1795,2,1,1.35,0.24,2,0,25,1.017,25,True,match su cognome+squadra,1.006,"nome completo -- titolarita' 100%, minuti giocati 52% del possibile; 1.7 tackle+intercetti/90",25
+Chalobah,Como,D,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,25
+Marcus Pedersen,Torino,D,25,29,2134,1,2,1.62,2.89,3,0,23,1.054,24,True,match su cognome+squadra,0.961,"nome completo -- titolarita' 79%, minuti giocati 62% del possibile; 1.0 tackle+intercetti/90",23
+Carlos Augusto,Inter,D,26,34,1763,1,1,1.96,1.14,6,0,24,0.985,24,True,match su cognome+squadra,0.981,"nome completo -- titolarita' 53%, minuti giocati 52% del possibile; 2.1 tackle+intercetti/90",24
+Isak Hien,Atalanta,D,26,28,1970,1,0,1.08,0.11,5,0,25,0.971,24,True,match su cognome+squadra,1.043,"nome completo -- titolarita' 71%, minuti giocati 58% del possibile; 2.9 tackle+intercetti/90",25
+Ostigard,Genoa,D,,,,,,,,,,23,1.0,23,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,23
+Davide Bartesaghi,Milan,D,19,31,2441,2,0,1.37,3.91,3,0,20,1.092,22,True,match su cognome+squadra,1.018,"nome completo -- titolarita' 87%, minuti giocati 71% del possibile; 1.8 tackle+intercetti/90",22
+Raoul Bellanova,Atalanta,D,25,24,1377,0,1,0.5,1.94,2,0,24,0.902,22,True,match su cognome+squadra,0.938,"nome completo -- titolarita' 62%, minuti giocati 40% del possibile; 1.2 tackle+intercetti/90",21
+Tarik Muharemovic,Sassuolo,D,22,32,2835,2,2,2.83,0.93,7,0,19,1.165,22,True,match su cognome+squadra,1.059,"nome completo -- titolarita' 100%, minuti giocati 83% del possibile; 2.2 tackle+intercetti/90",23
+Adam Marušić,Lazio,D,32,33,2778,1,2,1.74,1.54,1,1,20,1.101,22,True,match su cognome+squadra,1.023,"nome completo -- titolarita' 97%, minuti giocati 81% del possibile; 1.6 tackle+intercetti/90",23
+Alessandro Buongiorno,Napoli,D,26,33,2521,0,1,1.64,0.35,3,0,21,1.028,22,True,match su cognome+squadra,1.037,"nome completo -- titolarita' 85%, minuti giocati 74% del possibile; 2.2 tackle+intercetti/90",23
+Mario Gila,Milan,D,24,31,2472,0,0,1.63,0.72,4,1,22,0.997,22,True,"match su cognome (squadra diversa, trasferimento presunto)",1.048,"nome completo -- titolarita' 100%, minuti giocati 72% del possibile; 2.2 tackle+intercetti/90",23
+Zeki Çelik,Juventus,D,28,34,2723,1,2,1.77,2.41,2,1,19,1.103,21,True,"match su cognome (squadra diversa, trasferimento presunto)",1.046,"nome completo -- titolarita' 94%, minuti giocati 80% del possibile; 2.1 tackle+intercetti/90",22
+Emanuele Valeri,Parma,D,26,34,2643,0,2,0.67,3.78,2,0,20,1.069,21,True,match su cognome+squadra,1.018,"nome completo -- titolarita' 85%, minuti giocati 77% del possibile; 1.8 tackle+intercetti/90",21
+Thomas Kristensen,Atalanta,D,23,28,2472,3,0,1.88,0.22,4,0,19,1.11,21,True,"match su cognome (squadra diversa, trasferimento presunto)",1.014,"nome completo -- titolarita' 100%, minuti giocati 72% del possibile; 1.5 tackle+intercetti/90",21
+Matteo Gabbia,Milan,D,25,30,2530,0,0,1.54,0.05,4,0,21,1.008,21,True,match su cognome+squadra,0.981,"nome completo -- titolarita' 93%, minuti giocati 74% del possibile; 1.0 tackle+intercetti/90",21
+Jhon Lucumí,Bologna,D,27,29,2287,1,0,1.38,0.79,5,0,21,1.02,21,True,match su cognome+squadra,1.027,"nome completo -- titolarita' 90%, minuti giocati 67% del possibile; 2.0 tackle+intercetti/90",22
+Alessio Romagnoli,Lazio,D,30,32,2666,0,0,1.54,0.07,6,1,21,1.005,21,True,match su cognome+squadra,1.018,"nome completo -- titolarita' 97%, minuti giocati 78% del possibile; 1.6 tackle+intercetti/90",21
+Yerry Mina,Cagliari,D,30,26,2150,2,0,1.76,0.43,5,1,20,1.026,21,True,match su cognome+squadra,1.022,"nome completo -- titolarita' 100%, minuti giocati 63% del possibile; 1.8 tackle+intercetti/90",21
+Vasquez,Genoa,D,,,,,,,,,,21,1.0,21,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,21
+Fikayo Tomori,Milan,D,27,33,2554,0,2,0.59,1,8,1,20,1.021,20,True,match su cognome+squadra,1.056,"nome completo -- titolarita' 94%, minuti giocati 75% del possibile; 2.4 tackle+intercetti/90",21
+Berat Djimsiti,Atalanta,D,32,34,2525,0,0,1.69,0.33,4,0,20,1.014,20,True,match su cognome+squadra,1.056,"nome completo -- titolarita' 85%, minuti giocati 74% del possibile; 2.6 tackle+intercetti/90",21
+Luca Ranieri,Fiorentina,D,26,34,2458,1,0,2.08,1.03,8,1,19,1.031,20,True,match su cognome+squadra,1.013,"nome completo -- titolarita' 85%, minuti giocati 72% del possibile; 1.8 tackle+intercetti/90",20
+Couto,Como,D,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,20
+Dragusin,Fiorentina,D,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,20
+Gallo,Lecce,D,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,20
+Fabiano Parisi,Fiorentina,D,24,23,1520,1,1,1.3,1.92,6,0,20,0.962,19,True,match su cognome+squadra,0.985,"nome completo -- titolarita' 78%, minuti giocati 44% del possibile; 1.8 tackle+intercetti/90",19
+Emil Holm,Bologna,D,25,11,655,1,4,0.85,2.05,3,1,21,0.897,19,True,match su cognome+squadra,1.001,"cognome + squadra -- titolarita' 73%, minuti giocati 19% del possibile; 2.7 tackle+intercetti/90",19
+Del Prato,Parma,D,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,19
+Norton-Cuffy,Genoa,D,,,,,,,,,,19,1.0,19,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,19
+Lorenzo Bernasconi,Atalanta,D,21,23,1572,0,3,0.42,3.15,3,0,19,0.962,18,True,match su cognome+squadra,0.977,"nome completo -- titolarita' 74%, minuti giocati 46% del possibile; 1.7 tackle+intercetti/90",18
+Miguel Gutiérrez,Napoli,D,24,28,1488,1,1,0.57,1.78,0,0,19,0.946,18,True,match su cognome+squadra,0.958,"nome completo -- titolarita' 54%, minuti giocati 44% del possibile; 1.8 tackle+intercetti/90",17
+Saúl Coco,Torino,D,26,35,3088,1,1,1.16,0.76,3,0,16,1.12,18,True,match su cognome+squadra,1.066,"nome completo -- titolarita' 100%, minuti giocati 90% del possibile; 2.2 tackle+intercetti/90",19
+Marin Pongračić,Fiorentina,D,27,35,2918,0,0,0.59,0.69,12,0,17,1.035,18,True,match su cognome+squadra,1.027,"nome completo -- titolarita' 94%, minuti giocati 85% del possibile; 1.6 tackle+intercetti/90",18
+Federico Gatti,Juventus,D,27,21,1093,2,0,1.96,0.21,3,0,19,0.93,18,True,match su cognome+squadra,0.954,"nome completo -- titolarita' 57%, minuti giocati 32% del possibile; 1.8 tackle+intercetti/90",17
+Pietro Comuzzo,Torino,D,20,27,1696,1,0,0.81,0.04,2,0,19,0.942,18,True,"match su cognome (squadra diversa, trasferimento presunto)",0.994,"nome completo -- titolarita' 67%, minuti giocati 50% del possibile; 2.1 tackle+intercetti/90",18
+Doekhi,Lazio,D,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,18
+Gabriel,Lecce,D,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,18
+Martin,Genoa,D,,,,,,,,,,18,1.0,18,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,18
+Devyne Rensch,Roma,D,22,24,1184,1,4,0.57,2.72,1,0,18,0.97,17,True,match su cognome+squadra,0.975,"nome completo -- titolarita' 50%, minuti giocati 35% del possibile; 2.3 tackle+intercetti/90",17
+Mërgim Vojvoda,Udinese,D,30,30,1591,2,2,1.47,3.09,2,0,16,1.034,17,True,"match su cognome (squadra diversa, trasferimento presunto)",0.933,"nome completo -- titolarita' 63%, minuti giocati 46% del possibile; 1.0 tackle+intercetti/90",16
+Christian Kabasele,Udinese,D,34,30,2247,3,0,1.67,0.06,5,1,16,1.068,17,True,match su cognome+squadra,1.019,"nome completo -- titolarita' 93%, minuti giocati 66% del possibile; 1.8 tackle+intercetti/90",17
+Sam Beukema,Napoli,D,26,24,1681,2,0,1.73,0.39,2,0,17,0.99,17,True,match su cognome+squadra,0.978,"nome completo -- titolarita' 75%, minuti giocati 49% del possibile; 1.7 tackle+intercetti/90",17
+Nadir Zortea,Bologna,D,26,32,1819,0,2,0.42,2.86,2,0,18,0.962,17,True,match su cognome+squadra,0.967,"nome completo -- titolarita' 50%, minuti giocati 53% del possibile; 1.8 tackle+intercetti/90",16
+Ivan Smolčić,Como,D,24,28,1662,0,1,1.13,1.46,8,0,18,0.935,17,True,match su cognome+squadra,1.014,"nome completo -- titolarita' 68%, minuti giocati 49% del possibile; 2.5 tackle+intercetti/90",17
+Ardian Ismajli,Torino,D,28,25,1906,0,1,0.75,0.54,5,0,18,0.95,17,True,match su cognome+squadra,1.027,"nome completo -- titolarita' 84%, minuti giocati 56% del possibile; 2.4 tackle+intercetti/90",17
+Pedraza,Lazio,D,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,17
+Rafel Obrador,Sassuolo,D,21,16,1116,1,3,0.17,1.06,1,0,17,0.935,16,True,"match su cognome (squadra diversa, trasferimento presunto)",0.972,"nome completo -- titolarita' 88%, minuti giocati 33% del possibile; 1.6 tackle+intercetti/90",16
+Emil Holm,Bologna,D,25,7,230,0,0,0.3,0.23,0,0,21,0.75,16,True,"match su cognome (squadra diversa, trasferimento presunto)",0.913,"cognome unico (probabile trasferimento) -- titolarita' 29%, minuti giocati 7% del possibile",15
+Adam Obert,Cagliari,D,22,35,2771,0,3,1.36,3.71,10,1,15,1.089,16,True,match su cognome+squadra,1.066,"nome completo -- titolarita' 94%, minuti giocati 81% del possibile; 2.5 tackle+intercetti/90",17
+Sebastian Walukiewicz,Sassuolo,D,25,34,2852,0,1,0.18,2.05,7,0,15,1.055,16,True,match su cognome+squadra,1.036,"nome completo -- titolarita' 97%, minuti giocati 83% del possibile; 1.8 tackle+intercetti/90",17
+Gabriele Zappa,Cagliari,D,25,31,1597,0,3,1.13,2.11,2,0,16,0.97,16,True,match su cognome+squadra,0.976,"nome completo -- titolarita' 58%, minuti giocati 47% del possibile; 2.0 tackle+intercetti/90",16
+Álex Jiménez,Fiorentina,D,20,1,45,0,0,0,0.14,1,0,21,0.75,16,True,"match su cognome (squadra diversa, trasferimento presunto)",0.881,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",14
+Valdepeñas,Fiorentina,D,,,,,,,,,,16,1.0,16,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,16
+Mathías Olivera,Napoli,D,27,25,1370,0,0,1.79,0.6,3,0,17,0.893,15,True,match su cognome+squadra,0.997,"nome completo -- titolarita' 60%, minuti giocati 40% del possibile; 2.5 tackle+intercetti/90",15
+Benjamin Pavard,Inter,D,29,1,90,0,0,0.05,0.03,0,0,20,0.75,15,True,match su cognome+squadra,0.975,"nome completo -- titolarita' 100%, minuti giocati 3% del possibile",15
+Aurelio,Cagliari,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Koulierakis,Roma,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Marcandalli,Genoa,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,15
+Provstgaard,Lazio,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Terzic,Frosinone,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,15
+Veiga,Lecce,D,,,,,,,,,,15,1.0,15,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,15
+Hassane Kamara,Udinese,D,31,26,1861,0,2,0.89,2.51,5,0,14,0.981,14,True,match su cognome+squadra,1.017,"nome completo -- titolarita' 85%, minuti giocati 54% del possibile; 2.2 tackle+intercetti/90",14
+Zachary Athekame,Milan,D,20,27,833,2,2,0.38,1.56,3,0,15,0.918,14,True,match su cognome+squadra,0.894,"nome completo -- titolarita' 26%, minuti giocati 24% del possibile; 1.3 tackle+intercetti/90",13
+Alessandro Circati,Parma,D,21,31,2664,1,0,0.74,0.25,6,0,13,1.048,14,True,match su cognome+squadra,1.032,"nome completo -- titolarita' 100%, minuti giocati 78% del possibile; 1.8 tackle+intercetti/90",14
+Koni De Winter,Milan,D,23,26,1800,1,1,0.8,0.65,1,0,14,0.975,14,True,match su cognome+squadra,0.976,"nome completo -- titolarita' 73%, minuti giocati 53% del possibile; 1.6 tackle+intercetti/90",14
+Nuno Tavares,Lazio,D,25,23,1473,0,0,1.13,1.18,5,0,16,0.899,14,True,match su cognome+squadra,1.007,"nome completo -- titolarita' 74%, minuti giocati 43% del possibile; 2.4 tackle+intercetti/90",14
+Cuenca,Como,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),14
+Kaiki,Como,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,14
+Mario,Fiorentina,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,14
+Sabelli,Genoa,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,14
+Viery,Fiorentina,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,14
+Zé Pedro,Cagliari,D,,,,,,,,,,14,1.0,14,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),14
+Juan David Cabal,Juventus,D,24,12,296,2,0,1.08,0.64,1,0,15,0.835,13,True,match su cognome+squadra,0.936,"nome completo -- titolarita' 17%, minuti giocati 9% del possibile; 2.7 tackle+intercetti/90",12
+Odilon Kossounou,Atalanta,D,24,19,988,1,0,0.26,0.26,1,0,15,0.861,13,True,match su cognome+squadra,0.964,"nome completo -- titolarita' 53%, minuti giocati 29% del possibile; 2.2 tackle+intercetti/90",13
+Daniele Ghilardi,Roma,D,22,23,1097,0,0,0.56,0.42,1,0,16,0.839,13,True,match su cognome+squadra,0.995,"nome completo -- titolarita' 39%, minuti giocati 32% del possibile; 3.0 tackle+intercetti/90",13
+Missori,Sassuolo,D,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,13
+Jordan Zemura,Udinese,D,25,17,1127,0,1,0.33,1.27,3,0,14,0.869,12,True,match su cognome+squadra,0.973,"nome completo -- titolarita' 76%, minuti giocati 33% del possibile; 1.8 tackle+intercetti/90",12
+Mariano Troilo,Parma,D,22,21,1625,1,0,0.98,0.66,8,2,13,0.9,12,True,match su cognome+squadra,0.997,"nome completo -- titolarita' 86%, minuti giocati 48% del possibile; 1.9 tackle+intercetti/90",12
+Honest Ahanor,Atalanta,D,17,22,1377,0,0,2.38,0.12,2,1,14,0.88,12,True,match su cognome+squadra,1.023,"nome completo -- titolarita' 68%, minuti giocati 40% del possibile; 2.9 tackle+intercetti/90",12
+Ignace Van Der Brempt,Como,D,23,20,931,0,1,0.16,0.82,2,0,14,0.844,12,True,match su cognome+squadra,0.962,"nome completo -- titolarita' 55%, minuti giocati 27% del possibile; 2.1 tackle+intercetti/90",12
+Birindelli,Monza,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Calvani,Frosinone,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Correia,Venezia,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Haps,Venezia,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Marin,Napoli,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),12
+Oyono,Frosinone,D,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Torbjørn Heggem,Bologna,D,26,27,2113,0,0,1.02,0.05,0,1,12,0.939,11,True,match su cognome+squadra,1.009,"nome completo -- titolarita' 85%, minuti giocati 62% del possibile; 1.9 tackle+intercetti/90",11
+Nicolò Bertola,Udinese,D,22,28,1763,0,1,1,1.55,3,0,12,0.943,11,True,match su cognome+squadra,1.001,"nome completo -- titolarita' 64%, minuti giocati 52% del possibile; 2.3 tackle+intercetti/90",11
+Juan Rodríguez,Cagliari,D,20,17,1310,1,0,1.2,0,3,0,12,0.911,11,True,match su cognome+squadra,1.053,"nome completo -- titolarita' 94%, minuti giocati 38% del possibile; 3.0 tackle+intercetti/90",12
+Martin Vitík,Bologna,D,22,19,1325,0,0,0.74,0.17,3,0,13,0.869,11,True,match su cognome+squadra,0.986,"nome completo -- titolarita' 74%, minuti giocati 39% del possibile; 2.0 tackle+intercetti/90",11
+Delli Carri,Monza,D,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Halhal,Venezia,D,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Mangas,Monza,D,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Monterisi,Frosinone,D,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Sead Kolašinac,Atalanta,D,32,19,1212,0,0,0.12,0,3,0,12,0.852,10,True,match su cognome+squadra,0.993,"nome completo -- titolarita' 79%, minuti giocati 35% del possibile; 2.1 tackle+intercetti/90",10
+Manuel Lazzari,Lazio,D,31,23,938,0,0,0.11,0.13,2,0,12,0.817,10,True,match su cognome+squadra,0.915,"nome completo -- titolarita' 39%, minuti giocati 27% del possibile; 1.4 tackle+intercetti/90",9
+Bella-Kotchap,Venezia,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),10
+Carboni,Monza,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Corrado,Frosinone,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Ravanelli,Monza,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,10
+Siebert,Lecce,D,,,,,,,,,,10,1.0,10,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,10
+Riyad Idrissi,Cagliari,D,20,23,783,2,0,0.79,0.25,3,0,10,0.87,9,True,match su cognome+squadra,0.952,"nome completo -- titolarita' 17%, minuti giocati 23% del possibile; 2.8 tackle+intercetti/90",9
+Patric,Lazio,D,32,14,667,0,0,0.23,0.31,2,0,11,0.791,9,True,match su cognome+squadra,0.863,"nome completo -- titolarita' 43%, minuti giocati 20% del possibile; 0.4 tackle+intercetti/90",8
+Lautaro Valenti,Parma,D,26,27,2252,0,0,0.49,1.17,7,0,9,0.969,9,True,match su cognome+squadra,1.039,"nome completo -- titolarita' 93%, minuti giocati 66% del possibile; 2.2 tackle+intercetti/90",9
+Luca Pellegrini,Lazio,D,26,24,1469,1,0,0.64,0.83,8,0,10,0.92,9,True,match su cognome+squadra,0.983,"nome completo -- titolarita' 71%, minuti giocati 43% del possibile; 2.0 tackle+intercetti/90",9
+Josh Doig,Sassuolo,D,23,30,1917,0,0,0.75,1.5,5,0,10,0.943,9,True,match su cognome+squadra,0.998,"nome completo -- titolarita' 73%, minuti giocati 56% del possibile; 2.0 tackle+intercetti/90",9
+Alhassane,Bologna,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,9
+Comert,Torino,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,9
+Schingtienne,Venezia,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,9
+Sverko,Venezia,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,9
+Terracciano,Milan,D,,,,,,,,,,9,1.0,9,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),9
+Alessandro Zanoli,Udinese,D,24,19,1280,1,2,0.1,1.55,1,0,8,0.939,8,True,match su cognome+squadra,0.98,"cognome + squadra -- titolarita' 84%, minuti giocati 37% del possibile; 1.8 tackle+intercetti/90",8
+Sascha Britschgi,Parma,D,18,29,2095,0,2,0.41,2.03,7,1,8,0.969,8,True,match su cognome+squadra,0.962,"nome completo -- titolarita' 76%, minuti giocati 61% del possibile; 1.1 tackle+intercetti/90",8
+Niccolò Fortini,Fiorentina,D,19,16,541,0,0,0.23,0.46,0,0,10,0.775,8,True,match su cognome+squadra,0.914,"nome completo -- titolarita' 12%, minuti giocati 16% del possibile; 2.2 tackle+intercetti/90",7
+Alberto Moreno,Venezia,D,33,19,1233,2,1,1.59,1.92,4,0,8,0.967,8,True,"match su cognome (squadra diversa, trasferimento presunto)",0.947,"nome completo -- titolarita' 68%, minuti giocati 36% del possibile; 1.4 tackle+intercetti/90",8
+Luca Marianucci,Napoli,D,21,10,575,0,0,0.02,0.67,2,0,10,0.784,8,True,"match su cognome (squadra diversa, trasferimento presunto)",0.929,"cognome + squadra -- titolarita' 50%, minuti giocati 4% del possibile",7
+Luca Marianucci,Napoli,D,21,2,119,0,1,0.01,0.31,0,0,10,0.751,8,True,match su cognome+squadra,0.952,"cognome unico (probabile trasferimento) -- titolarita' 60%, minuti giocati 17% del possibile; 2.0 tackle+intercetti/90",8
+Akpoguma,Frosinone,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Franjic,Venezia,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Gaspar,Lecce,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Kumbulla,Roma,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Mussolini,Lazio,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Oyono,Frosinone,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Puczka,Genoa,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Sagrado,Venezia,D,,,,,,,,,,8,1.0,8,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,8
+Pervis Estupiñán,Milan,D,27,19,1034,1,1,0.48,1.58,5,1,8,0.879,7,True,match su cognome+squadra,0.958,"nome completo -- titolarita' 68%, minuti giocati 30% del possibile; 1.7 tackle+intercetti/90",7
+Enzo Ebosse,Udinese,D,26,13,1115,0,1,0,0.52,3,0,8,0.858,7,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome ambiguo (2 candidati),7
+Alberto Dossena,Como,D,26,12,859,0,1,0.9,0.61,5,0,8,0.84,7,True,"match su cognome (squadra diversa, trasferimento presunto)",1.0,cognome + squadra,7
+Saba Goglichidze,Udinese,D,21,8,424,0,0,0.55,0.06,2,0,9,0.77,7,True,match su cognome+squadra,1.003,"nome completo -- titolarita' 50%, minuti giocati 12% del possibile; 3.4 tackle+intercetti/90",7
+Bracaglia,Frosinone,D,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,7
+Gelli,Frosinone,D,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,7
+Mitaj,Genoa,D,,,,,,,,,,7,1.0,7,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,7
+Cristiano Biraghi,Torino,D,32,14,517,0,0,0.06,0.36,0,0,8,0.777,6,True,match su cognome+squadra,0.916,"nome completo -- titolarita' 36%, minuti giocati 15% del possibile; 1.8 tackle+intercetti/90",5
+Angeliño,Roma,D,28,7,416,0,0,0.23,0.28,2,0,8,0.769,6,True,match su cognome+squadra,0.966,"nome completo -- titolarita' 71%, minuti giocati 12% del possibile; 2.2 tackle+intercetti/90",6
+Jay Idzes,Sassuolo,D,25,35,3061,0,0,0.2,0.74,2,0,6,1.054,6,True,match su cognome+squadra,1.032,"nome completo -- titolarita' 100%, minuti giocati 90% del possibile; 1.6 tackle+intercetti/90",6
+Abdoulaye Ndiaye,Parma,D,23,11,780,0,0,0.36,0.02,5,1,7,0.786,6,True,match su cognome+squadra,0.997,"nome completo -- titolarita' 82%, minuti giocati 23% del possibile; 2.4 tackle+intercetti/90",6
+Jan Ziółkowski,Roma,D,20,18,517,0,0,0.14,0.04,3,0,8,0.773,6,True,match su cognome+squadra,0.997,"nome completo -- titolarita' 28%, minuti giocati 15% del possibile; 3.7 tackle+intercetti/90",6
+Fali Candé,Sassuolo,D,27,12,509,0,0,0.17,0.01,2,0,8,0.773,6,True,match su cognome+squadra,0.929,"nome completo -- titolarita' 42%, minuti giocati 15% del possibile; 1.9 tackle+intercetti/90",6
+Edoardo Goldaniga,Como,D,31,2,15,0,0,0,0,0,0,8,0.75,6,True,match su cognome+squadra,0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",5
+Cittadini,Frosinone,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,6
+Jean,Lecce,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,6
+Lucchesi,Monza,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,6
+Otoa,Genoa,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,6
+Pieragnolo,Sassuolo,D,,,,,,,,,,6,1.0,6,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,6
+Pasquale Mazzocchi,Napoli,D,30,16,310,0,1,0.05,1.14,0,1,6,0.756,5,True,match su cognome+squadra,0.876,"nome completo -- titolarita' 12%, minuti giocati 9% del possibile; 1.5 tackle+intercetti/90",4
+Nicolò Casale,Bologna,D,27,12,678,0,0,0.75,0.2,0,0,6,0.805,5,True,match su cognome+squadra,0.921,"nome completo -- titolarita' 67%, minuti giocati 20% del possibile; 1.2 tackle+intercetti/90",5
+Eivind Helland,Bologna,D,20,6,484,0,0,0.1,0.15,2,0,7,0.774,5,True,match su cognome+squadra,0.996,"nome completo -- titolarita' 100%, minuti giocati 14% del possibile; 2.2 tackle+intercetti/90",5
+Amey,Frosinone,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,5
+Brorsson,Monza,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,5
+Diawara,Milan,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,5
+El Azzouzi,Frosinone,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,5
+Gomes,Venezia,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,5
+Kouassi,Lecce,D,,,,,,,,,,5,1.0,5,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,5
+Juan Arizala,Udinese,D,19,10,191,0,0,0.03,0.14,0,0,5,0.75,4,True,match su cognome+squadra,0.894,"nome completo -- titolarita' 10%, minuti giocati 6% del possibile",4
+Franco Carboni,Parma,D,22,7,114,0,0,0,0,0,0,6,0.75,4,True,match su cognome+squadra,0.896,"nome completo -- titolarita' 14%, minuti giocati 3% del possibile",4
+Tariq Lamptey,Fiorentina,D,24,2,25,0,0,0,0.12,0,0,5,0.75,4,True,match su cognome+squadra,0.927,"nome completo -- titolarita' 50%, minuti giocati 1% del possibile",4
+Lorenzo De Silvestri,Bologna,D,37,12,491,0,0,0,0.16,2,0,5,0.773,4,True,match su cognome+squadra,0.914,"nome completo -- titolarita' 50%, minuti giocati 14% del possibile; 1.5 tackle+intercetti/90",4
+Mitchel Bakker,Atalanta,D,25,1,9,0,0,0,0,0,0,6,0.75,4,True,match su cognome+squadra,0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",4
+Eddy Kouadio,Monza,D,19,3,72,0,0,0,0.01,0,0,5,0.75,4,True,"match su cognome (squadra diversa, trasferimento presunto)",0.882,"nome completo -- titolarita' 0%, minuti giocati 2% del possibile",4
+Gigot,Lazio,D,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,4
+Kofler,Cagliari,D,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,4
+Ndaba,Lecce,D,,,,,,,,,,4,1.0,4,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,4
+Daniele Rugani,Juventus,D,31,6,250,0,0,0,0,0,0,4,0.75,3,True,match su cognome+squadra,0.933,"cognome + squadra -- titolarita' 50%, minuti giocati 7% del possibile",3
+Matteo Palma,Udinese,D,17,5,120,0,0,0,0,0,0,4,0.75,3,True,match su cognome+squadra,0.902,"nome completo -- titolarita' 20%, minuti giocati 4% del possibile",3
+Cas Odenthal,Sassuolo,D,24,1,1,0,0,0,0,0,0,4,0.75,3,True,match su cognome+squadra,0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",3
+Daniele Rugani,Juventus,D,31,6,327,0,0,0.27,0,2,0,4,0.758,3,True,"match su cognome (squadra diversa, trasferimento presunto)",0.974,"cognome unico (probabile trasferimento) -- titolarita' 67%, minuti giocati 10% del possibile; 2.5 tackle+intercetti/90",3
+Luís Balbo,Fiorentina,D,19,6,212,0,0,0,0.06,0,0,4,0.75,3,True,match su cognome+squadra,0.901,"nome completo -- titolarita' 17%, minuti giocati 6% del possibile",3
+Antov,Monza,D,,,,,,,,,,3,1.0,3,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,3
+Branimir Mlacic,Udinese,D,18,7,166,0,0,0,0.05,2,0,3,0.75,2,True,match su cognome+squadra,0.911,"nome completo -- titolarita' 29%, minuti giocati 5% del possibile",2
+Ali Dembélé,Torino,D,21,2,21,0,0,0.05,0,0,0,3,0.75,2,True,match su cognome+squadra,0.881,"nome completo -- titolarita' 0%, minuti giocati 1% del possibile",2
+Obleac,Frosinone,D,,,,,,,,,,2,1.0,2,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,2
+Matteo Cocchi,Inter,D,18,1,17,0,0,0,0,0,0,1,0.75,1,True,match su cognome+squadra,0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+David Odogu,Milan,D,19,2,6,0,0,0,0,0,0,1,0.75,1,True,match su cognome+squadra,0.88,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+Eman Košpo,Fiorentina,D,18,0,0,0,0,,,0,0,1,0.75,1,True,match su cognome+squadra,1.0,nome completo,1
+Abankwah,Udinese,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Bakoune,Monza,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Bovio,Inter,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Capolupo,Monza,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Comi,Atalanta,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+De Paoli,Como,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Galassi,Lazio,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Kumer Celik,Genoa,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Ligue,Venezia,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Mannini,Roma,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Markovic,Bologna,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Obaretin,Napoli,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Perez,Lecce,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Sangaré,Roma,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Sidibé,Venezia,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Venturi,Venezia,D,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Mile Svilar,Roma,P,25,38,3420,0,0,0,0,0,0,38,1.0,38,True,match su cognome+squadra,1.134,"nome completo -- titolarita' 100%, minuti giocati 100% del possibile; clean sheet 47%, 0.82 gol subiti/90, 78% parate",43
+Mike Maignan,Milan,P,30,37,3295,0,0,0,0,4,0,34,1.0,34,True,match su cognome+squadra,1.095,"nome completo -- titolarita' 100%, minuti giocati 96% del possibile; clean sheet 38%, 0.96 gol subiti/90, 75% parate",37
+Marco Carnesecchi,Atalanta,P,25,37,3330,0,0,0,0,0,0,34,1.0,34,True,match su cognome+squadra,1.089,"nome completo -- titolarita' 100%, minuti giocati 97% del possibile; clean sheet 35%, 0.95 gol subiti/90, 76% parate",37
+Jean Butez,Como,P,30,38,3420,0,1,0,0.45,3,0,32,1.0,32,True,match su cognome+squadra,1.145,"nome completo -- titolarita' 100%, minuti giocati 100% del possibile; clean sheet 50%, 0.76 gol subiti/90, 75% parate",37
+Vanja Milinković-Savić,Napoli,P,28,27,2430,0,1,0,0.3,0,0,29,1.0,29,True,match su cognome+squadra,1.087,"nome completo -- titolarita' 100%, minuti giocati 71% del possibile; clean sheet 41%, 0.89 gol subiti/90, 69% parate",32
+Josep Martinez,Inter,P,27,5,450,0,0,0,0,0,0,29,1.0,29,True,"match su cognome+squadra, spareggiato su portiere",1.096,"nome completo -- titolarita' 100%, minuti giocati 13% del possibile; clean sheet 60%, 0.80 gol subiti/90, 71% parate",32
+Michele Di Gregorio,Juventus,P,28,30,2655,0,0,0,0,1,0,26,1.0,26,True,match su cognome+squadra,1.113,"nome completo -- titolarita' 97%, minuti giocati 78% del possibile; clean sheet 48%, 0.85 gol subiti/90, 71% parate",29
+Łukasz Skorupski,Bologna,P,34,19,1592,0,0,0,0,1,1,25,1.0,25,True,match su cognome+squadra,1.063,"nome completo -- titolarita' 100%, minuti giocati 46% del possibile; clean sheet 42%, 1.02 gol subiti/90, 65% parate",27
+Mandas,Lazio,P,,,,,,,,,,25,1.0,25,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,25
+David de Gea,Fiorentina,P,34,37,3330,0,0,0,0.03,0,0,24,1.0,24,True,match su cognome+squadra,1.042,"nome completo -- titolarita' 100%, minuti giocati 97% del possibile; clean sheet 27%, 1.32 gol subiti/90, 71% parate",25
+Elia Caprile,Cagliari,P,23,38,3420,0,0,0,0.12,2,0,20,1.0,20,True,match su cognome+squadra,1.023,"nome completo -- titolarita' 100%, minuti giocati 100% del possibile; clean sheet 21%, 1.39 gol subiti/90, 70% parate",20
+Bijlow,Genoa,P,,,,,,,,,,20,1.0,20,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,20
+Alberto Paleari,Torino,P,32,29,2610,0,0,0,0,1,0,18,1.0,18,True,match su cognome+squadra,1.022,"nome completo -- titolarita' 100%, minuti giocati 76% del possibile; clean sheet 31%, 1.55 gol subiti/90, 65% parate",18
+Maduka Okoye,Udinese,P,25,30,2616,0,0,0,0.07,1,1,17,1.0,17,True,match su cognome+squadra,1.047,"nome completo -- titolarita' 100%, minuti giocati 76% del possibile; clean sheet 33%, 1.27 gol subiti/90, 68% parate",18
+Falcone,Lecce,P,,,,,,,,,,17,1.0,17,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,17
+Arijanet Muric,Sassuolo,P,26,32,2880,0,0,0,0.03,4,0,16,1.0,16,True,match su cognome+squadra,1.008,"nome completo -- titolarita' 100%, minuti giocati 84% del possibile; clean sheet 19%, 1.34 gol subiti/90, 73% parate",16
+Alex Meret,Napoli,P,28,11,979,0,1,0,0.27,1,0,15,1.0,15,True,match su cognome+squadra,1.028,"nome completo -- titolarita' 100%, minuti giocati 29% del possibile; clean sheet 36%, 1.10 gol subiti/90, 64% parate",15
+Stankovic,Venezia,P,,,,,,,,,,13,1.0,13,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,13
+Zion Suzuki,Parma,P,22,20,1800,0,0,0,0.03,1,0,12,1.0,12,True,match su cognome+squadra,0.998,"nome completo -- titolarita' 100%, minuti giocati 53% del possibile; clean sheet 25%, 1.40 gol subiti/90, 70% parate",12
+Palmisani,Frosinone,P,,,,,,,,,,12,1.0,12,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,12
+Thiam,Monza,P,,,,,,,,,,11,1.0,11,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,11
+Ivan Provedel,Inter,P,31,27,2430,0,0,0,0.23,1,0,1,1.0,1,True,"match su cognome (squadra diversa, trasferimento presunto)",1.09,"nome completo -- titolarita' 100%, minuti giocati 71% del possibile; clean sheet 44%, 1.00 gol subiti/90, 77% parate",1
+Edoardo Corvi,Parma,P,24,17,1530,0,0,0,0,1,0,1,1.0,1,True,match su cognome+squadra,1.056,"nome completo -- titolarita' 100%, minuti giocati 45% del possibile; clean sheet 41%, 1.06 gol subiti/90, 71% parate",1
+Federico Ravaglia,Bologna,P,25,17,1470,0,0,0,0,4,0,1,1.0,1,True,match su cognome+squadra,0.929,"nome completo -- titolarita' 94%, minuti giocati 43% del possibile; clean sheet 12%, 1.78 gol subiti/90, 64% parate",1
+Mattia Perin,Juventus,P,32,9,765,0,0,0,0.08,0,0,1,1.0,1,True,match su cognome+squadra,1.018,"nome completo -- titolarita' 100%, minuti giocati 22% del possibile; clean sheet 33%, 1.06 gol subiti/90, 59% parate",1
+Edoardo Motta,Lazio,P,20,9,810,0,0,0,0.05,1,0,1,1.0,1,True,match su cognome+squadra,1.016,"nome completo -- titolarita' 100%, minuti giocati 24% del possibile; clean sheet 33%, 1.11 gol subiti/90, 69% parate",1
+Franco Israel,Torino,P,25,9,810,0,0,0,0,1,0,1,1.0,1,True,match su cognome+squadra,0.961,"nome completo -- titolarita' 100%, minuti giocati 24% del possibile; clean sheet 33%, 2.00 gol subiti/90, 57% parate",1
+Stefano Turati,Sassuolo,P,23,6,532,0,0,0,0.04,0,0,1,1.0,1,True,match su cognome+squadra,1.005,"nome completo -- titolarita' 100%, minuti giocati 16% del possibile; clean sheet 33%, 1.18 gol subiti/90, 68% parate",1
+Massimo Pessina,Bologna,P,17,4,353,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.966,"nome completo -- titolarita' 75%, minuti giocati 10% del possibile",1
+Raffaele Di Gennaro,Inter,P,31,1,10,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.9,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+Nikita Contini,Napoli,P,29,1,11,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.9,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+Pietro Terracciano,Milan,P,35,2,125,0,0,0,0,0,0,1,1.0,1,True,"match su cognome+squadra, spareggiato su portiere",0.941,"nome completo -- titolarita' 50%, minuti giocati 4% del possibile",1
+Marco Sportiello,Atalanta,P,33,1,90,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.979,"nome completo -- titolarita' 100%, minuti giocati 3% del possibile",1
+Alessio Furlanetto,Lazio,P,23,2,180,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.981,"nome completo -- titolarita' 100%, minuti giocati 5% del possibile",1
+Daniele Padelli,Udinese,P,39,2,180,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.981,"nome completo -- titolarita' 100%, minuti giocati 5% del possibile",1
+Gioele Zacchi,Sassuolo,P,22,1,8,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.9,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+Filippo Rinaldi,Parma,P,22,1,90,0,0,0,0,1,0,1,1.0,1,True,match su cognome+squadra,0.979,"nome completo -- titolarita' 100%, minuti giocati 3% del possibile",1
+Oliver Christensen,Fiorentina,P,26,1,86,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.979,"nome completo -- titolarita' 100%, minuti giocati 2% del possibile",1
+Luca Lezzerini,Fiorentina,P,30,1,4,0,0,0,0,0,0,1,1.0,1,True,match su cognome+squadra,0.9,"nome completo -- titolarita' 0%, minuti giocati 0% del possibile",1
+Audero,Como,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome unico (probabile trasferimento),1
+Ciocci,Cagliari,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Daffara,Parma,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Desplanches,Frosinone,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Ferrante,Napoli,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Fruchtl,Lecce,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Gollini,Roma,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Grandi,Venezia,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Happonen,Bologna,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Lolic,Frosinone,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Lysionok,Genoa,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Mascardi,Torino,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Pardel,Atalanta,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Penev,Lecce,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Piana,Udinese,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Pinsoglio,Juventus,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Pittarella,Milan,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Pizzignacco,Monza,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Pozzi,Venezia,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Rossi,Atalanta,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Samooja,Lecce,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Satalino,Sassuolo,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Sherri,Cagliari,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Siviero,Torino,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Sommariva,Genoa,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Strajnar,Monza,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,nessun candidato per cognome,1
+Tornqvist,Como,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Torriani,Milan,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Vasquez,Roma,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
+Zelezny,Roma,P,,,,,,,,,,1,1.0,1,False,non presente nelle nostre statistiche 2025-26 (nuovo/promosso/squadra non coperta),1.0,cognome + squadra,1
