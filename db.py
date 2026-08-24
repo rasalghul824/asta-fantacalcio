@@ -255,6 +255,26 @@ def get_listone_disponibile(ruolo=None, testo=None):
         return [dict(r) for r in rows]
 
 
+def trova_alternative(giocatore, n=3):
+    """Ritorna gli n giocatori più 'simili' al giocatore selezionato, per
+    usarli come piano B durante l'asta se non te lo aggiudichi o il prezzo
+    sale troppo: stesso ruolo, ancora disponibili (non già acquistati), con
+    il valore da listone più vicino al suo -- è il modo più affidabile che
+    abbiamo di stimare 'stesso livello' con i dati a disposizione. A parità
+    di scarto di valore, viene preferito chi vale di più (meglio un'alternativa
+    leggermente più cara ma di pari livello, che una scontata ma più debole).
+
+    Non è un confronto di 'stile di gioco' (i dati statistici disponibili
+    non bastano per quello) -- ecco perché in app affianchiamo comunque le
+    statistiche di ciascuna alternativa, per un confronto rapido a colpo
+    d'occhio prima di decidere."""
+    disponibili = get_listone_disponibile(ruolo=giocatore["ruolo"])
+    candidati = [g for g in disponibili if g["id"] != giocatore["id"]]
+    candidati.sort(key=lambda g: (abs(g["valore_suggerito"] - giocatore["valore_suggerito"]),
+                                   -g["valore_suggerito"]))
+    return candidati[:n]
+
+
 def registra_acquisto(listone_id, squadra_id, prezzo):
     with get_conn() as conn:
         conn.execute(

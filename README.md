@@ -13,9 +13,11 @@ a metà asta i dati non si perdono.
   backup/ripristino.
 - **🔎 Cerca & registra acquisto**: cerchi un giocatore (con filtro per
   ruolo), vedi il suo valore da listone, il **prezzo consigliato ORA**
-  (dinamico, vedi sotto) e le sue statistiche, scegli chi lo ha preso e a
-  quanto, e registri. Il sistema blocca in automatico se il budget residuo
-  della squadra non basta o se gli slot di quel ruolo sono già pieni.
+  (dinamico, vedi sotto), le sue statistiche e **almeno 2 alternative
+  simili** ancora disponibili con cui confrontarlo (vedi sotto), scegli chi
+  lo ha preso e a quanto, e registri. Il sistema blocca in automatico se il
+  budget residuo della squadra non basta o se gli slot di quel ruolo sono
+  già pieni.
 - **👤 La mia rosa**: budget speso/residuo, slot occupati per ruolo, e la
   lista dei giocatori presi con il confronto pagato vs. valore da listone.
 - **📋 Mercato**: tutti i giocatori ancora disponibili, filtrabili per ruolo,
@@ -166,6 +168,30 @@ quelli configurati) — le riserve non fanno mai scarseggiare il mercato.
 E il bonus "ultimo slot" nel fattore personale scatta solo se non hai
 ancora NESSUN portiere: una volta preso il titolare, gli altri 1-2 slot
 di copertura non spingono più il prezzo verso l'alto.
+
+### 🔄 Alternative simili (piano B in tempo reale)
+
+Sotto al prezzo consigliato, per ogni giocatore selezionato in "🔎 Cerca &
+registra acquisto" l'app mostra **almeno 2 alternative** (di default 3):
+altri giocatori dello stesso ruolo, ancora disponibili (non già presi da
+nessuna squadra), scelti perché hanno il valore da listone più vicino al
+suo. Servono come piano B pronto all'uso durante l'asta: se non riesci ad
+aggiudicarti il giocatore che stavi seguendo, o il prezzo sale troppo,
+hai già sottomano chi guardare subito dopo, senza dover ricominciare la
+ricerca da capo con l'asta che corre.
+
+Per ciascuna alternativa vedi il valore da listone (con lo scarto rispetto
+al giocatore di partenza) e, aprendo "📊 Statistiche", il dettaglio
+completo (quotazione ufficiale, presenze, minuti, gol, assist, xG, xA,
+ammonizioni/espulsioni) più — se hai configurato la tua squadra — lo
+stesso "prezzo consigliato ORA" del motore dinamico, per un confronto
+equo e non solo sul valore statico.
+
+Un avvertenza: la vicinanza è calcolata **solo sul valore complessivo**
+da listone, non sullo "stile di gioco" — due giocatori a pari valore
+possono avere un profilo (titolarità, rischio infortuni, ruolo tattico)
+diverso. Per questo affianchiamo sempre le statistiche di ognuno: la
+scelta finale resta tua, l'app ti fa solo risparmiare la ricerca.
 
 ### 📊 Sviluppo squadre (vista in tempo reale)
 

@@ -261,6 +261,41 @@ def pagina_registra():
                  "consigliato dinamico personalizzato.")
 
     st.divider()
+    st.subheader("🔄 Alternative simili")
+    st.caption(
+        "Piano B se non te lo aggiudichi o il prezzo sale troppo: stesso ruolo, ancora "
+        "disponibili, valore da listone più vicino al suo."
+    )
+    alternative = db.trova_alternative(giocatore, n=3)
+    if not alternative:
+        st.caption("Nessuna alternativa ancora disponibile in questo ruolo.")
+    else:
+        cols_alt = st.columns(len(alternative))
+        for col_alt, alt in zip(cols_alt, alternative):
+            with col_alt:
+                scarto_alt = alt["valore_suggerito"] - giocatore["valore_suggerito"]
+                st.markdown(f"**{alt['nome']}**")
+                st.caption(alt["squadra_serie_a"] + (" · ⚠️ non analizzato" if not alt["analizzato"] else ""))
+                st.metric("Valore listone", f"{alt['valore_suggerito']} cr",
+                          delta=f"{scarto_alt:+d} cr vs selezionato")
+                with st.expander("📊 Statistiche"):
+                    st.markdown(
+                        f"- Quot. ufficiale: **{alt['quotazione_ufficiale']} cr**\n"
+                        f"- Presenze: **{alt['presenze'] if alt['presenze'] is not None else 'n/d'}**\n"
+                        f"- Minuti: **{alt['minuti'] if alt['minuti'] is not None else 'n/d'}**\n"
+                        f"- Gol: **{alt['gol'] if alt['gol'] is not None else 'n/d'}**  ·  "
+                        f"Assist: **{alt['assist'] if alt['assist'] is not None else 'n/d'}**\n"
+                        f"- xG: **{alt['xg'] if alt['xg'] is not None else 'n/d'}**  ·  "
+                        f"xA: **{alt['xa'] if alt['xa'] is not None else 'n/d'}**\n"
+                        f"- Gialli/Rossi: **{alt['gialli'] if alt['gialli'] is not None else 'n/d'}** / "
+                        f"**{alt['rossi'] if alt['rossi'] is not None else 'n/d'}**"
+                    )
+                    if mia_squadra:
+                        calcolo_alt = mercato_dinamico.calcola_prezzo_dinamico(
+                            alt, config, squadre, mia_squadra["id"], soglie_quotato)
+                        st.metric("💡 Prezzo consigliato ORA", f"{calcolo_alt['prezzo_consigliato']} cr")
+
+    st.divider()
 
     if not squadre:
         st.error("Configura prima le squadre nella pagina '⚙️ Configurazione lega'.")
