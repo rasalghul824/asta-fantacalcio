@@ -62,7 +62,7 @@ Giocatori delle nostre vecchie statistiche che NON sono nel listone
 ufficiale 2026-27 (es. trasferiti fuori dalla Serie A, ritirati) sono
 stati esclusi dal pool: non sono comprabili all'asta vera.
 
-### 📈 Listone v4 — affinamento "moneyball" con fbref 2025-26
+### 📈 Listone v4 — affinamento con statistiche fbref 2025-26
 
 Sopra al listone v3 (quotazione ufficiale + correttivo gol/assist/xG) si
 applica ora un **secondo fattore, più cauto** (`fattore_affidabilita`,
@@ -107,6 +107,78 @@ build_fbref_merge.py` (ricostruisce `fbref_merged_2025_26.csv` dalle
 pagine HTML in `fbref_raw/`) poi `python build_listone_v4.py`
 (ricalcola `app/listone_v4.csv`), poi il solito `python import_listone.py`
 nella cartella `app`.
+
+### 🏆 Listone v5 — metodo "moneyball" (valore principale attuale)
+
+Da questa versione **il valore che l'app usa come `valore_suggerito` non
+è più v4, ma v5**: un calcolo diverso, basato sul metodo descritto in un
+articolo di [expectedfanta.substack.com](https://expectedfanta.substack.com/p/moneyball-applicato-al-fantacalcio)
+("Moneyball applicato al fantacalcio") che avevi segnalato. L'idea di
+fondo: invece di partire dalla quotazione ufficiale e correggerla, si
+stima quanti **punti fantacalcio produrrà davvero** ogni giocatore nella
+stagione 2025-26 appena conclusa, e si converte quel numero in crediti.
+
+Come funziona, per ogni giocatore:
+
+```
+punti_previsti = presenze × voto_medio_2025-26
+                + 3 × gol
+                + 1 × assist
+                − 0.5 × ammonizioni
+                − 1 × espulsione
+                + (38 − presenze) × voto_medio_del_RUOLO
+```
+
+Le giornate NON giocate (infortuni, panchina) non vengono azzerate ma
+"accreditate" al livello medio del ruolo — un giocatore che gioca meno
+non crolla di valore solo per questo, conta comunque come sostituibile
+alla media. Il punteggio previsto viene poi convertito in crediti
+sottraendo la media-ruolo e dividendo per una costante (`0.658` punti per
+credito, presa dall'articolo).
+
+**Due numeri, due livelli di fiducia diversi:**
+
+1. **Voto medio per ruolo** (Portieri 6.95, Difensori 6.76, Centrocampisti
+   6.76, Attaccanti 6.67): l'articolo dichiarava numeri molto più bassi e
+   distanti fra loro (4.86/5.74/6.0/6.1) senza spiegare come li avesse
+   calcolati — un primo confronto (es. portieri prezzati più di Lautaro
+   Martínez) ha mostrato che erano implausibili. Li abbiamo **ricalcolati
+   sui voti reali 2025-26** di tutti i giocatori con almeno una presenza,
+   in tutte e 20 le squadre di Serie A (fonte: fantacalcio.dev) — numeri
+   verificabili, non presi per buoni dall'articolo.
+2. **Costante crediti/punto (0.658)**: questa invece resta quella
+   dell'articolo. Non avendo un modo indipendente per verificare da dove
+   arrivi il calcolo originale (329 punti di scarto obiettivo/mediocre
+   su 500 crediti), l'abbiamo tenuta così com'è — è l'unico numero da
+   ritoccare in futuro se i prezzi finali sembrano scalare male.
+
+**Copertura e cosa succede a chi non viene ricalcolato**: il voto medio
+2025-26 non è abbinabile a tutti i 655 giocatori del listone — vale
+la stessa regola "mai un dato inventato" di v3/v4. Un giocatore resta al
+suo **valore v4** (invariato, con nota in `note_moneyball`) quando:
+
+- non ha nessuna presenza 2025-26 (nuovo, promosso, mai in Serie A prima
+  d'ora) — è la stragrande maggioranza dei casi esclusi;
+- il nome/cognome nei voti raccolti è **ambiguo** (es. più giocatori con
+  lo stesso cognome in squadre diverse, tipo i due Thuram o i quattro
+  David) e non c'è un modo affidabile per scegliere quello giusto: il
+  campo `squadra` del listone risale a un'importazione precedente e
+  include ancora squadre non più in Serie A 2025-26 (Frosinone, Monza,
+  Venezia) mentre non ha le neopromosse (Cremonese, Pisa, Verona), quindi
+  non è abbastanza affidabile da usare come spareggio senza rischiare di
+  assegnare il voto a un giocatore sbagliato — meglio lasciare il valore
+  v4 che sbagliare in silenzio.
+
+Con l'ultima generazione, **309 giocatori su 655 (47%)** sono stati
+ricalcolati col metodo moneyball; gli altri 346 restano al valore v4. Il
+dettaglio di ogni giocatore (voto usato, presenze, motivo dell'eventuale
+mancato ricalcolo) è nella colonna `note_moneyball` di `listone_v5.csv`.
+
+Per rigenerare v5 dopo aver aggiornato i voti: aggiorna
+`voti_2025_26.json`/`baseline_ruolo.json` poi lancia `python
+build_listone_v5.py` dalla cartella principale del progetto (ricalcola
+`app/listone_v5.csv` a partire da `app/listone_v4.csv`), poi il solito
+`python import_listone.py` nella cartella `app`.
 
 ### 💰 Ripartizione budget per reparto (la mia strategia)
 
@@ -309,7 +381,7 @@ punto 3.
 
 ⚠️ **Importante per questa consegna**: se hai già avviato l'app prima
 d'ora, il database `asta.db` esiste già sul tuo PC con un listone più
-vecchio — l'app NON reimporta automaticamente il nuovo `listone_v4.csv`
+vecchio — l'app NON reimporta automaticamente il nuovo `listone_v5.csv`
 se il database ha già dei giocatori. Vai nella cartella dell'app e lancia
 una volta:
 
@@ -325,7 +397,7 @@ giocatori trasferiti a un'altra squadra tra le due liste vengono trattati
 come nuove righe).
 
 Anche in futuro, se rigeneri il listone (nuova formula, nuovi dati),
-basta sostituire `listone_v4.csv` in questa cartella e rilanciare lo
+basta sostituire `listone_v5.csv` in questa cartella e rilanciare lo
 stesso comando `python import_listone.py`.
 
 ## Backup e ripristino (automatico)

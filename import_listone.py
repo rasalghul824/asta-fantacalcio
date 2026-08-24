@@ -10,8 +10,12 @@ corretta con un fattore basato sulle nostre statistiche reali 2025-26
 listone_v4 = v3 + un secondo fattore ("fattore_affidabilita", più cauto)
 basato sulle statistiche fbref 2025-26 raccolte a mano (titolarità/minuti
 giocati, contributo difensivo per D/C, qualità del portiere per P) --
-vedi build_listone_v4.py. `valore_v4` è la colonna che finisce in
-`valore_suggerito` nel database.
+vedi build_listone_v4.py.
+listone_v5 = valore "moneyball" (metodo expectedfanta.substack.com,
+ricostruito e verificato -- vedi build_listone_v5.py) calcolato dai voti
+reali 2025-26; diventa il valore PRINCIPALE (`valore_suggerito`) al posto
+di v4. Chi non ha un voto 2025-26 abbinabile in modo certo (nome/cognome
+ambiguo o nessun dato) resta al valore v4 con nota in `note_moneyball`.
 
 Colonna `analizzato`: True se il giocatore è stato anche incrociato con
 le nostre statistiche, False se il valore è SOLO la quotazione ufficiale
@@ -24,7 +28,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import db
 
-CSV_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "listone_v4.csv")
+CSV_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "listone_v5.csv")
 
 
 def carica_csv(path):
@@ -44,7 +48,7 @@ def carica_csv(path):
                 "xa": float(row["xA"]) if row["xA"] not in ("", "None") else None,
                 "gialli": int(row["gialli"]) if row["gialli"] not in ("", "None") else None,
                 "rossi": int(row["rossi"]) if row["rossi"] not in ("", "None") else None,
-                "valore_suggerito": int(row["valore_v4"]),
+                "valore_suggerito": int(row["valore_moneyball"]),
                 "quotazione_ufficiale": int(row["quotazione_ufficiale"]),
                 "analizzato": 1 if row["analizzato"] == "True" else 0,
             })
