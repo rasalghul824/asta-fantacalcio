@@ -17,7 +17,8 @@ a metà asta i dati non si perdono.
   simili** ancora disponibili con cui confrontarlo (vedi sotto), scegli chi
   lo ha preso e a quanto, e registri. Il sistema blocca in automatico se il
   budget residuo della squadra non basta o se gli slot di quel ruolo sono
-  già pieni.
+  già pieni. In fondo alla pagina trovi anche le **rose di tutte le
+  squadre** a colpo d'occhio, una sezione colorata per ruolo (vedi sotto).
 - **👤 La mia rosa**: budget speso/residuo, slot occupati per ruolo, e la
   lista dei giocatori presi con il confronto pagato vs. valore da listone.
 - **📋 Mercato**: tutti i giocatori ancora disponibili, filtrabili per ruolo,
@@ -192,6 +193,17 @@ da listone, non sullo "stile di gioco" — due giocatori a pari valore
 possono avere un profilo (titolarità, rischio infortuni, ruolo tattico)
 diverso. Per questo affianchiamo sempre le statistiche di ognuno: la
 scelta finale resta tua, l'app ti fa solo risparmiare la ricerca.
+
+### 📋 Rose di tutte le squadre (a colpo d'occhio)
+
+In fondo a "🔎 Cerca & registra acquisto" trovi una tabella per ogni ruolo
+(Portieri, Difensori, Centrocampisti, Attaccanti), ciascuna con una
+sezione colorata diversa (giallo/verde/azzurro/rosso) per riconoscerle a
+colpo d'occhio. Dentro ogni tabella le squadre sono affiancate in colonna
+e gli slot di quel ruolo in riga: vedi subito chi ha preso chi (nome e
+prezzo pagato) e quali slot mancano ancora, per tutti i partecipanti alla
+lega insieme — non solo la tua squadra. Si aggiorna da sola ad ogni
+acquisto registrato, di qualsiasi squadra.
 
 ### 📊 Sviluppo squadre (vista in tempo reale)
 

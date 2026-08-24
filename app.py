@@ -198,6 +198,55 @@ def pagina_setup():
 
 
 # ---------------------------------------------------------------------------
+# Componente riusabile: rose di tutte le squadre, a tabella, per ruolo
+# ---------------------------------------------------------------------------
+RUOLO_COLORI = {
+    "P": {"header": "#B8860B", "bg": "#FFF6DC"},  # giallo/oro -- portieri
+    "D": {"header": "#2E7D32", "bg": "#E4F6E4"},  # verde -- difensori
+    "C": {"header": "#1565C0", "bg": "#E1EEFB"},  # azzurro -- centrocampisti
+    "A": {"header": "#C62828", "bg": "#FBE3E1"},  # rosso -- attaccanti
+}
+
+
+def mostra_rose_squadre(squadre, config):
+    """Tabella per ruolo (una sezione colorata per P/D/C/A), con le squadre
+    affiancate in colonna e gli slot di quel ruolo in riga -- pensata per
+    confrontare a colpo d'occhio chi ha preso chi durante l'asta live."""
+    if not squadre:
+        st.info("Configura prima le squadre nella pagina '⚙️ Configurazione lega'.")
+        return
+
+    slot_map = {"P": config["slot_p"], "D": config["slot_d"], "C": config["slot_c"], "A": config["slot_a"]}
+    tutti_acquisti = db.get_acquisti()
+    nomi_colonna = {s["id"]: ("⭐ " if s["is_mia"] else "") + s["nome"] for s in squadre}
+
+    for r in RUOLO_ORDER:
+        colori = RUOLO_COLORI[r]
+        st.markdown(
+            f"<div style='background:{colori['header']};color:white;padding:6px 14px;"
+            f"border-radius:8px 8px 0 0;font-weight:600;margin-top:16px;'>"
+            f"{RUOLO_LABEL[r]}</div>",
+            unsafe_allow_html=True,
+        )
+        n_slot = max(slot_map[r], 1)
+        tabella = {}
+        for s in squadre:
+            presi = sorted(
+                (a for a in tutti_acquisti if a["squadra_id"] == s["id"] and a["ruolo"] == r),
+                key=lambda a: -a["prezzo"],
+            )
+            celle = [f"{a['nome']} · {a['prezzo']}cr" for a in presi]
+            celle += ["—"] * max(n_slot - len(celle), 0)
+            tabella[nomi_colonna[s["id"]]] = celle[:n_slot]
+
+        df_ruolo = pd.DataFrame(tabella, index=[f"Slot {i + 1}" for i in range(n_slot)])
+        st.dataframe(
+            df_ruolo.style.set_properties(**{"background-color": colori["bg"], "color": "#1a1a1a"}),
+            width='stretch',
+        )
+
+
+# ---------------------------------------------------------------------------
 # Pagina: Cerca & registra acquisto
 # ---------------------------------------------------------------------------
 def pagina_registra():
@@ -345,12 +394,12 @@ def pagina_registra():
         st.rerun()
 
     st.divider()
-    st.subheader("Ultimi acquisti registrati")
-    ultimi = db.get_acquisti()[:8]
-    if ultimi:
-        df = pd.DataFrame(ultimi)[["nome", "ruolo", "squadra_nome", "prezzo", "creato_il"]]
-        df.columns = ["Giocatore", "Ruolo", "Squadra", "Prezzo", "Quando"]
-        st.dataframe(df, width='stretch', hide_index=True)
+    st.subheader("📋 Rose di tutte le squadre")
+    st.caption(
+        "Una sezione colorata per ruolo, squadre affiancate in colonna: si aggiorna da sola "
+        "man mano che si registrano acquisti (di qualsiasi squadra, non solo la tua)."
+    )
+    mostra_rose_squadre(squadre, config)
 
 
 # ---------------------------------------------------------------------------
