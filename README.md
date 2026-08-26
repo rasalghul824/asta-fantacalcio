@@ -5,6 +5,27 @@ Nessun server esterno, nessun account: tutto gira sul tuo PC e i dati restano
 in un unico file `asta.db` accanto a questo script, così se chiudi il browser
 a metà asta i dati non si perdono.
 
+## 🎨 Tema grafico
+
+L'app ha un layout scuro in stile "app da asta" (ispirato alle app di
+fantacalcio più diffuse): sfondo scuro con sfumature verdi/oro, card per le
+metriche, bottoni arrotondati con accento verde, tabelle e sezioni ruolo
+colorate (oro Portieri, verde Difensori, blu Centrocampisti, rosso
+Attaccanti), menu laterale a "pillole". Il tema si configura in due punti:
+
+- `.streamlit/config.toml` — i colori di base di Streamlit (sfondo, testo,
+  colore primario). Se vuoi cambiare la palette generale, parti da qui.
+- la funzione `inject_css()` in cima a `app.py` — tutto lo stile fine
+  (card, bottoni, badge, header) è CSS iniettato in un unico blocco,
+  commentato per sezione, facile da modificare pezzo per pezzo.
+
+⚠️ I font (Manrope/Space Grotesk) sono caricati da Google Fonts via
+internet: sul tuo PC e su Streamlit Community Cloud funzionano normalmente
+(hanno accesso a internet), quindi non serve fare nulla. Se un giorno
+aprissi l'app in un ambiente senza internet, i font tornerebbero al
+sans-serif di sistema — solo un dettaglio estetico, l'app resta
+perfettamente funzionante.
+
 ## Cosa fa
 
 - **⚙️ Configurazione lega**: numero squadre, crediti a squadra, slot per

@@ -26,6 +26,187 @@ RUOLO_ORDER = ["P", "D", "C", "A"]
 
 
 # ---------------------------------------------------------------------------
+# Tema grafico -- stile "app da asta" scura, ispirata alle app di fantacalcio
+# più diffuse (card colorate per ruolo, accenti verdi, badge, nav a pillole).
+# ---------------------------------------------------------------------------
+def inject_css():
+    st.markdown(
+        """
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap');
+
+        html, body, [class*="css"], .stApp, [data-testid="stAppViewContainer"] * {
+            font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        /* le icone di Streamlit sono un font-ligature (Material Symbols): non
+           vanno toccate dalla regola sopra, altrimenti mostrano il nome
+           testuale ("keyboard_double_arrow_left") invece del simbolo */
+        [data-testid="stIconMaterial"] {
+            font-family: 'Material Symbols Outlined' !important;
+        }
+
+        [data-testid="stAppViewContainer"] {
+            background:
+                radial-gradient(1200px 600px at 15% -10%, rgba(34,197,94,0.10), transparent 60%),
+                radial-gradient(900px 500px at 100% 0%, rgba(250,204,21,0.06), transparent 55%),
+                #0B0F14;
+        }
+        [data-testid="stHeader"] { background: transparent; }
+        [data-testid="stToolbar"] { right: 1rem; }
+
+        .block-container { padding-top: 1.6rem; max-width: 1200px; }
+
+        /* ---------- Tipografia / headline ---------- */
+        h1, h2, h3 { font-weight: 800 !important; letter-spacing: -0.02em; color: #F3F6F9 !important; }
+        h1 { font-family: 'Space Grotesk', 'Manrope', sans-serif; }
+        [data-testid="stHeading"] h2 {
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(34,197,94,0.28);
+            margin-bottom: 0.6rem;
+        }
+        h3, .stMarkdown h3 { color: #D8E0E8 !important; }
+        [data-testid="stCaptionContainer"], .stCaption, small {
+            color: #8B98A5 !important;
+        }
+
+        /* ---------- Sidebar ---------- */
+        [data-testid="stSidebar"] {
+            background: linear-gradient(180deg, #101720 0%, #0B0F14 100%);
+            border-right: 1px solid rgba(255,255,255,0.06);
+        }
+        [data-testid="stSidebar"] h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            background: linear-gradient(90deg, #4ADE80, #22C55E 60%, #FACC15);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.2rem;
+        }
+        [data-testid="stSidebar"] [data-testid="stAlertContentSuccess"],
+        [data-testid="stSidebar"] [data-testid="stAlertContentInfo"] {
+            font-size: 0.82rem;
+        }
+        [data-testid="stSidebar"] [role="radiogroup"] { gap: 4px; }
+        [data-testid="stSidebar"] [role="radiogroup"] label {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 10px;
+            padding: 9px 12px;
+            margin-bottom: 2px;
+            width: 100%;
+            transition: all .12s ease;
+        }
+        [data-testid="stSidebar"] [role="radiogroup"] label:hover {
+            background: rgba(34,197,94,0.10);
+            border-color: rgba(34,197,94,0.35);
+        }
+        [data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) {
+            background: linear-gradient(90deg, rgba(34,197,94,0.28), rgba(34,197,94,0.06));
+            border-color: #22C55E;
+            box-shadow: 0 0 0 1px rgba(34,197,94,0.25) inset;
+        }
+        [data-testid="stSidebar"] [role="radiogroup"] label p {
+            font-weight: 600;
+            font-size: 0.92rem;
+        }
+
+        /* ---------- Metric "card" ---------- */
+        [data-testid="stMetric"] {
+            background: linear-gradient(160deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015));
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 14px;
+            padding: 12px 16px 10px 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.28);
+        }
+        [data-testid="stMetricValue"] {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700 !important;
+            color: #F5F7FA !important;
+        }
+        [data-testid="stMetricLabel"] p {
+            color: #8FA0AC !important;
+            text-transform: uppercase;
+            font-size: 0.70rem !important;
+            letter-spacing: 0.06em;
+            font-weight: 700 !important;
+            white-space: normal !important;
+            overflow: visible !important;
+            text-overflow: unset !important;
+        }
+
+        /* ---------- Bottoni ---------- */
+        .stButton > button, .stDownloadButton > button, [data-testid="stFormSubmitButton"] button {
+            border-radius: 10px !important;
+            font-weight: 700 !important;
+            border: 1px solid rgba(255,255,255,0.12) !important;
+            padding: 0.5rem 1.1rem !important;
+            transition: transform .12s ease, box-shadow .12s ease !important;
+        }
+        .stButton > button:hover, .stDownloadButton > button:hover { transform: translateY(-1px); }
+        .stButton > button[kind="primary"], [data-testid="stFormSubmitButton"] button[kind="primary"] {
+            background: linear-gradient(90deg, #16A34A, #22C55E) !important;
+            border: none !important;
+            color: #06120B !important;
+            box-shadow: 0 6px 18px rgba(34,197,94,0.32) !important;
+        }
+        .stButton > button[kind="secondary"] { background: rgba(255,255,255,0.04) !important; }
+
+        /* ---------- Expander / form / contenitori ---------- */
+        [data-testid="stExpander"] {
+            background: rgba(255,255,255,0.025);
+            border: 1px solid rgba(255,255,255,0.08) !important;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        [data-testid="stForm"] {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: 14px;
+            padding: 1.1rem 1.2rem 0.4rem 1.2rem;
+        }
+
+        /* ---------- Alert ---------- */
+        [data-testid="stAlert"] { border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); }
+
+        /* ---------- Tabelle / editor ---------- */
+        [data-testid="stDataFrame"], [data-testid="stDataEditor"] {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.09);
+        }
+
+        /* ---------- Progress bar ---------- */
+        [data-testid="stProgress"] > div > div > div > div {
+            background: linear-gradient(90deg, #16A34A, #4ADE80) !important;
+        }
+
+        /* ---------- Divider ---------- */
+        hr { border-color: rgba(255,255,255,0.08) !important; margin: 1.4rem 0 !important; }
+
+        /* ---------- Tabs (se usati) ---------- */
+        [data-testid="stTabs"] [data-baseweb="tab"] { font-weight: 600; }
+
+        /* ---------- Badge ruolo pill (usato nelle card custom) ---------- */
+        .badge-ruolo {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 999px;
+            font-size: 0.72rem;
+            font-weight: 800;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+inject_css()
+
+
+# ---------------------------------------------------------------------------
 # Bootstrap
 # ---------------------------------------------------------------------------
 db.init_db()
@@ -201,17 +382,25 @@ def pagina_setup():
 # Componente riusabile: rose di tutte le squadre, a tabella, per ruolo
 # ---------------------------------------------------------------------------
 RUOLO_COLORI = {
-    "P": {"header": "#B8860B", "bg": "#FFF6DC"},  # giallo/oro -- portieri
-    "D": {"header": "#2E7D32", "bg": "#E4F6E4"},  # verde -- difensori
-    "C": {"header": "#1565C0", "bg": "#E1EEFB"},  # azzurro -- centrocampisti
-    "A": {"header": "#C62828", "bg": "#FBE3E1"},  # rosso -- attaccanti
+    "P": {"header": "#B8860B", "bg": "#2A2210", "accent": "#FACC15"},  # oro -- portieri
+    "D": {"header": "#15803D", "bg": "#12241A", "accent": "#4ADE80"},  # verde -- difensori
+    "C": {"header": "#1D4ED8", "bg": "#101B2E", "accent": "#60A5FA"},  # azzurro -- centrocampisti
+    "A": {"header": "#B91C1C", "bg": "#2A1414", "accent": "#F87171"},  # rosso -- attaccanti
 }
 
 
 def mostra_rose_squadre(squadre, config):
     """Tabella per ruolo (una sezione colorata per P/D/C/A), con le squadre
     affiancate in colonna e gli slot di quel ruolo in riga -- pensata per
-    confrontare a colpo d'occhio chi ha preso chi durante l'asta live."""
+    confrontare a colpo d'occhio chi ha preso chi durante l'asta live.
+
+    È MODIFICABILE: il prezzo pagato si corregge direttamente nella cella,
+    e svuotare una cella prezzo elimina quell'acquisto (utile per un
+    refuso battuto in fretta durante l'asta). Il nome del giocatore resta
+    di sola lettura -- cambiare CHI occupa uno slot va fatto registrando
+    sopra il nuovo giocatore (o eliminando prima quello sbagliato), per non
+    rischiare di associare un prezzo a un giocatore sbagliato per un
+    refuso di testo."""
     if not squadre:
         st.info("Configura prima le squadre nella pagina '⚙️ Configurazione lega'.")
         return
@@ -220,30 +409,87 @@ def mostra_rose_squadre(squadre, config):
     tutti_acquisti = db.get_acquisti()
     nomi_colonna = {s["id"]: ("⭐ " if s["is_mia"] else "") + s["nome"] for s in squadre}
 
+    st.caption(
+        "✏️ Tabella modificabile: correggi il prezzo pagato direttamente nella cella, oppure "
+        "svuotalo per eliminare quell'acquisto. Per cambiare giocatore in uno slot, registralo "
+        "qui sopra (o elimina prima quello sbagliato)."
+    )
+
+    ICONA_RUOLO = {"P": "🧤", "D": "🛡️", "C": "⚙️", "A": "🎯"}
+    RUOLO_LABEL_PLURALE = {"P": "Portieri", "D": "Difensori", "C": "Centrocampisti", "A": "Attaccanti"}
     for r in RUOLO_ORDER:
         colori = RUOLO_COLORI[r]
         st.markdown(
-            f"<div style='background:{colori['header']};color:white;padding:6px 14px;"
-            f"border-radius:8px 8px 0 0;font-weight:600;margin-top:16px;'>"
-            f"{RUOLO_LABEL[r]}</div>",
+            f"<div style='background:linear-gradient(90deg,{colori['header']},{colori['header']}CC);"
+            f"color:white;padding:8px 16px;border-radius:10px;font-weight:800;margin-top:18px;"
+            f"letter-spacing:0.02em;box-shadow:0 4px 14px {colori['header']}55;"
+            f"display:flex;align-items:center;gap:8px;'>"
+            f"<span style='font-size:1.05rem'>{ICONA_RUOLO[r]}</span>"
+            f"{RUOLO_LABEL_PLURALE[r]}</div>",
             unsafe_allow_html=True,
         )
         n_slot = max(slot_map[r], 1)
+
         tabella = {}
+        col_giocatore = {}   # nome colonna "Giocatore" -> squadra_id
+        col_prezzo = {}      # nome colonna "Prezzo" -> squadra_id
+        id_per_squadra = {}  # squadra_id -> [acquisto_id o None per ogni slot, in ordine]
         for s in squadre:
             presi = sorted(
                 (a for a in tutti_acquisti if a["squadra_id"] == s["id"] and a["ruolo"] == r),
                 key=lambda a: -a["prezzo"],
-            )
-            celle = [f"{a['nome']} · {a['prezzo']}cr" for a in presi]
-            celle += ["—"] * max(n_slot - len(celle), 0)
-            tabella[nomi_colonna[s["id"]]] = celle[:n_slot]
+            )[:n_slot]
+            nomi = [a["nome"] for a in presi] + ["—"] * max(n_slot - len(presi), 0)
+            prezzi = [float(a["prezzo"]) for a in presi] + [float("nan")] * max(n_slot - len(presi), 0)
+            ids = [a["id"] for a in presi] + [None] * max(n_slot - len(presi), 0)
+
+            nome_col = nomi_colonna[s["id"]]
+            c_gioc, c_prezzo = f"{nome_col} 👤", f"{nome_col} 💰"
+            tabella[c_gioc] = nomi
+            tabella[c_prezzo] = prezzi
+            col_giocatore[c_gioc] = s["id"]
+            col_prezzo[c_prezzo] = s["id"]
+            id_per_squadra[s["id"]] = ids
 
         df_ruolo = pd.DataFrame(tabella, index=[f"Slot {i + 1}" for i in range(n_slot)])
-        st.dataframe(
-            df_ruolo.style.set_properties(**{"background-color": colori["bg"], "color": "#1a1a1a"}),
+
+        editor_key = f"editor_rose_{r}"
+        column_config = {
+            c: st.column_config.NumberColumn(c, min_value=0, step=1, format="%d cr")
+            for c in col_prezzo
+        }
+        edited = st.data_editor(
+            df_ruolo,
+            key=editor_key,
             width='stretch',
+            disabled=list(col_giocatore.keys()),
+            column_config=column_config,
         )
+
+        modifiche = st.session_state.get(editor_key, {}).get("edited_rows", {})
+        if modifiche:
+            almeno_una_applicata = False
+            for riga_idx, cambi in modifiche.items():
+                for nome_col, nuovo_valore in cambi.items():
+                    if nome_col not in col_prezzo:
+                        continue  # colonna giocatore: di sola lettura, non dovrebbe mai arrivare qui
+                    squadra_id = col_prezzo[nome_col]
+                    acquisto_id = id_per_squadra[squadra_id][riga_idx]
+                    if acquisto_id is None:
+                        st.warning(
+                            "Questo slot è ancora vuoto: per assegnarlo usa la ricerca qui sopra, "
+                            "non si può creare un acquisto solo da un prezzo."
+                        )
+                        continue
+                    if nuovo_valore is None or (isinstance(nuovo_valore, float) and pd.isna(nuovo_valore)) \
+                            or nuovo_valore <= 0:
+                        db.elimina_acquisto(acquisto_id)
+                    else:
+                        db.aggiorna_prezzo_acquisto(acquisto_id, int(nuovo_valore))
+                    almeno_una_applicata = True
+            if almeno_una_applicata:
+                del st.session_state[editor_key]
+                st.rerun()
 
 
 # ---------------------------------------------------------------------------
@@ -522,15 +768,16 @@ def pagina_storico():
         return
 
     for a in tutti:
-        c1, c2, c3, c4, c5, c6 = st.columns([3, 2, 2, 1, 2, 1])
-        c1.write(a["nome"])
-        c2.write(RUOLO_LABEL[a["ruolo"]])
-        c3.write(a["squadra_nome"])
-        c4.write(f"{a['prezzo']} cr")
-        c5.write(a["creato_il"])
-        if c6.button("🗑️ Annulla", key=f"del_{a['id']}"):
-            db.elimina_acquisto(a["id"])
-            st.rerun()
+        with st.container(border=True):
+            c1, c2, c3, c4, c5, c6 = st.columns([3, 1.6, 1.8, 1, 1.6, 1.6])
+            c1.markdown(f"**{a['nome']}**")
+            c2.write(RUOLO_LABEL[a["ruolo"]])
+            c3.write(a["squadra_nome"])
+            c4.write(f"{a['prezzo']} cr")
+            c5.caption(a["creato_il"])
+            if c6.button("🗑️ Annulla", key=f"del_{a['id']}", width='stretch'):
+                db.elimina_acquisto(a["id"])
+                st.rerun()
 
 
 # ---------------------------------------------------------------------------
@@ -598,11 +845,11 @@ def pagina_sviluppo():
     if len(righe) > 1:
         st.subheader("Sbilanciamento totale per squadra")
         chart_df = pd.DataFrame(righe).set_index("Squadra")[["Sbil. totale"]]
-        st.bar_chart(chart_df)
+        st.bar_chart(chart_df, color="#FACC15")
 
         st.subheader("Gol potenziali per squadra")
         gol_df = pd.DataFrame(righe).set_index("Squadra")[["Gol potenziali"]]
-        st.bar_chart(gol_df)
+        st.bar_chart(gol_df, color="#22C55E")
 
 
 # ---------------------------------------------------------------------------
@@ -669,6 +916,12 @@ def pagina_simulazione():
 # Navigazione
 # ---------------------------------------------------------------------------
 st.sidebar.title("⚽ Assistente Asta")
+st.sidebar.markdown(
+    "<div style='margin-top:-14px;margin-bottom:14px;color:#7C8A97;"
+    "font-size:0.78rem;font-weight:600;letter-spacing:0.03em;'>"
+    "FANTACALCIO · ASTA LIVE</div>",
+    unsafe_allow_html=True,
+)
 if config and config["configurata"]:
     st.sidebar.success(f"Lega configurata: {config['num_squadre']} squadre, {config['crediti_a_squadra']} cr")
 else:
@@ -683,5 +936,5 @@ pagine = {
     "📊 Sviluppo squadre": pagina_sviluppo,
     "🎲 Simulazione rosa completa": pagina_simulazione,
 }
-scelta = st.sidebar.radio("Vai a:", list(pagine.keys()))
+scelta = st.sidebar.radio("Vai a:", list(pagine.keys()), label_visibility="collapsed")
 pagine[scelta]()
