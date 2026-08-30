@@ -60,6 +60,13 @@ CREATE TABLE IF NOT EXISTS acquisti (
     prezzo INTEGER NOT NULL,
     creato_il TEXT NOT NULL DEFAULT (datetime('now', 'localtime'))
 );
+
+CREATE TABLE IF NOT EXISTS interessati (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    listone_id INTEGER NOT NULL UNIQUE REFERENCES listone(id),
+    nota TEXT NOT NULL DEFAULT '',
+    creato_il TEXT NOT NULL DEFAULT (datetime('now', 'localtime'))
+);
 """
 
 
@@ -284,10 +291,80 @@ def registra_acquisto(listone_id, squadra_id, prezzo):
     backup_db()
 
 
+def aggiorna_prezzo_acquisto(acquisto_id, nuovo_prezzo):
+    """Corregge il prezzo di un acquisto già registrato (es. un refuso
+    battuto in fretta durante l'asta), senza toccare altro -- usata dalla
+    tabella 'Rose di tutte le squadre' modificabile."""
+    with get_conn() as conn:
+        conn.execute("UPDATE acquisti SET prezzo=? WHERE id=?", (int(nuovo_prezzo), acquisto_id))
+    backup_db()
+
+
 def elimina_acquisto(acquisto_id):
     with get_conn() as conn:
         conn.execute("DELETE FROM acquisti WHERE id=?", (acquisto_id,))
     backup_db()
+
+
+# ---------------------------------------------------------------------------
+# Giocatori interessati (watchlist personale, con note libere)
+# ---------------------------------------------------------------------------
+def aggiungi_interessato(listone_id):
+    """Salva un giocatore tra gli osservati. Idempotente: se è già salvato
+    non fa nulla (evita di perdere la nota già scritta con un doppio click)."""
+    with get_conn() as conn:
+        conn.execute(
+            "INSERT OR IGNORE INTO interessati (listone_id) VALUES (?)", (listone_id,)
+        )
+    backup_db()
+
+
+def rimuovi_interessato(listone_id):
+    with get_conn() as conn:
+        conn.execute("DELETE FROM interessati WHERE listone_id=?", (listone_id,))
+    backup_db()
+
+
+def e_interessato(listone_id):
+    with get_conn() as conn:
+        row = conn.execute(
+            "SELECT 1 FROM interessati WHERE listone_id=?", (listone_id,)
+        ).fetchone()
+        return row is not None
+
+
+def aggiorna_nota_interessato(listone_id, nota):
+    with get_conn() as conn:
+        conn.execute(
+            "UPDATE interessati SET nota=? WHERE listone_id=?", (nota, listone_id)
+        )
+    backup_db()
+
+
+def get_interessati(ruolo=None):
+    """Tutti i giocatori salvati, con l'intera scheda dal listone e -- se nel
+    frattempo qualcuno lo ha già acquistato durante l'asta -- chi lo ha preso
+    e a quanto, così la watchlist personale resta uno strumento vivo durante
+    l'asta e non un elenco che si scolla dalla realtà."""
+    q = """
+        SELECT i.listone_id, i.nota, i.creato_il,
+               l.nome, l.ruolo, l.squadra_serie_a, l.eta, l.presenze, l.minuti,
+               l.gol, l.assist, l.xg, l.xa, l.gialli, l.rossi,
+               l.valore_suggerito, l.quotazione_ufficiale, l.analizzato,
+               a.prezzo AS prezzo_pagato, s.nome AS acquistato_da
+        FROM interessati i
+        JOIN listone l ON l.id = i.listone_id
+        LEFT JOIN acquisti a ON a.listone_id = l.id
+        LEFT JOIN squadre s ON s.id = a.squadra_id
+    """
+    params = []
+    if ruolo and ruolo != "Tutti":
+        q += " WHERE l.ruolo = ?"
+        params.append(ruolo)
+    q += " ORDER BY i.creato_il DESC"
+    with get_conn() as conn:
+        rows = conn.execute(q, params).fetchall()
+        return [dict(r) for r in rows]
 
 
 # ---------------------------------------------------------------------------

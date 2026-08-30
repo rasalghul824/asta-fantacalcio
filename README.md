@@ -40,6 +40,8 @@ perfettamente funzionante.
   budget residuo della squadra non basta o se gli slot di quel ruolo sono
   già pieni. In fondo alla pagina trovi anche le **rose di tutte le
   squadre** a colpo d'occhio, una sezione colorata per ruolo (vedi sotto).
+- **⭐ Giocatori interessati**: la tua watchlist personale, con scheda
+  completa e note libere per ogni giocatore salvato (vedi sotto).
 - **👤 La mia rosa**: budget speso/residuo, slot occupati per ruolo, e la
   lista dei giocatori presi con il confronto pagato vs. valore da listone.
 - **📋 Mercato**: tutti i giocatori ancora disponibili, filtrabili per ruolo,
@@ -297,6 +299,28 @@ e gli slot di quel ruolo in riga: vedi subito chi ha preso chi (nome e
 prezzo pagato) e quali slot mancano ancora, per tutti i partecipanti alla
 lega insieme — non solo la tua squadra. Si aggiorna da sola ad ogni
 acquisto registrato, di qualsiasi squadra.
+
+### ⭐ Giocatori interessati (watchlist personale)
+
+Una pagina dedicata per tenere d'occhio i giocatori che ti interessano
+prima che tocchi a loro durante l'asta. Da "🔎 Cerca & registra acquisto"
+premi **☆ Aggiungi agli interessati** sotto il giocatore selezionato, o
+**☆ Interessato** sotto una delle sue alternative — diventa **⭐** e da
+quel momento lo trovi in "⭐ Giocatori interessati" con:
+
+- l'intera scheda (quotazione ufficiale, valore da listone, presenze,
+  minuti, gol, assist, xG, xA), non solo il nome;
+- un campo **nota personale** libero, per scrivere quello che vuoi
+  ricordarti (es. "prenderlo solo se scende sotto 20cr", "occhio al
+  ballottaggio con...") — si salva col pulsante che compare appena scrivi;
+- lo **stato aggiornato in automatico**: se nel frattempo lo acquista
+  un'altra squadra durante l'asta, la card lo segnala subito ("🔒 Già
+  preso da ... per ... cr") invece di lasciarti scoprirlo solo quando
+  provi a cercarlo. Rimuoverlo dalla lista è un click su "🗑️ Rimuovi"
+  (non tocca l'eventuale acquisto vero, solo la tua lista personale).
+
+È filtrabile per ruolo come le altre pagine, ed è ordinata dal più
+recente al più vecchio aggiunto.
 
 ### 📊 Sviluppo squadre (vista in tempo reale)
 

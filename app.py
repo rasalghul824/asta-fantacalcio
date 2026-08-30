@@ -387,6 +387,19 @@ RUOLO_COLORI = {
     "C": {"header": "#1D4ED8", "bg": "#101B2E", "accent": "#60A5FA"},  # azzurro -- centrocampisti
     "A": {"header": "#B91C1C", "bg": "#2A1414", "accent": "#F87171"},  # rosso -- attaccanti
 }
+ICONA_RUOLO = {"P": "🧤", "D": "🛡️", "C": "⚙️", "A": "🎯"}
+RUOLO_LABEL_PLURALE = {"P": "Portieri", "D": "Difensori", "C": "Centrocampisti", "A": "Attaccanti"}
+
+
+def badge_ruolo_html(ruolo):
+    """Badge colorato pillola per il ruolo, riusato nella watchlist e in
+    futuro ovunque serva un'etichetta ruolo coerente col resto dell'app."""
+    colori = RUOLO_COLORI[ruolo]
+    return (
+        f"<span class='badge-ruolo' style='background:{colori['header']}33;"
+        f"color:{colori['accent']};border:1px solid {colori['header']}66;'>"
+        f"{ICONA_RUOLO[ruolo]} {RUOLO_LABEL[ruolo]}</span>"
+    )
 
 
 def mostra_rose_squadre(squadre, config):
@@ -415,8 +428,6 @@ def mostra_rose_squadre(squadre, config):
         "qui sopra (o elimina prima quello sbagliato)."
     )
 
-    ICONA_RUOLO = {"P": "🧤", "D": "🛡️", "C": "⚙️", "A": "🎯"}
-    RUOLO_LABEL_PLURALE = {"P": "Portieri", "D": "Difensori", "C": "Centrocampisti", "A": "Attaccanti"}
     for r in RUOLO_ORDER:
         colori = RUOLO_COLORI[r]
         st.markdown(
@@ -514,6 +525,18 @@ def pagina_registra():
     scelta_label = st.selectbox("Giocatore (digita per cercare)", list(opzioni.keys()))
     giocatore = opzioni[scelta_label]
 
+    interessato_ora = db.e_interessato(giocatore["id"])
+    col_stella, _ = st.columns([1.4, 3])
+    with col_stella:
+        etichetta_stella = "⭐ Nei tuoi interessati" if interessato_ora else "☆ Aggiungi agli interessati"
+        if st.button(etichetta_stella, key=f"stella_sel_{giocatore['id']}",
+                     type="secondary" if interessato_ora else "primary", width='stretch'):
+            if interessato_ora:
+                db.rimuovi_interessato(giocatore["id"])
+            else:
+                db.aggiungi_interessato(giocatore["id"])
+            st.rerun()
+
     if not giocatore["analizzato"]:
         st.warning(
             "⚠️ Giocatore **non analizzato**: non è nelle nostre statistiche 2025-26 (nuovo in Serie A, "
@@ -589,6 +612,14 @@ def pagina_registra():
                         calcolo_alt = mercato_dinamico.calcola_prezzo_dinamico(
                             alt, config, squadre, mia_squadra["id"], soglie_quotato)
                         st.metric("💡 Prezzo consigliato ORA", f"{calcolo_alt['prezzo_consigliato']} cr")
+                interessato_alt = db.e_interessato(alt["id"])
+                if st.button("⭐ Salvato" if interessato_alt else "☆ Interessato",
+                             key=f"stella_alt_{alt['id']}", width='stretch'):
+                    if interessato_alt:
+                        db.rimuovi_interessato(alt["id"])
+                    else:
+                        db.aggiungi_interessato(alt["id"])
+                    st.rerun()
 
     st.divider()
 
@@ -630,7 +661,7 @@ def pagina_registra():
         if speso_ruolo_attuale + prezzo > allocato_ruolo:
             st.warning(
                 f"⚠️ Con questo acquisto sforeresti il budget pianificato per i "
-                f"{RUOLO_LABEL[giocatore['ruolo']].lower()}i: {speso_ruolo_attuale + prezzo:.0f}/"
+                f"{RUOLO_LABEL_PLURALE[giocatore['ruolo']].lower()}: {speso_ruolo_attuale + prezzo:.0f}/"
                 f"{allocato_ruolo:.0f} cr previsti dal tuo piano. Non blocca l'acquisto, è solo un avviso."
             )
 
@@ -646,6 +677,81 @@ def pagina_registra():
         "man mano che si registrano acquisti (di qualsiasi squadra, non solo la tua)."
     )
     mostra_rose_squadre(squadre, config)
+
+
+# ---------------------------------------------------------------------------
+# Pagina: Giocatori interessati (watchlist personale, con note)
+# ---------------------------------------------------------------------------
+def pagina_interessati():
+    st.header("⭐ Giocatori interessati")
+    st.caption(
+        "La tua lista personale di osservati: salvali da '🔎 Cerca & registra acquisto' "
+        "(sul giocatore selezionato o su una delle sue alternative) con il pulsante ⭐, "
+        "poi tienili tutti sott'occhio qui con l'intera scheda e le tue note. Se nel "
+        "frattempo qualcuno lo acquista durante l'asta, te lo segnalo subito."
+    )
+
+    interessati = db.get_interessati()
+    if not interessati:
+        st.info(
+            "Nessun giocatore salvato ancora. Vai in '🔎 Cerca & registra acquisto' e premi "
+            "☆ **Aggiungi agli interessati** su un giocatore (o su un'alternativa) che vuoi "
+            "tenere d'occhio."
+        )
+        return
+
+    ruolo_filtro = st.radio(
+        "Ruolo", ["Tutti"] + RUOLO_ORDER, horizontal=True,
+        format_func=lambda r: "Tutti" if r == "Tutti" else RUOLO_LABEL[r],
+        key="filtro_interessati",
+    )
+    if ruolo_filtro != "Tutti":
+        interessati = [g for g in interessati if g["ruolo"] == ruolo_filtro]
+
+    n_disponibili = sum(1 for g in interessati if not g["acquistato_da"])
+    st.caption(f"{len(interessati)} giocatori salvati · {n_disponibili} ancora disponibili")
+
+    for g in interessati:
+        with st.container(border=True):
+            c_testa, c_azioni = st.columns([4, 1.2])
+            with c_testa:
+                st.markdown(f"### {g['nome']}")
+                riga_badge = badge_ruolo_html(g["ruolo"]) + f"&nbsp;&nbsp;·&nbsp;&nbsp;{g['squadra_serie_a']}"
+                if not g["analizzato"]:
+                    riga_badge += "&nbsp;&nbsp;·&nbsp;&nbsp;⚠️ non analizzato"
+                st.markdown(riga_badge, unsafe_allow_html=True)
+            with c_azioni:
+                if st.button("🗑️ Rimuovi", key=f"rm_int_{g['listone_id']}", width='stretch'):
+                    db.rimuovi_interessato(g["listone_id"])
+                    st.rerun()
+
+            if g["acquistato_da"]:
+                st.warning(f"🔒 Già preso da **{g['acquistato_da']}** per **{g['prezzo_pagato']} cr**.")
+            else:
+                st.success("✅ Ancora disponibile")
+
+            m1, m2, m3, m4 = st.columns(4)
+            m1.metric("Quot. ufficiale", f"{g['quotazione_ufficiale']} cr")
+            m2.metric("Valore listone", f"{g['valore_suggerito']} cr")
+            m3.metric("Presenze", g["presenze"] if g["presenze"] is not None else "n/d")
+            m4.metric("Minuti", g["minuti"] if g["minuti"] is not None else "n/d")
+            m5, m6, m7, m8 = st.columns(4)
+            m5.metric("Gol", g["gol"] if g["gol"] is not None else "n/d")
+            m6.metric("Assist", g["assist"] if g["assist"] is not None else "n/d")
+            m7.metric("xG", g["xg"] if g["xg"] is not None else "n/d")
+            m8.metric("xA", g["xa"] if g["xa"] is not None else "n/d")
+
+            nota_attuale = g["nota"] or ""
+            nota_key = f"nota_{g['listone_id']}"
+            nuova_nota = st.text_area(
+                "📝 Nota personale", value=nota_attuale, key=nota_key, height=80,
+                placeholder="Es. «prenderlo solo se scende sotto 20cr», «occhio al ballottaggio con...»",
+            )
+            if nuova_nota != nota_attuale:
+                if st.button("💾 Salva nota", key=f"save_nota_{g['listone_id']}"):
+                    db.aggiorna_nota_interessato(g["listone_id"], nuova_nota)
+                    st.success("Nota salvata.")
+                    st.rerun()
 
 
 # ---------------------------------------------------------------------------
@@ -692,8 +798,8 @@ def pagina_mia_rosa():
                   f"({residuo_r:+.0f} cr rispetto al piano)"),
         )
         if speso_r > allocato:
-            st.caption(f"⚠️ hai già superato il budget pianificato per i {RUOLO_LABEL[ruolo].lower()}i "
-                       f"di {speso_r - allocato:.0f} cr.")
+            st.caption(f"⚠️ hai già superato il budget pianificato per i "
+                       f"{RUOLO_LABEL_PLURALE[ruolo].lower()} di {speso_r - allocato:.0f} cr.")
 
     st.divider()
     acquisti_mia = db.get_acquisti(squadra_id=mia_squadra["id"])
@@ -930,6 +1036,7 @@ else:
 pagine = {
     "⚙️ Configurazione lega": pagina_setup,
     "🔎 Cerca & registra acquisto": pagina_registra,
+    "⭐ Giocatori interessati": pagina_interessati,
     "👤 La mia rosa": pagina_mia_rosa,
     "📋 Mercato": pagina_mercato,
     "🕒 Storico acquisti": pagina_storico,
